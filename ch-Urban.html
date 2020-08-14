@@ -76,6 +76,8 @@
 <ul>
 <li class="chapter" data-level="2.1" data-path="introduction.html"><a href="introduction.html#introduction"><i class="fa fa-check"></i><b>2.1</b> Introduction</a></li>
 <li class="chapter" data-level="2.2" data-path="ch-Urban.html"><a href="ch-Urban.html#sec:City"><i class="fa fa-check"></i><b>2.2</b> What is a city?</a></li>
+<li class="chapter" data-level="2.3" data-path="ch-Urban.html"><a href="ch-Urban.html#sec:CityOrigins"><i class="fa fa-check"></i><b>2.3</b> Why do cities emerge?</a></li>
+<li class="chapter" data-level="2.4" data-path="ch-Urban.html"><a href="ch-Urban.html#sec:Urbanization"><i class="fa fa-check"></i><b>2.4</b> Urbanization</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="ch-Market.html"><a href="ch-Market.html"><i class="fa fa-check"></i><b>3</b> Housing market</a>
 <ul>
@@ -131,7 +133,7 @@
 <li>What determines the internal structure of the cities?</li>
 </ul>
 <p>The urban theory focuses on the cities, which are an important object of research, given their population and contribution to the world economic growth.</p>
-<p>Section <a href="ch-Urban.html#sec:City">2.2</a> defines the notion of city. In section <!-- \ref{sec:City_origins}, the origins of cities are explored. Section \ref{sec:Urbanization} illustrates the process of growth of the urban population known as urbanization. Section \ref{sec:Cities_different} uses the theory of central places in order to explain why city sizes are so different: from little towns to huge megacities. In section \ref{sec:Internal_structure}, the internal structure of cities and location choices made by firms and households. Section \ref{sec:Gradient}, shows the dependence between location (distance from the city center) and population and employment density. --></p>
+<p>Section <a href="ch-Urban.html#sec:City">2.2</a> defines the notion of city. In section <a href="ch-Urban.html#sec:CityOrigins">2.3</a>, the origins of cities are explored. Section <a href="ch-Urban.html#sec:Urbanization">2.4</a> illustrates the process of growth of the urban population known as urbanization. <!--Section \ref{sec:Cities_different} uses the theory of central places in order to explain why city sizes are so different: from little towns to huge megacities. In section \ref{sec:Internal_structure}, the internal structure of cities and location choices made by firms and households. Section \ref{sec:Gradient}, shows the dependence between location (distance from the city center) and population and employment density. --></p>
 </div>
 <div id="sec:City" class="section level2" number="2.2">
 <h2><span class="header-section-number">2.2</span> What is a city?</h2>
@@ -179,7 +181,7 @@
 </table>
 <p>The minimum population varies a lot: from as few as 250 persons in Denmark and Sweden to as many as 30,000 in Japan. In practice, despite the existence of the official minimum threshold, the population of the cities can be well below it. Figure <a href="ch-Urban.html#fig:boxplotUrbanAreas">2.1</a> and Table <a href="ch-Urban.html#tab:sizeUrbanAreas">2.2</a> report the descriptive statistics of the distribution of the population of Russian cities and towns (<em>goroda</em>) as well as urban villages (<em>posyolki gorodskogo tipa</em>) in 2017.</p>
 <div class="figure"><span id="fig:boxplotUrbanAreas"></span>
-<img src="02-Urban_files/figure-html/boxplotUrbanAreas-1.png" alt="The size of Russia's urban areas, 2017" width="2100" />
+<img src="02-Urban_files/figure-html/boxplotUrbanAreas-1.png" alt="The size of Russia's urban areas, 2017" width="672" />
 <p class="caption">
 Figure 2.1: The size of Russia’s urban areas, 2017
 </p>
@@ -234,7 +236,47 @@ Figure 2.1: The size of Russia’s urban areas, 2017
 </tbody>
 </table>
 <p>The median population of cities or towns is 26,300, which is more than twice as large as the minimum threshold. However, almost one-fourth of all cities and towns are close to or below that lower boundary. The smallest and probably the youngest town Innopolis has slightly more than 100 inhabitants, while the smallest urban village Kozhym has only four residents.</p>
+<p><em>Population density</em>. Given the ambiguity of the population size as criterion for defining a city or a town, other indicators are suggested. For example, the Organisation for Economic Co-operation and Development (OECD) suggested using the population density in order to identify the so-called <strong>functional urban areas</strong> (FUA), which are its proxies for cities <span class="citation">(OECD <a href="#ref-OECD_2013" role="doc-biblioref">2013</a>)</span>. The OECD uses a three-step algorithm in order to delineate the FUAs. In the first step, the urbanized areas, or ``urban high-density clusters’’, are defined over the national territory, ignoring administrative borders. For this purpose, the national territory is divided by a continuous grid with a cell size of 1 km<span class="math inline">\(^2\)</span>. The urban core then is identified as a high-density cluster of contiguous grid cells of 1 km<span class="math inline">\(^2\)</span> with a density of at least 1,500 inhabitants per km<span class="math inline">\(^2\)</span> (1000 in Canada and USA). In the second step, the non-contiguous cores belonging to the same functional urban area are connected. This is done in order to account for the polycentric cities. Their belonging to the same FUA is determined based on the commuting intensity between cores. If many people are commuting between the neighbor cores, then all these cores are thought to belong to the same FUA. In the third step, the urban hinterlands are identified. These are defined as all municipalities with at least 15% of their employed residents working in a certain urban core.</p>
+<p>Figure <a href="ch-Urban.html#fig:MapFUAGermany">2.2</a> shows an example of the FUAs as determined by the OECD for the case of Germany. Green color denotes the urban cores of the FUAs, while the red areas stand for their hinterlands.</p>
+<div class="figure"><span id="fig:MapFUAGermany"></span>
+<img src="02-Urban_files/figure-html/MapFUAGermany-1.png" alt="Functional urban areas of OECD in Germany" width="672" />
+<p class="caption">
+Figure 2.2: Functional urban areas of OECD in Germany
+</p>
+</div>
+<p>It can be seen that the FUAs go beyond the administrative boundaries of the officially defined cities. For example, the largest FUA in the east of Germany unifies Berlin, Potsdam, and their immediate surroundings. Its hinterland stretches for dozens of kilometers around the core. People living in these areas commute every day to the core, where the jobs are concentrated and return to their towns and villages, where the housing rents and prices are lower.</p>
+</div>
+<div id="sec:CityOrigins" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> Why do cities emerge?</h2>
+<p>What are the reasons calling the cities into existence? The first known cities were founded in 8th millenium BC, that is, 10,000 years ago (Jericho in present-day Israel with a population of about 2000), in 7th millenium BC (Çatalhöyük in present-day Turkey, with a population of 5000), and in the second half of the 4th millenium BC (Uruk in Southern Mesopotamia, nowadays Irak, with a population of approximately 50,000) <span class="citation">(O’Sullivan <a href="#ref-OSullivan_2008" role="doc-biblioref">2008</a>)</span>. Symptomatically, these cities emerged during the Agricultural revolution and in the so-called Fertile Crescent in the Middle Asia, where early transition from hunting and gathering to the agriculture took place.</p>
+<p>One of the indispensable prerequisites for the development of cities is a surplus of agricultural production. The urban residents specialize in industrial production, trade, and other non-agricultural activities. Therefore, agricultural workers must produce enough not only to satisfy their own needs, but also to feed the inhabitants of cities. Moreover, the cities must offer economic benefits in order to offset for their evident costs: high land prices, congestion, and pollution.</p>
+<p>Here, we will consider a purely market-based model of a city creation and growth, leaving aside all non-economic reasons. In a purely agricultural economy, no cities are expected to emerge. The model of such an economy is based on the following assumptions. First, there only two <em>production factors</em>: land and labor. Second, all people have <em>identical productivity</em>. It means that every person produces in one hour the same output as any other person. Third, there are <em>no scale economies</em>: the agricultural production has <em>constant returns</em>. In other words, if the inputs of labor and capital double, the production also doubles. Fourth, there are no other means of transportation as the one’s legs. Hence, the <em>travel time</em> is identical for everybody, since all (healthy) people are walking with a speed of 4 km/h.</p>
+<p>What gives rise to the emergence of cities? The cities can only appear, if some or all of the assumptions of the agricultural economy model are violated. First, thanks to the <em>comparative advantages</em> the trade can emerge. The economy must not be autarkic anymore — everybody can concentrate on the production of goods and services in which he has comparative advantages and exchange them for other goods and services produced by those who possess the corresponding comparative advantages. Second, the existence of <em>scale economies</em> contributes decisively to the formation of cities. The scale economies in transportation (e.g., invention of a wheel) allow an increase in the spatial extension of trade, while those in production (e.g., an invention of water mills) lead to the concentration of production. Thus, production is concentrated in some sites, which are for some reason beneficial for the production (proximity to a river or a sea haven, intersection of roads, availability of minerals, etc.), and can serve a large area, where agricultural products and raw materials are produced to be exchanged at the production site for the urban products. Third, if the physical proximity of producers facilitates innovation and learning (e.g., the universities, which attract many students), then individual producers will cluster together and, thus, generate a city. Fourth, a collective consumption of some public good that requires a physical proximity of consumers can also lead to a creation of cities. For example, religious practice can stimulate the development of cities as soon as the small village shrines, where earthen gods are worshiped, are replaced by large temples, where a specialized caste of priesters worship celestial gods <span class="citation">(Mumford <a href="#ref-Mumford_1961" role="doc-biblioref">1961</a>)</span>.</p>
+</div>
+<div id="sec:Urbanization" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> Urbanization</h2>
+<p><em>Urbanization</em> is the process of an accelerated population growth in the urban areas. <em>Urbanization rate</em> denotes the share of population living in the urban areas.</p>
+<p>Figure <a href="ch-Urban.html#fig:UrbanizationUN">2.3</a> depicts the urbanization process by countries between 1950 and 2010. The darker the color the higher the share of urban population in the country. It can be seen that at the beginning of the period the most urbanized countries were in Australia, Europe, North America, and in part in South America. Over the time, more and more countries become urbanized.</p>
+<div class="figure"><span id="fig:UrbanizationUN"></span>
+<img src="02-Urban_files/figure-html/UrbanizationUN-1.png" alt="Urbanization in the world, 1950--2010" width="672" />
+<p class="caption">
+Figure 2.3: Urbanization in the world, 1950–2010
+</p>
+</div>
+<p>Source: United Nations World Development Indicators.</p>
 
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-Mumford_1961">
+<p>Mumford, Lewis. 1961. <em>The City in History. Its Origins, Its Transformations, and Its Prospects</em>. New York: Harcourt Brace Jovanovich, inc.</p>
+</div>
+<div id="ref-OECD_2013">
+<p>OECD. 2013. “Definition of Functional Urban Areas (Fua) for the Oecd Metropolitan Database.” Organisation for Economic Co-operation and Development.</p>
+</div>
+<div id="ref-OSullivan_2008">
+<p>O’Sullivan, Arthur. 2008. “The First Cities.” In <em>A Companion to Urban Economics</em>, 40–54. Blackwell Publishing.</p>
 </div>
 </div>
 <div class="footnotes">
@@ -299,6 +341,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
