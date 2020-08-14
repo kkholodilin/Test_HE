@@ -11,7 +11,7 @@ In this chapter, we introduce basic notions of the urban economics. *The urban e
 
 The urban theory focuses on the cities, which are an important object of research, given their population and contribution to the world economic growth.
 
-Section \@ref(sec:City) defines the notion of city. In section \@ref(sec:CityOrigins), the origins of cities are explored.  Section \@ref(sec:Urbanization) illustrates the process of growth of the urban population known as urbanization. Section \@ref(sec:CitiesDifferent) uses the theory of central places in order to explain why city sizes are so different: from little towns to huge megacities. <!--In section \ref{sec:Internal_structure}, the internal structure of cities and location choices made by firms and households. Section \ref{sec:Gradient}, shows the dependence between location (distance from the city center) and population and employment density. -->
+Section \@ref(sec:City) defines the notion of city. In section \@ref(sec:CityOrigins), the origins of cities are explored.  Section \@ref(sec:Urbanization) illustrates the process of growth of the urban population known as urbanization. In Section \@ref(sec:CitiesBig), some explanations are offered, why cities tend to grow and become big. Section \@ref(sec:CitiesDifferent) uses the theory of central places in order to explain why city sizes are so different: from little towns to huge megacities. <!--In section \ref{sec:Internal_structure}, the internal structure of cities and location choices made by firms and households. Section \ref{sec:Gradient}, shows the dependence between location (distance from the city center) and population and employment density. -->
 
 
 ## What is a city? {#sec:City}
@@ -126,9 +126,47 @@ The population growth can be decomposed into two components: growth of the popul
 Source: own representation
 
 
-## Why cities are big? {#sec:CitiesDifferent}
+## Why cities are big? {#sec:CitiesBig}
 What are the factors encouraging the growth of cities? Do larger cities have more advantages than smaller ones? Indeed, there are several factors that make large cities economically more attractive and successful than their smaller counterparts.
 
 The first factor is the *economies of intra-industry agglomeration*. They occur, when the firms belonging to the same industry locate next to each other. This allows them to purchase the intermediate inputs from a common supplier at a lower cost. In addition, it leads to an increased efficiency of labor market, because the cost of job search in such a case is lower. This is achieved thanks to the transmission of information on vacancies through informal channels and the fact that potential employers are nearby. Moreover, the intra-industry agglomeration creates communication economies, that is, a quick information exchange and technology diffusion.
 
 The second factor is the *urbanization economies*, which stands for concentration in the same place of the firms belonging to the different industries. These firms can still use common suppliers (such as banks, insurance companies, hotels, transport, and publishers) and public services (such as roads, public transit, education, and health care). Provided that these common suppliers have scale economies, the concentration of various firms requiring their products creates a market, which is wide enough in order to take advantage of these economies of scale. Hence, the firms located in the same place can purchase the inputs from the common suppliers and obtain public services at a lower cost.
+
+The third factor is the *trade agglomeration*, which refers to the spatial concentration of trade establishments. It rendered possible thanks to the *external effects of retail trade* meaning that one shop's sales are affected by those of other shops. There are two types of external effects: for complementary goods and for incomplete substitutes. Consider the case of complementary goods, e.g., cloth and shoes. If there is already a shop selling cloth in the neighborhood, then it makes sense for a seller of shoes to open his shop nearby. The customers looking for clothes are likely to need shoes passing to them. Therefore, the shoes shop will be able to capture attention of some of the cloth shop customers. The case of incomplete substitutes is less evident. Indeed, why, say, two building materials or furniture stores can benefit from locating next to each other? It seems that they will compete for the each other's customers and ruin trade. And yet in many cases we observe that such stores are situated close to each other. The reason is that their products are substitutes, but are not exactly identical. Therefore, if somebody needs, say, a hammer he is more likely to travel to the place, where several building materials stores are located, than to the place, where he can find only one such store. In such a way, the customer can save time. Indeed, if he cannot find the hammer he needs in one store, he just has to walk a few meters in order to find a similar store, where he can find what he needs. 
+
+
+## Why city sizes are different: The theory of central places {#sec:CitiesDifferent}
+
+If we look at the cities and towns, we will immediately see that they vary a lot in in terms of size. As seen in Table \@ref(tab:sizeUrbanAreas), in Russia city sizes vary from just 102 persons to over 12 million. Half of Russian cities have a population below 26,300. In 2010, out of 1100 Russian cities, 12 had population exceeding 1 million and accounted for 28.9\% of the total urban population, 25 cities had population between 0.5 and 1 million (16.2\% of the total urban population). 
+
+
+Table: (\#tab:Cities)Number and population of Russian cities, 2010
+
+Category by population 1000    Number of cities  Population 1000    Share of population percent
+----------------------------  -----------------  ----------------  ----------------------------
+<50                                         781  16,445                                    16.9
+50-100                                      155  11,083                                    11.1
+100-250                                      91  13,817                                    14.5
+250-500                                      36  14,574                                    12.4
+500-1000                                     25  12,403                                    16.2
+1000+                                        12  27,416                                    28.9
+Total                                      1100  97,527                                   100.0
+Source: @Rosstat_2012.
+
+Why city sizes are so different? Why do not they converge to some ``optimal size'', identical for all cities? The theory of *central places* offers an explanation for this phenomenon. It is a land-use theory that subdivides settlements into classes, according to their importance as central places in the surrounding areas. It was developed in the 1930s by German geographers Walter Christaller (1893--1969) and August Lösch (1906--1945).^[See @Christaller_1933 in German, @Christaller_1966 in English translation, and @Loesch_1944.]
+
+For simplicity, the theory assumes that the surface is uniform and that the population is evenly distributed across it. No natural or human made obstacles exist that would hinder the movements from one part of the surface to another. Therefore, initially the economic agents are indifferent, where to locate their establishments.
+
+Each establishment (or industry) has its optimal activity area. This depends on the price of the good or service, travel cost, and productivity. For example, assume that we have three establishments: a bakery, a physician's practice, and a book store. The bakery can serve an area with a radius of 1 km. People need to buy their bread every day plus the hot bread can become cold, if carried for more than 1 km. Thus, the next baker will open his establishment 2 km away from the existing bakery. Thus, the whole surface will be covered by the bakeries, which are located at 2 km from each other, see small circles in Figure \@ref(fig:CentralPlaces). Note that the areas served by each bakery have a form of a bee cell. This turns out to be an optimal delineation of the markets. The circles would not do because they would result in either unserved regions or in intersections, where both bakers would compete. 
+
+<div class="figure">
+<img src="02-Urban_files/figure-html/CentralPlaces-1.png" alt="Central places" width="672" />
+<p class="caption">(\#fig:CentralPlaces)Central places</p>
+</div>
+
+Assume that the doctor has a bigger area he can serve with profit. Let the radius of this area be 2 km. Fortunately, most people do not need to visit a physician every day, so they can afford traveling a couple times a year up to 2 km to their physician's cabinet. Suppose also that the doctor will choose a place for his practice next to a bakery. Maybe he likes cakes or the baker is often ill and visits the doctor. In any case, the place, where both bakery and physician's practice are located, have a larger population. So, they are denoted in Figure \@ref(fig:CentralPlaces) by the middle-sized circles. Given a wide area served by each doctor, the next physician will open his practice 4 km away from hour doctor. Most likely the location of this new cabinet will coincide with that of some of the bakeries.
+
+Finally, assume that the book store serves an area with a radius of 4 km. The books are not some stuff we need to buy on a daily and even on a weekly basis. Hence, the travel distance of up to 4 km will not scare away buyers. The book store will be located in a place, where already a bakery and a physician's practice exist. The resulting place will have an even larger population. That is why it will be denoted by a big circle in Figure \@ref(fig:CentralPlaces).
+
+Thus, the central places theory predicts an emergence of a *hierarchy of cities*: superior order, intermediate order, and inferior order. The bigger cities will have a higher variety of goods and services produced and sold there and, therefore, a larger population. The superior-order places will have all types of goods and services (a bakery, a doctor's cabinet, and a book store). The  intermediate-order places will have less goods and services than the superior-order ones and more than the inferior-order ones, which will have only a bakery. Each place imports goods from the higher-order places and exports to the lower-order ones. The places having the same order do not interact because they have an identical supply structure.
