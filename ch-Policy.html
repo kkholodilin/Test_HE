@@ -24,7 +24,7 @@
 <meta name="author" content="Konstantin A. Kholodilin" />
 
 
-<meta name="date" content="2020-08-14" />
+<meta name="date" content="2020-08-16" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -54,7 +54,6 @@
 
 
 
-<link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
 <body>
@@ -70,12 +69,24 @@
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
-<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#recommended-reading"><i class="fa fa-check"></i><b>1.1</b> Recommended reading</a></li>
+<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html#recommended-reading"><i class="fa fa-check"></i>Recommended reading</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="ch-Urban.html"><a href="ch-Urban.html"><i class="fa fa-check"></i><b>2</b> Urban economics</a>
 <ul>
 <li class="chapter" data-level="2.1" data-path="introduction.html"><a href="introduction.html#introduction"><i class="fa fa-check"></i><b>2.1</b> Introduction</a></li>
 <li class="chapter" data-level="2.2" data-path="ch-Urban.html"><a href="ch-Urban.html#sec:City"><i class="fa fa-check"></i><b>2.2</b> What is a city?</a></li>
+<li class="chapter" data-level="2.3" data-path="ch-Urban.html"><a href="ch-Urban.html#sec:CityOrigins"><i class="fa fa-check"></i><b>2.3</b> Why do cities emerge?</a></li>
+<li class="chapter" data-level="2.4" data-path="ch-Urban.html"><a href="ch-Urban.html#sec:Urbanization"><i class="fa fa-check"></i><b>2.4</b> Urbanization</a></li>
+<li class="chapter" data-level="2.5" data-path="ch-Urban.html"><a href="ch-Urban.html#sec:CitiesBig"><i class="fa fa-check"></i><b>2.5</b> Why cities are big?</a></li>
+<li class="chapter" data-level="2.6" data-path="ch-Urban.html"><a href="ch-Urban.html#sec:CitiesDifferent"><i class="fa fa-check"></i><b>2.6</b> Why city sizes are different: The theory of central places</a></li>
+<li class="chapter" data-level="2.7" data-path="ch-Urban.html"><a href="ch-Urban.html#sec:InternalStructure"><i class="fa fa-check"></i><b>2.7</b> The internal structure of cities</a>
+<ul>
+<li class="chapter" data-level="2.7.1" data-path="ch-Urban.html"><a href="ch-Urban.html#the-land-use-model-of-von-thünen"><i class="fa fa-check"></i><b>2.7.1</b> The land use model of von Thünen</a></li>
+<li class="chapter" data-level="2.7.2" data-path="ch-Urban.html"><a href="ch-Urban.html#alonso-mills-muth-model"><i class="fa fa-check"></i><b>2.7.2</b> Alonso-Mills-Muth model</a></li>
+</ul></li>
+<li class="chapter" data-level="2.8" data-path="ch-Urban.html"><a href="ch-Urban.html#sec:Gradient"><i class="fa fa-check"></i><b>2.8</b> Density gradient</a></li>
+<li class="chapter" data-level="" data-path="ch-Urban.html"><a href="ch-Urban.html#exercises"><i class="fa fa-check"></i>Exercises</a></li>
+<li class="chapter" data-level="" data-path="ch-Urban.html"><a href="ch-Urban.html#key-terms"><i class="fa fa-check"></i>Key terms</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="ch-Market.html"><a href="ch-Market.html"><i class="fa fa-check"></i><b>3</b> Housing market</a>
 <ul>
@@ -124,12 +135,33 @@
 <h1><span class="header-section-number">Chapter 7</span> Housing policy</h1>
 <div id="introduction" class="section level2" number="7.1">
 <h2><span class="header-section-number">7.1</span> Introduction</h2>
-<p>Housing is one of the most important aspects of the human life.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> It is also one of the heavily regulated sectors. Since World War I, in most countries, the government actively intervenes in the housing market trying to correct the really existing or imaginary market failures. For example, as seen in Figure <!-- \ref{fig:Map_Existence}, virtually all countries of the world had or still have rent controls. By 2017, the number of countries that still use rent control substantially reduced; Figure \ref{fig:Map_Existence_2017}. Currently, the re-introduction of rent control is discussed in some countries (e.g., Hong Kong,^[@Choi_2017.] Malta, Spain,^[In January 2019, a draft of a Royal decree on housing rents, which provided for a limitation of rent decreases, was rejected by the Parliament of Spain, see https://www.elconfidencial.com/espana/2019-01-22/fomento-decreto-ley-alquiler-podemos-vivienda_1774454/.] and the USA). Thus, not only historically housing market regulations played an important role, they are far from being dead nowadays.
+<p>Housing is one of the most important aspects of the human life.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> It is also one of the heavily regulated sectors. Since World War I, in most countries, the government actively intervenes in the housing market trying to correct the really existing or imaginary market failures. For example, as seen in Figure <!-- \ref{fig:Map_Existence}, virtually all countries of the world had or still have rent controls. By 2017, the number of countries that still use rent control substantially reduced; Figure \ref{fig:Map_Existence_2017}. Currently, the re-introduction of rent control is discussed in some countries (e.g., Hong Kong,^[@Choi_2017.] Malta, Spain,^[In January 2019, a draft of a Royal decree on housing rents, which provided for a limitation of rent decreases, was rejected by the Parliament of Spain, see https://www.elconfidencial.com/espana/2019-01-22/fomento-decreto-ley-alquiler-podemos-vivienda_1774454/.] and the USA). Thus, not only historically housing market regulations played an important role, they are far from being dead nowadays.
 The purpose of the chapter is to make the readers acquainted with a toolkit of policies that has been applied to the housing market in many countries across the world. We carry out a critical analysis of these housing policies. In addition, we discuss the evolution of the restrictive policies (such as rent control, protection of tenants from eviction, and housing rationing) by continents and worldwide between 1910 and 2018. --></p>
 
 <div id="refs" class="references hanging-indent">
 <div>
+<p>Alonso, William. 1964. <em>Location and Land Use: Toward a General Theory of Land Rent</em>. Harvard University Press Cambridge, MA.</p>
+</div>
+<div>
+<p>Bertaud, Alain, and Stephen Malpezzi. 2014. “The Spatial Distribution of Population in 57 World Cities: The Role of Markets, Planning, and Topography.”</p>
+</div>
+<div>
+<p>Blanco Blanco, Andrés G. 2014. “La Realidad Del Alquiler En América Latina Y El Caribe.” In <em>Busco Casa En Arriendo. Promover El Alquiler Tiene Sentido</em>, edited by Andrés G. Blanco, Vicente Fretes Cibils, and Andrés F. Muñoz. Banco Interamericano de Desarrollo.</p>
+</div>
+<div>
 <p>Brueckner, Jan K. 2011. <em>Lectures on Urban Economics</em>. MIT Press.</p>
+</div>
+<div>
+<p>Brueckner, Jan K, Jacques-François Thisse, and Yves Zenou. 1999. “Why Is Central Paris Rich and Downtown Detroit Poor?: An Amenity-Based Theory.” <em>European Economic Review</em> 43 (1): 91–107.</p>
+</div>
+<div>
+<p>Christaller, W. 1966. <em>Central Places in Southern Germany</em>. Englewood Cliffs, NJ: Prentice-Hall.</p>
+</div>
+<div>
+<p>Christaller, Walter. 1933. <em>Die Zentralen Orte in Süddeutschland</em>. Jena: Gustav Fischer.</p>
+</div>
+<div>
+<p>Deutscher Bundestag. 2017. “Drucksache 18/13700. Unterrichtung durch die Bundesregierung. Raumordnungsbericht 2017.”</p>
 </div>
 <div>
 <p>DiPasquale, Denise, and William C. Wheaton. 1996. <em>Urban Economics and Real Estate Markets</em>. Upper Saddle River: Prentice Hall.</p>
@@ -144,19 +176,46 @@ The purpose of the chapter is to make the readers acquainted with a toolkit of p
 <p>Jacobs, Jane. 2016. <em>The Economy of Cities</em>. Vintage.</p>
 </div>
 <div>
+<p>Lösch, August. 1944. <em>Die räumliche Ordnung der Wirtschaft</em>. Verlag von Gustav Fischer.</p>
+</div>
+<div>
+<p>Mayor of London. 2015. “Housing in London 2015.” Greater London Authority.</p>
+</div>
+<div>
 <p>McDonald, John F, and Daniel P McMillen. 2011. <em>Urban Economics and Real Estate: Theory and Policy</em>. John Wiley &amp; Sons.</p>
 </div>
 <div>
 <p>McKenzie, Dennis J, Richard M Betts, and Carol A Jensen. 2011. <em>Essentials of Real Estate Economics</em>. Cengage Learning.</p>
 </div>
 <div>
-<p>O’Sullivan, Arthur. 2012. <em>Urban Economics</em>. McGraw-Hill International Edition.</p>
+<p>Mills, Edwin S. 1972. <em>Studies in the Structure of the Urban Economy</em>. ERIC.</p>
+</div>
+<div>
+<p>Mumford, Lewis. 1961. <em>The City in History. Its Origins, Its Transformations, and Its Prospects</em>. New York: Harcourt Brace Jovanovich, inc.</p>
+</div>
+<div>
+<p>Muth, Richard F. 1975. <em>Urban Economic Problems</em>. HarperCollins Publishers.</p>
+</div>
+<div>
+<p>OECD. 2013. “Definition of Functional Urban Areas (FUA) for the OECD Metropolitan Database.” Organisation for Economic Co-operation and Development.</p>
+</div>
+<div>
+<p>O’Sullivan, Arthur. 2008. “The First Cities.” In <em>A Companion to Urban Economics</em>, 40–54. Blackwell Publishing.</p>
+</div>
+<div>
+<p>———. 2012. <em>Urban Economics</em>. McGraw-Hill International Edition.</p>
 </div>
 <div>
 <p>Speck, Jeff. 2012. <em>Walkable City: How Downtown Can Save America, One Step at a Time</em>. Farrar, Straus; Giroux.</p>
 </div>
 <div>
 <p>Steel, Carolyn. 2013. <em>Hungry City: How Food Shapes Our Lives</em>. Random House.</p>
+</div>
+<div>
+<p>von Thünen, Johann Heinrich. 1826. <em>Der isolierte Staat. Beziehung auf Landwirtschaft und Nationalökonomie, oder Untersuchungen über den Einfluß, den die Getreidepreise, der Reichthum des Bodens und die Abgaben auf den Ackerbau ausüben</em>. Hamburg.</p>
+</div>
+<div>
+<p>———. 1966. <em>Isolated State</em>. Pergamon Press.</p>
 </div>
 <div>
 <p>Vuchic, Vukan. 2017. <em>Transportation for Livable Cities</em>. Routledge.</p>
@@ -172,6 +231,9 @@ The purpose of the chapter is to make the readers acquainted with a toolkit of p
 </div>
 <div>
 <p>О’Салливан, А. 2002. <em>Экономика города</em>. Москва: «ИНФРА-М».</p>
+</div>
+<div>
+<p>Росстат. 2012. <em>Социально-демографический портрет России. По итогам Всероссийской переписи населения 2010 года</em>. Edited by М А  Дианов. Москва: ИИЦ &lt;&lt;Статистика России&gt;&gt;.</p>
 </div>
 <div>
 <p>Спек, Джеф. 2015. <em>Город для пешехода</em>. М.: Искусство-ХХI век.</p>
@@ -195,10 +257,12 @@ The purpose of the chapter is to make the readers acquainted with a toolkit of p
 
 
 
+
+
 <div class="footnotes">
 <hr />
-<ol start="2">
-<li id="fn2"><p>A detailed account in Russian language on rental housing policies worldwide and, in particular, in Germany, Russia, and the USA can be found in <span class="citation">Холодилин (<a href="#ref-Kholodilin_2019_ru" role="doc-biblioref">2019</a>)</span>.<a href="ch-Policy.html#fnref2" class="footnote-back">↩︎</a></p></li>
+<ol start="4">
+<li id="fn4"><p>A detailed account in Russian language on rental housing policies worldwide and, in particular, in Germany, Russia, and the USA can be found in <span class="citation">Холодилин (<a href="#ref-Kholodilin_2019_ru" role="doc-biblioref">2019</a>)</span>.<a href="ch-Policy.html#fnref4" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
             </section>
@@ -229,18 +293,15 @@ gitbook.start({
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
-"vk": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+"vk": true,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper", "vk"]
 },
 "fontsettings": {
 "theme": "white",
 "family": "sans",
 "size": 2
 },
-"edit": {
-"link": null,
-"text": null
-},
+"edit": null,
 "history": {
 "link": null,
 "text": null
@@ -249,14 +310,34 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": null,
+"download": [["book.pdf", "PDF"], ["book.epub", "EPUB"]],
 "toc": {
-"collapse": "subsection"
-}
+"collapse": "subsection",
+"scroll_highlight": true
+},
+"toolbar": {
+"position": "fixed"
+},
+"search": true,
+"info": true
 });
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

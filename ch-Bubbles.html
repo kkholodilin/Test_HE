@@ -24,7 +24,7 @@
 <meta name="author" content="Konstantin A. Kholodilin" />
 
 
-<meta name="date" content="2020-08-14" />
+<meta name="date" content="2020-08-16" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -54,7 +54,6 @@
 
 
 
-<link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
 <body>
@@ -70,12 +69,24 @@
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
-<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#recommended-reading"><i class="fa fa-check"></i><b>1.1</b> Recommended reading</a></li>
+<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html#recommended-reading"><i class="fa fa-check"></i>Recommended reading</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="ch-Urban.html"><a href="ch-Urban.html"><i class="fa fa-check"></i><b>2</b> Urban economics</a>
 <ul>
 <li class="chapter" data-level="2.1" data-path="introduction.html"><a href="introduction.html#introduction"><i class="fa fa-check"></i><b>2.1</b> Introduction</a></li>
 <li class="chapter" data-level="2.2" data-path="ch-Urban.html"><a href="ch-Urban.html#sec:City"><i class="fa fa-check"></i><b>2.2</b> What is a city?</a></li>
+<li class="chapter" data-level="2.3" data-path="ch-Urban.html"><a href="ch-Urban.html#sec:CityOrigins"><i class="fa fa-check"></i><b>2.3</b> Why do cities emerge?</a></li>
+<li class="chapter" data-level="2.4" data-path="ch-Urban.html"><a href="ch-Urban.html#sec:Urbanization"><i class="fa fa-check"></i><b>2.4</b> Urbanization</a></li>
+<li class="chapter" data-level="2.5" data-path="ch-Urban.html"><a href="ch-Urban.html#sec:CitiesBig"><i class="fa fa-check"></i><b>2.5</b> Why cities are big?</a></li>
+<li class="chapter" data-level="2.6" data-path="ch-Urban.html"><a href="ch-Urban.html#sec:CitiesDifferent"><i class="fa fa-check"></i><b>2.6</b> Why city sizes are different: The theory of central places</a></li>
+<li class="chapter" data-level="2.7" data-path="ch-Urban.html"><a href="ch-Urban.html#sec:InternalStructure"><i class="fa fa-check"></i><b>2.7</b> The internal structure of cities</a>
+<ul>
+<li class="chapter" data-level="2.7.1" data-path="ch-Urban.html"><a href="ch-Urban.html#the-land-use-model-of-von-thünen"><i class="fa fa-check"></i><b>2.7.1</b> The land use model of von Thünen</a></li>
+<li class="chapter" data-level="2.7.2" data-path="ch-Urban.html"><a href="ch-Urban.html#alonso-mills-muth-model"><i class="fa fa-check"></i><b>2.7.2</b> Alonso-Mills-Muth model</a></li>
+</ul></li>
+<li class="chapter" data-level="2.8" data-path="ch-Urban.html"><a href="ch-Urban.html#sec:Gradient"><i class="fa fa-check"></i><b>2.8</b> Density gradient</a></li>
+<li class="chapter" data-level="" data-path="ch-Urban.html"><a href="ch-Urban.html#exercises"><i class="fa fa-check"></i>Exercises</a></li>
+<li class="chapter" data-level="" data-path="ch-Urban.html"><a href="ch-Urban.html#key-terms"><i class="fa fa-check"></i>Key terms</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="ch-Market.html"><a href="ch-Market.html"><i class="fa fa-check"></i><b>3</b> Housing market</a>
 <ul>
@@ -160,18 +171,15 @@ gitbook.start({
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
-"vk": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+"vk": true,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper", "vk"]
 },
 "fontsettings": {
 "theme": "white",
 "family": "sans",
 "size": 2
 },
-"edit": {
-"link": null,
-"text": null
-},
+"edit": null,
 "history": {
 "link": null,
 "text": null
@@ -180,14 +188,34 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": null,
+"download": [["book.pdf", "PDF"], ["book.epub", "EPUB"]],
 "toc": {
-"collapse": "subsection"
-}
+"collapse": "subsection",
+"scroll_highlight": true
+},
+"toolbar": {
+"position": "fixed"
+},
+"search": true,
+"info": true
 });
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

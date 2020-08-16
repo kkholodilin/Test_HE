@@ -18,7 +18,7 @@ In the end of each chapter, a set of control questions and discussion topics is 
 
 The material presented here has been used in 2018--2020, when the author has had a nice opportunity to teach the course of housing economics by the undergraduate students at the NRU HSE in St. Petersburg. The textbook contains lots of empirical evidence to illustrate theoretical concepts. Particular weight is placed on discussing the Russian experience.
 
-## Recommended reading
+## Recommended reading {-}
 
 | English source | Russian translation |
 |----------------|:--------------------|
