@@ -1,7 +1,7 @@
 # Urban economics {#ch:Urban}
 
 
-## Introduction
+## Introduction {#sec:IntroUrban}
 
 In this chapter, we introduce basic notions of the urban economics. *The urban economics* is a theory about the location choice made by firms and households. It answers the following questions:
 
@@ -448,19 +448,13 @@ Capetown is a city developed under apartheid, which was divided into two cities:
 ## Key terms {-}	
 
 
-```
-## [1] "LC_COLLATE=German_Germany.1252;LC_CTYPE=German_Germany.1252;LC_MONETARY=German_Germany.1252;LC_NUMERIC=C;LC_TIME=German_Germany.1252"
-```
-
-
-
 ----------------------  -----------------------------  -----------------------
 urban economics         city                           urban area             
 functional urban area   urban population               urbanization           
 population size         population density             comparative advantages 
 scale economies         intra-industry agglomeration   urbanization economies 
 trade agglomeration     external effects of trade      central places         
-hierarchy of cities     land use                       von Thunen             
+hierarchy of cities     land use                       von Thünen             
 land rent               Alonso-Mills-Muth              monocentric city       
 production function     household problem              location choice        
 rent-bid function       central business district      city center            
