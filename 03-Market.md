@@ -130,8 +130,59 @@ Figure \@ref(fig:HousingConstructionWorldwide) displays the average annual resid
 </div>
 Sources: national statistical offices and own calculations.
 
-It compares the housing construction worldwide, in the former Socialist countries, and in Russia. As seen, the residential construction rapidly fell during both world wars and then strongly increased. The highest construction intensity had been observed between 1950 and 1990. During this period, Socialist countries demonstrated particularly high intensity of residential construction. Between 1990 and 2000, a large drop in the construction can be observed, which especially hard hit the former Socialist countries that engaged during that period on the way of transition. Another substantial decrease in the construction intensity took place in the wake of the Great Recession of 2008--2009. Interestingly, since 2010, Russia demonstrates a higher then the worldwide average intensity of residential construction, which, however, falls short of the level attained in the last years of the USSR, let alone the record levels attained in the late 1950s.
+It compares the housing construction worldwide, in the former Socialist countries, and in Russia. As seen, the residential construction rapidly fell during both world wars and then strongly increased. The highest construction intensity had been observed between 1950 and 1990. During this period, Socialist countries demonstrated particularly high intensity of residential construction. Between 1990 and 2000, a large drop in the construction can be observed, which especially hard hit the former Socialist countries that engaged during that period on the way of transition. Another substantial decrease in the construction intensity took place in the wake of the Great Recession of 2008--2009. Interestingly, since 2010, Russia demonstrates a higher than the worldwide average intensity of residential construction, which, however, falls short of the level attained in the last years of the USSR, let alone the record levels attained in the late 1950s.
 
 
 ## Housing prices {#sec:Prices}
 The housing price allows establishing an equilibrium between the supply of and demand for housing. It performs a signalling function by informing the builders, landlords, and consumers about housing shortage or excess supply.
+
+Figure \@ref(fig:HousePricesSelectedOECDCountries) shows the dynamics of the house prices in several OECD countries plus Russia between 1970 and 2020.
+
+<div class="figure">
+<img src="03-Market_files/figure-html/HousePricesSelectedOECDCountries-1.png" alt="Housing prices in selected countries, 1970--2020" width="672" />
+<p class="caption">(\#fig:HousePricesSelectedOECDCountries)Housing prices in selected countries, 1970--2020</p>
+</div>
+
+All these housing price indices are set to 100\% in 2015. A logarithmic scale is used in order to better see the relative increases of the prices. Germany demonstrates the lowest growth rates of housing prices over most part of the period. Russia experienced in the 1990s a very swift increase in the housing prices, which is related to the liberalization of its economy, privatization of the housing stock, and the hyperinflation. After 70 years of the centrally planned economy, where housing market was confined to a very narrow niche, virtually all residential properties became an object of buying and selling. Spain and the UK also had rapid house price increases, while the USA occupied an intermediate position. Around 2008, the upward trend was broken and in all countries, except for Germany, the prices fell down. After several years of stagnation, they started to recover.
+
+Figure \@ref(fig:HousePricesSelectedOECDCountries) displays the nominal prices. Therefore, in part their increases can be explained by the overall inflation rates in each country. For instance, in Russia, the housing price increase in the 1990s is to a large extent due to its tremendous hyperinflation. Figure \@ref(fig:RealHousePricesSelectedOECDCountries) accounts for this by presenting the real housing prices, that is, the nominal prices divided by the consumer price index and, thus, corrected for inflation.
+
+<div class="figure">
+<img src="03-Market_files/figure-html/RealHousePricesSelectedOECDCountries-1.png" alt="Real housing prices in selected countries, 1970--2020" width="672" />
+<p class="caption">(\#fig:RealHousePricesSelectedOECDCountries)Real housing prices in selected countries, 1970--2020</p>
+</div>
+
+The adjustment for inflation rates makes the house price cycles more visible. They take various lengths, varying from five to ten years and sometimes synchronized between countries. The adjustment of housing prices for the overall price level growth makes also pronounced a house price decline in Germany that lasted from the mid-1990s through 2010 and the current crisis of the Russian housing market, where real prices have fallen since 2014.
+
+The house price data presented above cover almost 50 years, in case of Russia --- about 20 years. A very long-term evolution of real house prices in 14 advanced countries can be traced thanks to a database compiled by @Knoll_et_al_2017; see Figure \@ref(fig:HousePricesLongRun). It allows to see how strongly did the housing prices increase. 
+
+<div class="figure">
+<img src="03-Market_files/figure-html/HousePricesLongRun-1.png" alt="Evolution of real house prices in 14 countries, 1870--2016, 1990=100" width="672" />
+<p class="caption">(\#fig:HousePricesLongRun)Evolution of real house prices in 14 countries, 1870--2016, 1990=100</p>
+</div>
+Source: @Knoll_et_al_2017, http://www.macrohistory.net/data/.
+
+Between 1870 and 1950s, the real house prices stagnated. It is only since the 1950s, that they began to rapidly increase. The price of land plays a central role for the long-term evolution of house prices. Construction costs rose in the interwar period, increased substantially in 1950--1970, and then leveled off.
+
+
+## Housing market equilibrium {#sec:Equilibrium}
+
+The establishment of the housing market equilibrium can be illustrated using Figure \@ref(fig:HousingMarketEquilibrium), which depicts the standard stock and flow model. The left panel shows the housing stock, while the right panel display the net change (flow) of the housing stock. Along the horizontal axis, the area of housing in square meters is plotted, whereas the vertical axis shows the rent per square meter. In the short run, the housing supply is determined by the available housing stock and is, therefore, completely inelastic. For this reason, the supply curves in the left panel are depicted as vertical straight lines.
+
+<div class="figure">
+<img src="03-Market_files/figure-html/HousingMarketEquilibrium-1.png" alt="The stock-flow model" width="672" />
+<p class="caption">(\#fig:HousingMarketEquilibrium)The stock-flow model</p>
+</div>
+
+In the right panel, the supply curve $S_{\Delta H}$ has a positive slope and denotes a net inflow of the housing into the market, $\Delta H$. When the housing rent, $r$, is high, then the net inflow is positive. However, if the rent is low, then the net flow can be negative. This is related to the fact that the housing can not only appear on the market, but also disappear from it as a result of demolition, merger of several dwellings into one, etc. The net inflow of housing, $\Delta H$, represents a difference between the newly built and eliminated housing. When the rent $r$ is high, much new housing is built and little old housing is demolished. However, when the housing rent is low, the rental revenues of the landlords decrease, which makes the construction of new housing less attractive and can induce the housing owners to neglect maintenance and even demolish the existing housing. In this case, the net inflow of housing becomes negative. When the housing rent equals $r_e$, in the point, where curve $S_{\Delta H}$ intersects the vertical axis, the area of the newly built dwellings is equal to that of the eliminated dwellings; thus, the net inflow is zero leaving the housing stock unchanged.
+
+Initially, the housing stock equals $H_0$. The demand for housing is represented by the curve $D$ having negative slope. In the point of intersection of both lines, the housing rent is $r_0$. At such rental price, the investors (developers) are ready to build $\Delta H_1$ square meters of housing. Therefore, in the next period, the supply curve will shift rightward, into the position $H_1=H_0+\Delta H_1$ and the rent decreased to $r_1$. However, event in that case, the developers are still willing to erect additional housing, albeit less than in the previous period --- $\Delta H_2$. Thus, the new residential construction will continue until the housing stock will increase up to $H_e$ and the rental price will fall to $r_e$. This will be an equilibrium level. The housing market will remain in the equilibrium until it will be distorted by some supply or demand shock.
+
+What kind of shocks can force the housing market out of its equilibrium? For example, an earthquake can destroy a part of the housing stock and, thus, cause a negative supply shock. In such a case, the long-run supply curve in the left panel will immediately shift leftward. This will lead to a rent increase, which will induce a new housing construction and, hence, gradual expansion of the housing stock. Migration can also affect the equilibrium. In case of negative net migration (emigration), the demand for housing decreases and the demand curve shifts leftward leading to a reduction of rent. By contrast, positive net migration (immigration) will lead to a rightward shift of demand curve causing rents to rise, which, in turn, will stimulate the developers to expand the new housing construction and slow down the removal of the existing housing units.
+
+What happens if the housing price changes? Suppose that the price increases. This increases the attractiveness of supplying more housing and can lead to the new construction; a slowdown of wearing through current repairs; and housing modernization implying a change of layout and a quality improvement of the existing housing. If the price decreases, then there is less or no new construction; the (rental) dwellings are converted to other (non-residential) uses; and more buildings are demolished.  
+
+
+## Housing availability {#sec:Availability}
+
+An important indicator of the housing market development is the availability of housing. It shows how much living space is available per person or household.
