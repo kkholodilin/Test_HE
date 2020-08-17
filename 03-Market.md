@@ -186,3 +186,283 @@ What happens if the housing price changes? Suppose that the price increases. Thi
 ## Housing availability {#sec:Availability}
 
 An important indicator of the housing market development is the availability of housing. It shows how much living space is available per person or household.
+
+Different countries have very different levels of housing availability. Figure \@ref(fig:StructureHousingRooms) shows the distribution of housing stock in four countries (Germany, Russia, Spain, and the USA) by the number of rooms.
+
+<div class="figure">
+<img src="Images/Fig_Structure_housing_rooms.png" alt="Structure of housing stock by number of rooms, 2006--2011" width="436" />
+<p class="caption">(\#fig:StructureHousingRooms)Structure of housing stock by number of rooms, 2006--2011</p>
+</div>
+Sources: national statistical offices and own calculations.
+
+Russia differs a lot from other countries. While in Russia, most dwellings has 2 rooms or less, in other three countries, the vast majority of dwellings have 4 rooms or more.
+
+Figure \@ref(fig:SizeFlatsLargeEuropeanCities) depicts the dwelling sizes in 49 large European cities or capitals. Since no statistical data on the city level could be found, we use the data taken from the Internet advertisements of dwellings for sale. Surely, the structure of the advertized housing must not necessarily be identical to that of the existing total housing stock. Still, it can provide some useful insights in cross-city and cross-country differences.
+
+<div class="figure">
+<img src="Images/Fig_Size_Flats_Large_European_Cities_2012_01-2012_05.png" alt="Size of dwellings in European cities, 2012" width="429" />
+<p class="caption">(\#fig:SizeFlatsLargeEuropeanCities)Size of dwellings in European cities, 2012</p>
+</div>
+Sources: Internet advertisement on housing sales in various countries.
+
+As seen, the quality of advertised flats can vary substantially both across cities and time. Usually, it is correlated with the welfare level, culture, and availability of the free space in each city. For example, flats in Central and Eastern Europe (CEE) are typically smaller (50-60 m$^2$ and 2 rooms), whereas in Western Europe they are much larger (70-90 m$^2$ and 3 rooms), see Figure \@ref(fig:SizeFlatsLargeEuropeanCities), where the CEE cities are denoted by red color. One notable exception is Paris, where a typical flat is about 60 m$^2$ large and has 2 rooms. One can even find the ads of flats as small as 9 m$^2$, which are offered for exorbitant prices in Paris. It is difficult to imagine something like this in Berlin. The flats in cities of non-continental and Nordic countries are also relatively small. The largest flats (about 110 m$^2$ and more than 3 rooms) can be found in Lisbon and Istanbul.
+
+Table \@ref(tab:Availability) reports several indicators characterizing the housing availability in selected countries.
+
+
+Table: (\#tab:Availability)Housing availability in selected countries
+
+Country    Average dwelling size   Surface per person total housing stock square meters   Surface per person newly completed dwellings square meters   Years needed for Russia to catch up
+--------  ----------------------  -----------------------------------------------------  -----------------------------------------------------------  ------------------------------------
+Germany                     91.1                                                   42.7                                                         0.25                                    86
+Russia                      53.2                                                   23.0                                                         0.48                                      
+Spain                       92.4                                                   35.7                                                         0.24                                    53
+UK                          92.3                                                   49.3                                                                                                   
+USA                        139.4                                                   65.0                                                         0.45                                  1401
+
+Sources: National statistical offices and own calculations.
+
+In 2010--2014, in Russia, the average dwelling was almost two times smaller than in European countries and almost	three times smaller than in the USA. The gap between Russia and other countries in terms of surface per person is even larger. However, in case of the newly built dwellings, the surface per capita in Russia is much larger than in Germany and Spain and is comparable to that in the USA. This implies that, if the difference will remain, then, as follows from equation \@ref(eq:CatchUp), in 53 years the surface per capita will attain the same level as in Spain, in 86 years that of Germany, and in 1401 years that in the USA.
+
+The number of years Russia would need to catch up developed countries in terms of surface per capita can be computed as follows:
+\begin{equation}
+CT_t = \frac{HS^i_t - HS_t^{RU}}{\Delta HS_t^{RU}-\Delta HS_t^i}
+(\#eq:CatchUp)
+\end{equation}
+where $HS^i_t$ is the floor area per person in country $i$ in year $t$; $HS^{RU}_t$ is the floor area per person in Russia in year $t$; $\Delta HS^i_t$ is the net per-capita change of floor area in country $i$ in year $t$; and $\Delta HS^{RU}_t$ is the net per-capita change of floor area in Russia in year $t$.
+
+Figure \@ref(fig:NewHousingSizeRussiaGermany) compares the average surface (in m$^2$) of the newly built housing in Germany and Russia in 1956--2017.
+
+<div class="figure">
+<img src="03-Market_files/figure-html/NewHousingSizeRussiaGermany-1.png" alt="Average surface of new dwellings in Russia and Germany, 1956--2019" width="672" />
+<p class="caption">(\#fig:NewHousingSizeRussiaGermany)Average surface of new dwellings in Russia and Germany, 1956--2019</p>
+</div>
+
+It can be seen that, during the last 60 years, the housing availability has improved, as reflected in the average per-capita surface. This process is characteristic for both Germany and Russia, although the housing availability in Germany was and still is much better than in Russia. The absolute gap is almost unchanged at about 30 m$^2$. After the Great Recession of 2008--2009, both countries has experienced a reduction of the size of the newly built dwellings. This can be explained by two factors: 1) shrinking household sizes (a small family needs a small dwelling); 2) low income levels (many Russians can only afford buying a "microapartment'' of 20--30 m$^2$, albeit it will not allow them to satisfy their housing requirements to a full extent).
+
+Figure \@ref(fig:NewExistingHousingSizeRussia) displays the average surface per capita of the newly built and existing housing in Russia between 1956 and 2017.
+
+<div class="figure">
+<img src="03-Market_files/figure-html/NewExistingHousingSizeRussia-1.png" alt="Average surface of new dwellings in Russia and Germany, 1956--2019" width="672" />
+<p class="caption">(\#fig:NewExistingHousingSizeRussia)Average surface of new dwellings in Russia and Germany, 1956--2019</p>
+</div>
+
+It shows that between 1991 and 2017 the average surface per capita of the existing housing stock increased from about 50 to 56 m$^2$. This is a result of the growing sizes of new dwellings. Moreover, the difference between the surface of the newly built and existing housing widened from about 10 to about 13 m$^2$.
+
+
+## Housing vacancy {#sec:Vacancy}
+Normally, the housing stock is not fully used. There are almost always dwellings that stay vacant. This is similar to the labor market, where some people are unemployed, or to the capital stock, where the production capacities are not fully utilized. **The housing vacancy** is the part of housing stock, which is unused:
+
+\begin{equation}
+	V = S - D
+\end{equation}
+where $V$ is number of vacant dwellings; $S$ is the effective housing supply; and $D$ is the housing demand.
+
+The vacancy rate is defined as:
+ \begin{equation}
+	v = \frac{V}{S}
+\end{equation}
+
+According to the *natural vacancy rate hypothesis*, the housing rents are driven by deviations of the vacancy rate from its equilibrium ("natural'') levels [@Rosen_Smith_1983]. The estimates of natural vacancy rate provide useful information for investors, lenders, etc. The comparison of natural rate, $v^*$, to the actual vacancy rate, $v$, provides indication of future rent movements. The natural vacancy rate affects the return on the property investment. In the long-run equilibrium, a falling natural vacancy rate leads to an increase of the amount of rent generated by a rental property and, thus, of the return on rental property investment.
+
+The demand for housing can be defined as:
+\begin{equation}
+	D^H = d(R, U, Y, P, Z)
+\end{equation}
+where $R$ is nominal rent; $U$ is user cost of homeownership; $Y$ is the real income; $P$ is the housing price; and $Z$ is a vector of demographic variables (e.g., the number and size of households, the age composition of population).
+
+The equation for the vacancy rate can be expressed as:
+\begin{equation}
+	v = \frac{V}{S} = 1 - \frac{1}{S}d(R, U, Y, P, Z)
+\end{equation}
+The rent adjustment:
+
+\begin{equation}
+	r = f(e, v-v^*)
+\end{equation}
+where $r$ is rate of change of nominal rent; $e$ is rate of change of operating expenses; and $v^*$ is natural vacancy rate.
+
+The natural vacancy rate varies strongly from country to country, as seen in Table \@ref(tab:NatVacancyRate); see, for example, @Rink_Wolff_2015_wohnungsleerstand for Germany and @Wilhelmsson_et_al_2011_rent_control for Sweden. This must be taken into account, when forecasting rent.
+
+
+Table: (\#tab:NatVacancyRate)Natural vacancy rate in selected countries
+
+Country        Natural vacancy rate percent
+------------  -----------------------------
+Germany                                   3
+Sweden                                    1
+Switzerland                               1
+USA                                       5
+
+In Germany, a vacancy rate exceeding 3\% is regarded as a sign of a "relaxed'' housing market, where every person looking for a dwelling can without problem find it. In the USA, such a vacancy rate would point to a stressed housing market, characterized by an excessive housing demand. By the German and US standards, Switzerland appears to function at the almost full "employment'' of housing for the last 80 years, as seen in Figure \@ref(fig:VacancyRateSwitzerland).
+
+<div class="figure">
+<img src="03-Market_files/figure-html/VacancyRateSwitzerland-1.png" alt="Vacancy rates in Switzerland, 1937--2019" width="672" />
+<p class="caption">(\#fig:VacancyRateSwitzerland)Vacancy rates in Switzerland, 1937--2019</p>
+</div>
+
+Due to changes in the statistical definitions, several measures of vacancy rate are used. As the period between 1950 and 1990 shows, the biggest cities have the largest housing shortage.
+
+For the USA, two vacancy rates are available: for rental and for owner-occupied dwellings; see Figure \@ref(fig:VacancyRateUSA), which shows quarterly data covering the period 1956--2017.
+
+<div class="figure">
+<img src="03-Market_files/figure-html/VacancyRateUSA-1.png" alt="Vacancy rates in the USA, 1956--2020" width="672" />
+<p class="caption">(\#fig:VacancyRateUSA)Vacancy rates in the USA, 1956--2020</p>
+</div>
+
+The vacancy rate for the rental dwellings substantially (by almost six percentage points) exceeds that for the owner-occupied dwellings. This can reflect the higher mobility of the tenants. Both vacancy rates have a slight upward trend and display cyclical fluctuations, which coincide with those of the real housing prices. For example, the Great Recession 2008--2009 resulted in large jump of the vacancy rate for owner-occupied dwellings. Many home buyers faced the impossibility of paying their mortgage loans and left their houses to the banks. Large-scale defaults inundated the housing market, so that many dwellings stayed empty, for the banks could not find persons willing to buy these properties. Surprisingly, in 2020, the COVID-19 crisis led to a dramatic decline in vacancy rates.
+
+
+## Housing affordability {#sec:Affordability}
+Housing is a very expensive good. Both purchasing and renting the housing costs a lot of money. The concept of **housing affordability** reflects the ability of market participants (above all the private households) to obtain access as owner or as tenant to the housing.
+
+### Purchasing of housing
+
+The affordability of housing from the point of view of a home buyer, is usually measured by the price-to-income ratio. It corresponds to the number of years of (usually, median) income it would take to buy a home. Thus, the higher the ratio, the less affordable the housing.
+
+Figure \@ref(fig:P2YRatioUSA) shows the housing price-to-income ratio for the USA between 1987 and 2017. It is based on the median prices of existing single-family home and median household income.
+
+<div class="figure">
+<img src="03-Market_files/figure-html/P2YRatioUSA-1.png" alt="Price-to-income ratio in the USA, 1987--2018" width="672" />
+<p class="caption">(\#fig:P2YRatioUSA)Price-to-income ratio in the USA, 1987--2018</p>
+</div>
+Sources: Federal Reserve Bank of St. Louis, National Association of Realtors, and own calculations.
+
+On average, the price-to-rent ratio is about 3.4 years. In 2006, it achieved its maximum of 4.6 years.
+
+Figure \@ref(fig:P2YRatioRussia) depicts the evolution of the price-to-income ratio in Russia between 1998 and 2017. The price is that for the dwellings with the surface of 50 m$^2$ sold at the primary and secondary markets. Instead of the median income, which is typically used in computing this ratio, we use the average household income, for there are no data on the median income. Given that the average income tends to be higher than the median income, the index is underestimated. Here, we assume that two household members are working and earning the same income. In addition, it is assumed that both new and second-hand dwellings have the same size, which is not true in reality as Figure \@ref(fig:NewExistingHousingSizeRussia) shows.
+
+<div class="figure">
+<img src="03-Market_files/figure-html/P2YRatioRussia-1.png" alt="Price-to-income ratio in Russia, 1998--2019" width="672" />
+<p class="caption">(\#fig:P2YRatioRussia)Price-to-income ratio in Russia, 1998--2019</p>
+</div>
+
+The housing price-to-income ratio in Russia used to be substantially higher than that, say, in the USA. The good news is that the trend is declining, which means an improving affordability of housing: While in 1998, it took 10 years of income to buy a home, in 2017, it decreased to "just'' 3.5 years, which is comparable with the levels observed in developed countries. To a large extent, this improvement is due to the increasing nominal income. It should also be taken into account that the dwellings in developed countries are much larger than in Russia. Thus, if we took the dwellings of identical sizes, we would have obtained a much lower affordability for Russia.
+
+Figure \@ref(fig:P2YRatiosSelectedOECDCountries) compares the indices of price-to-income ratios in several countries.
+
+<div class="figure">
+<img src="03-Market_files/figure-html/P2YRatiosSelectedOECDCountries-1.png" alt="Price-to-income ratio in selected countries, 1970--2020" width="672" />
+<p class="caption">(\#fig:P2YRatiosSelectedOECDCountries)Price-to-income ratio in selected countries, 1970--2020</p>
+</div>
+
+\begin{figure}[htbp]
+	\captionsetup{font=large}
+	\caption{\label{fig:P2Y_ratios_selected_OECD_countries}}
+	\centering{}\includegraphics[scale=0.7]{D:/KKholodilin/VShE/Draft/Housecon/Fig_P2Y_ratios_selected_OECD_countries.pdf}
+\end{figure}
+The indices are set to 100 in 2010. Thus, they do not allow to see the "absolute affordability'', only its dynamics. In most selected countries, the ratios steadily fluctuate in accordance with housing price bubbles. In Russia, the index increased until 2008--2009, when the affordability of housing was the lowest, and since then has been decreasing, which points out to the improving affordability. In Germany, the index was declining until the same inflection point as Russia ---the Great Recession--- and is climbing up.
+
+The price-to-income ratio is a simple to compute measure, which does not require too much information. Its weakness consists in ignoring the mortgage interest rate: The higher the rate the longer the payment period. An alternative measure of affordability of owner-occupied housing is the **housing affordability index** (HAI), which takes care of it. It is the ratio of the qualifying income (the part of income that can be spent on paying out a mortgage debt without endangering other expenses of the household) to the mortgage payment (interest and principal repayment). Formally,
+
+\begin{equation}\label{eq:HAI}
+HAI = 100\frac{q Y}{P}
+\end{equation}
+where $q$ is the qualifying ratio for monthly mortgage loan expense to gross monthly income (for example, 25\%, because typically a household can afford spending one-fourth of its income on paying out the loan); $Y$ is the gross monthly income; and $P$ is the monthly payment related to the mortgage loan and including interest and principal. $P$ is computed using the annuity formula as follows:
+
+\begin{equation}\label{eq:Annuity}
+P = M\frac{(1+i)^T i}{(1+i)^T-1}
+\end{equation}
+where $M$ is the amount of the mortgage loan, defined as the value of property, $V$, minus down payment, $D$ ($M=V-D$); $i$ is the mortgage interest rate; and $T$ is the maturity period of the mortgage loan (e.g., 10 or 20 years) during which the loan is completely paid out.
+
+In 2005, according to @Gusev_2008, the HAI in Russia was 28.9\% for the primary housing market and 33.4\% for the secondary market, while for the USA the HAI was 111.8\%. What does it mean? First, in Russia, a household having an average income could not afford taking a standard mortgage loan%
+\footnote{The following assumptions are made: $q=0.25$, $T=15$ years, the annual interest rate $i=15$\%, and the down payment makes up 20\% of the total value of the dwelling.} in order to purchase a home with a total surface of 54 m$^2$: Its income was sufficient to cover only up to one-third of the payments associated with the loan. Second, a US household earning a median income was able without any problem to serve a standard (for the USA) mortgage loan and, thus, to buy a standard home, which is likely to be much more spacious than its Russian counterpart. Third, the housing affordability in 2005 in the USA was four times higher than in Russia. Using the same assumptions^[The only difference is the lower annual interest rate: $i=11.5$\%. Of course, both the housing prices and income are larger in 2017 than in 2005.] as @Gusev_2008, we arrive at the following estimates of HAI for Russia in 2017: 54.7\% for the primary and 59.5\% for the secondary housing market. In 2017, the US HAI increased to about 159\%.^[According to the estimations of the National Association of Realtors; https://www.nar.realtor/research-and-statistics/housing-statistics/housing-affordability-index.]
+Thus, the affordability improved in both countries, in Russia somewhat more. Therefore, within 12 years the gap reduced from 4 to 3 times, which is still a lot. Moreover, at least a half of the Russian households still have not enough income to afford buying an average size dwelling even with a borrowed money.
+
+Figure \@ref(fig:MapHAI) displays the spatial distribution of the housing affordability index by regions of the Russian Federation in 2017. It is computed for the same dwelling surface (54 m$^2$), down payment ratio (20\%), and qualifying ratio (25\%), whereas mortgage interest rates, housing prices, and money incomes are region specific.
+
+<div class="figure">
+<img src="03-Market_files/figure-html/MapHAI-1.png" alt="Housing affordability index by regions of Russia, 2017" width="672" />
+<p class="caption">(\#fig:MapHAI)Housing affordability index by regions of Russia, 2017</p>
+</div>
+Sources: Central Bank of Russia, Rosstat, and own calculations.
+
+The HAI in Russia varies between 25 and 101\%. It is the highest in Nenets autonomous okrug --- a northern region, where income levels are high, while the mortgage interest rate is the lowest. In most regions, the HAI lies between 45 and 65\%.
+
+Figure \@ref(fig:MapHAIEurope) shows the housing affordability index in European cities. The index is computed using the Numbeo cost-of-living data.^[The Numbeo database is maintained by its users who supply data on the costs of different consumption items; see https://www.numbeo.com/cost-of-living/. The data were downloaded in January 2020.] The HAI is calculated for an apartment having a total surface of 70 $m^2$ and located outside of city center. In addition, the Numbeo database contains data on an average monthly net salary (after tax) and a mortgage interest rate, which are taken advantage of in our calculations. The loan maturity is 20 years, the down payment ratio is 20\%, and servicing share is 25\%.
+
+<div class="figure">
+<img src="03-Market_files/figure-html/MapHAIEurope-1.png" alt="Housing affordability index in European cities, 2020" width="672" />
+<p class="caption">(\#fig:MapHAIEurope)Housing affordability index in European cities, 2020</p>
+</div>
+Sources: Numbeo and own calculations.
+
+A clear divide between Eastern and Western Europe can be seen: while in the East, the affordability of housing is very low, it is much higher in the West. The most affordable housing is to be found in Finland, Germany, The Netherlands, and Switzerland. To a large extent this can be explained by higher incomes and much lower interest rates in the West.
+
+
+### Renting of housing
+The housing expenditure is one of the largest, if not the largest, components of the consumption of private households. During the 20st century in many countries, the housing expenses have taken over the first place in the ranking of consumption expenditure, which was previously occupied by the food expenses.
+
+Figure \@ref(fig:ShareHousingExpenditure) shows the structure of the household consumption expenditure by the main items in 2010.
+
+<div class="figure">
+<img src="Images/Fig_Share_housing_expenditure.png" alt="Main consumption expenditures of households 2010" width="420" />
+<p class="caption">(\#fig:ShareHousingExpenditure)Main consumption expenditures of households 2010</p>
+</div>
+Sources: Bureau of Labor Statistics; Eurostat; Rosstat; and own presentation.
+
+In the Western countries, the share of housing expenditure, which along with the housing rent includes utilities payments (water, electricity, heating, etc.), represents the largest component of the private household budget. In Russia, it occupies the third position, while the food and clothing expenditures are on the first and the second positions, respectively. While in the Western countries, the share of housing expenses varies between 20 and 35\% (the share of housing rent, also denoted as **rent burden**, is lower), in Russia it is below 10\%. Note that the inverse of the price-to-rent ratio is the gross rental yield, that is, the rate of return on housing.
+
+Figure \@ref(fig:HousingRentalShareRussia) displays the evolution of the share of housing expenditure in Russia between 1970 and 2015.
+
+<div class="figure">
+<img src="03-Market_files/figure-html/HousingRentalShareRussia-1.png" alt="Share of housing expenditure in Russia, 1970--2019" width="672" />
+<p class="caption">(\#fig:HousingRentalShareRussia)Share of housing expenditure in Russia, 1970--2019</p>
+</div>
+
+During the late Soviet period, most Russian citizens lived in the cities in the rental dwellings. At that time, the main landlord was the state and the rents were controlled at an artificially low levels. This explains a very low and stagnating rent burden between 1970 and 1990. In the early 1990s, most part of the housing stock was in the municipal ownership and the rents for the municipal dwellings were fixed in order to prevent the social turmoil. By contrast, other consumer prices were liberalized and rose enormously during the hyperinflation period. This explains the plummeting rent burden in the first half of the 1990s. Since then, the rental share significantly increases, although it still does not attain the levels observed in the Western countries.
+
+Using the so-called Schwabe's law (*Schwabesches Gesetz*) the economists describe a negative relation between the income and the rent burden often observed in the empirical studies: the poorer the person (household) the larger the share of housing expenditure in his total expenditure. This empirical regularity was observed by a German statistician Hermann Schwabe (1830--1874); see @Schwabe_1868.
+
+This is similar to the so-called Engel law, according to which the share of food expenditure diminishes as the income increases. Figure \@ref(fig:EngelCurve) depicts an Engel curve for housing.
+
+<div class="figure">
+<img src="03-Market_files/figure-html/EngelCurve-1.png" alt="Engel curve for housing" width="672" />
+<p class="caption">(\#fig:EngelCurve)Engel curve for housing</p>
+</div>
+
+
+\begin{figure}[htbp]
+\captionsetup{font=large}
+\caption{\label{fig:Engel curve}}
+\centering{}\includegraphics[scale=0.7]{D:/KKholodilin/VShE/Draft/Housecon/Fig_Engel_curve_en.pdf}
+\end{figure}
+The thick lines are the indifference curves defined for housing, $h$, and some non-housing good, $x$. The thin straight lines denote the budget lines: $y=p_x x + p_h h$, where $y$ is the household's income; $p_x$ is the price of an aggregate consumer good; and $p_h$ is the rental price of housing. For simplicity, let us normalize the rental price of housing to $p_h=1$. The tangency points of the indifference curves and budget lines denote the combinations of $h$ and $x$ the household can afford at the respective budget constraints (income levels). The thick green line that goes through the tangency points is the Engel curve. It demonstrates that at the higher income levels, the household can buy more of both $h$ and $x$. However, the share of rental expenditure in the total expenditure, $\frac{h}{h+p_x x}$, diminishes as the income increases.
+
+Why should the rent burden decline with the increasing income? One explanation is that housing is one of the basic needs (warmth, rest, and safety), in accordance with the Maslow's hierarchy of needs. As income gets higher, the individual satisfies his basic needs and starts spending more on the higher-level needs. Therefore, the share of rental expenses decreases. An important objection to this logic is that the dwelling can also satisfy higher needs (e.g., prestige). Indeed, the rich people tend to buy dwellings that are qualitatively much better than those the poor people can afford. This can lead to the violations of the Schwabe's law.
+
+## Exercises {.unnumbered #sec:ExMarket}
+
+1. Draw the stock-flow model diagrammatically. What happens, if the income decreases? Illustrate this graphically.
+2. Which of the following characteristics are structural and which are locational: poverty rate, number of floors in the building, central heating, noise level, number of trees, spatial density of hairdressers, travel time to the city center?
+3. Find the data on housing prices and household income for three countries, compute the price-to-income ratios, and interpret your results.
+4. Compute the housing affordability index using assumptions in Table \@ref(tab:HAI) and interpret your results.
+
+
+Table: (\#tab:HAI)Assumptions to compute housing affordability index
+
+Assumptions                              Variant 1   Variant 2   Variant 3
+--------------------------------------  ----------  ----------  ----------
+Housing price, ruble per square meter        60000      100000       60000
+Surface, square meter                           50          50         100
+Share of down payment, %                        20          20          20
+Maturity period, years                          15          15          30
+Qualifying ratio, %                             25          25          25
+Household monthly income, rubles             60000       60000       60000
+
+5. Collect data on rent burden in several countries. Compare and interpret the indicators.
+
+
+## Key terms {.unnumbered #sec:KTMarket}
+
+
+---------------------------  ---------------------------  ----------------------------
+housing market               rent burden                  Engel curve                 
+durability of housing        heterogeneity of housing     immobility of housing       
+demand for housing           structural characteristics   locational characteristics  
+housing market equilibrium   supply of housing            housing price               
+residential construction     stock and flow model         completed dwellings         
+natural vacancy rate         housing availability         housing vacancy             
+interest                     housing affordability        maturity                    
+annuity                      principal                    housing affordability index 
+---------------------------  ---------------------------  ----------------------------

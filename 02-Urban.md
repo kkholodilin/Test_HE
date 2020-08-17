@@ -227,7 +227,7 @@ Let us consider first the land use in a monocentric city from the production sid
 
 The production function of a firm can be formulated as follows:
 			
-\begin{equation}\label{eq:Production_function_AMM}
+\begin{equation}
 x = f\Big(K(d), L(d)\Big) 
 		(\#eq:ProductionFunctionAMM)
 \end{equation}
@@ -432,7 +432,7 @@ In Berlin, unlike in St. Petersburg, the population density diminishes in a more
 How does the population gradient look like worldwide. @Bertaud_Malpezzi_2014 investigate the empirics of population gradient for many cities and obtained a number of interesting results. The negative exponential density gradient implied by the urban model fits data well. However, in some cities, large deviations are observed. Seoul is an example of the market economy, but extremely strict land use regulations shape  spatial distribution of its population density. The layout of Brasilia and Moscow is a result of central planning. Brasilia was built in 1960 from the scratch as the new capital of Brazil and was planned using the rationalist ideas of Charles-Edouard Le Corbusier (1887--1965), while Moscow was largely re-designed in the 1930s.^[As a matter of fact, in the early 1930s, in his "Response to Moscow'' Le Corbusier sketched a plan of reconstructing the Soviet capital as a radiant city (*ville radieuse*). Fortunately, this plan was never implemented.]
 Capetown is a city developed under apartheid, which was divided into two cities: one for the whites and another for the colored people.
 
-## Exercises {-}
+## Exercises {.unnumbered #sec:ExUrban}
 
 1. What is a city?
 2. What are statistical issues of identifying cities?
@@ -445,7 +445,7 @@ Capetown is a city developed under apartheid, which was divided into two cities:
 9. What are the predictions of Alonso-Muth-Mills model about households?
 10. What are the general predictions of urban economics about the land use in cities?
 
-## Key terms {-}	
+## Key terms {.unnumbered #sec:KTUrban}	
 
 
 ----------------------  -----------------------------  -----------------------
