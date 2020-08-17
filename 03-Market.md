@@ -57,8 +57,8 @@ Finally, the housing makes up the largest part of the private wealth. This means
 In Sweden, during the post-WWII period, the housing accounted for 50--75\% of the wealth of private households [@Berg_1988]. Figure \@ref(fig:NationalWealthStructureRussia) depicts the structure of the fixed capital of Russia in 2015.
 
 <div class="figure">
-<img src="03-Market_files/figure-html/NationalWealthStructureRussia-1.png" alt="Structure of Russia's fixed capital, end of 20157" width="672" />
-<p class="caption">(\#fig:NationalWealthStructureRussia)Structure of Russia's fixed capital, end of 20157</p>
+<img src="03-Market_files/figure-html/NationalWealthStructureRussia-1.png" alt="Structure of Russia's fixed capital, end of 2015" width="672" />
+<p class="caption">(\#fig:NationalWealthStructureRussia)Structure of Russia's fixed capital, end of 2015</p>
 </div>
 
 As seen, the value of residential buildings accounts for more than 40\% and is about 138.8 trillion rubles.
