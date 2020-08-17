@@ -167,7 +167,7 @@ Between 1870 and 1950s, the real house prices stagnated. It is only since the 19
 
 ## Housing market equilibrium {#sec:Equilibrium}
 
-The establishment of the housing market equilibrium can be illustrated using Figure \@ref(fig:HousingMarketEquilibrium), which depicts the standard stock and flow model. The left panel shows the housing stock, while the right panel display the net change (flow) of the housing stock. Along the horizontal axis, the area of housing in square meters is plotted, whereas the vertical axis shows the rent per square meter. In the short run, the housing supply is determined by the available housing stock and is, therefore, completely inelastic. For this reason, the supply curves in the left panel are depicted as vertical straight lines.
+The establishment of the housing market equilibrium can be illustrated using Figure \@ref(fig:HousingMarketEquilibrium), which depicts the standard stock and flow model. The left panel shows the housing stock, while the right panel displays the net change (flow) of the housing stock. Along the horizontal axis, the area of housing in square meters is plotted, whereas the vertical axis shows the rent per square meter. In the short run, the housing supply is determined by the available housing stock and is, therefore, completely inelastic. For this reason, the supply curves in the left panel are depicted as vertical straight lines.
 
 <div class="figure">
 <img src="03-Market_files/figure-html/HousingMarketEquilibrium-1.png" alt="The stock-flow model" width="672" />

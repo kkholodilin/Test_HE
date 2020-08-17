@@ -154,7 +154,7 @@ Category by population 1000    Number of cities  Population 1000    Share of pop
 Total                                      1100  97,527                                   100.0
 Source: @Rosstat_2012.
 
-Why city sizes are so different? Why do not they converge to some "optimal size"", identical for all cities? The theory of *central places* offers an explanation for this phenomenon. It is a land-use theory that subdivides settlements into classes, according to their importance as central places in the surrounding areas. It was developed in the 1930s by German geographers Walter Christaller (1893--1969) and August Lösch (1906--1945): see @Christaller_1933 in German, @Christaller_1966 in English translation, and @Loesch_1944.
+Why city sizes are so different? Why do not they converge to some "optimal size", identical for all cities? The theory of *central places* offers an explanation for this phenomenon. It is a land-use theory that subdivides settlements into classes, according to their importance as central places in the surrounding areas. It was developed in the 1930s by German geographers Walter Christaller (1893--1969) and August Lösch (1906--1945): see @Christaller_1933 in German, @Christaller_1966 in English translation, and @Loesch_1944.
 
 For simplicity, the theory assumes that the surface is uniform and that the population is evenly distributed across it. No natural or human made obstacles exist that would hinder the movements from one part of the surface to another. Therefore, initially the economic agents are indifferent, where to locate their establishments.
 
@@ -417,7 +417,7 @@ For comparison, consider the spatial distribution of population density in Berli
 </div>
 Sources: Senatsverwaltung für Stadtentwicklung und Wohnen and own representation.
 
-Berlin has a comparable population with that of St. Petersburg: 3.5 vs. 5 million, respectively. However, the population density patterns in both cities is very different. Berlin fits much better into the distribution predicted by the theory. Berlin experienced a large-scale deindustrialization after World War II, since many factories were relocated to West Germany.
+Berlin has a comparable population with that of St. Petersburg: 3.5 vs. 5 million, respectively. However, the population density patterns in both cities are very different. Berlin fits much better into the distribution predicted by the theory. Berlin experienced a large-scale deindustrialization after World War II, since many factories were relocated to West Germany.
 
 Figure \@ref(fig:DistanceDensityBerlin) depicts the population density as a function of distance from the centroid of Berlin.
 
