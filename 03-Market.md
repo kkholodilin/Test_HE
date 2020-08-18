@@ -346,11 +346,6 @@ Figure \@ref(fig:P2YRatiosSelectedOECDCountries) compares the indices of price-t
 <p class="caption">(\#fig:P2YRatiosSelectedOECDCountries)Price-to-income ratio in selected countries, 1970--2020</p>
 </div>
 
-\begin{figure}[htbp]
-	\captionsetup{font=large}
-	\caption{\label{fig:P2Y_ratios_selected_OECD_countries}}
-	\centering{}\includegraphics[scale=0.7]{D:/KKholodilin/VShE/Draft/Housecon/Fig_P2Y_ratios_selected_OECD_countries.pdf}
-\end{figure}
 The indices are set to 100 in 2010. Thus, they do not allow to see the "absolute affordability'', only its dynamics. In most selected countries, the ratios steadily fluctuate in accordance with housing price bubbles. In Russia, the index increased until 2008--2009, when the affordability of housing was the lowest, and since then has been decreasing, which points out to the improving affordability. In Germany, the index was declining until the same inflection point as Russia ---the Great Recession--- and is climbing up.
 
 The price-to-income ratio is a simple to compute measure, which does not require too much information. Its weakness consists in ignoring the mortgage interest rate: The higher the rate the longer the payment period. An alternative measure of affordability of owner-occupied housing is the **housing affordability index** (HAI), which takes care of it. It is the ratio of the qualifying income (the part of income that can be spent on paying out a mortgage debt without endangering other expenses of the household) to the mortgage payment (interest and principal repayment). Formally,
@@ -421,12 +416,6 @@ This is similar to the so-called Engel law, according to which the share of food
 <p class="caption">(\#fig:EngelCurve)Engel curve for housing</p>
 </div>
 
-
-\begin{figure}[htbp]
-\captionsetup{font=large}
-\caption{\label{fig:Engel curve}}
-\centering{}\includegraphics[scale=0.7]{D:/KKholodilin/VShE/Draft/Housecon/Fig_Engel_curve_en.pdf}
-\end{figure}
 The thick lines are the indifference curves defined for housing, $h$, and some non-housing good, $x$. The thin straight lines denote the budget lines: $y=p_x x + p_h h$, where $y$ is the household's income; $p_x$ is the price of an aggregate consumer good; and $p_h$ is the rental price of housing. For simplicity, let us normalize the rental price of housing to $p_h=1$. The tangency points of the indifference curves and budget lines denote the combinations of $h$ and $x$ the household can afford at the respective budget constraints (income levels). The thick green line that goes through the tangency points is the Engel curve. It demonstrates that at the higher income levels, the household can buy more of both $h$ and $x$. However, the share of rental expenditure in the total expenditure, $\frac{h}{h+p_x x}$, diminishes as the income increases.
 
 Why should the rent burden decline with the increasing income? One explanation is that housing is one of the basic needs (warmth, rest, and safety), in accordance with the Maslow's hierarchy of needs. As income gets higher, the individual satisfies his basic needs and starts spending more on the higher-level needs. Therefore, the share of rental expenses decreases. An important objection to this logic is that the dwelling can also satisfy higher needs (e.g., prestige). Indeed, the rich people tend to buy dwellings that are qualitatively much better than those the poor people can afford. This can lead to the violations of the Schwabe's law.
