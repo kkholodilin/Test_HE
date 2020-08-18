@@ -1,5 +1,10 @@
 # Introduction
 
+<div class="figure">
+<iframe src="https://www.youtube.com/embed/qhQGzQPhYp8" width="99%" height="400px" style="border: none;"></iframe>
+<p class="caption">(\#fig:embed2)Salutation of readers</p>
+</div>
+
 This textbook is intended to serve as an introduction into the housing economics for the higher school students and all other persons interested in this topic. It  covers six major topics, which are briefly described below.
 
 Chapter \@ref(ch:Urban) provides an introduction to urban economics. It shows the mportance and main principles of the urban economics. It discusses the emergence and development of cities and describes the urbanization process. Using the theory of central places of Christaller and L\"osch it explains the large differences existing between city sizes. In addition, it takes advantage of the Alonso-Mills-Muth model of land use in the city in order to explain the internal structure of cities. Finally, it presents the evidence of the population and employment density gradient.
