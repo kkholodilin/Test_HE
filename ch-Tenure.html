@@ -169,13 +169,19 @@
 </ul></li>
 <li class="chapter" data-level="6" data-path="ch-Tenure.html"><a href="ch-Tenure.html"><i class="fa fa-check"></i><b>6</b> Housing tenure</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="introduction.html"><a href="introduction.html#introduction"><i class="fa fa-check"></i><b>6.1</b> Introduction</a></li>
+<li class="chapter" data-level="6.1" data-path="ch-Tenure.html"><a href="ch-Tenure.html#sec:IntroductionTenure"><i class="fa fa-check"></i><b>6.1</b> Introduction</a></li>
 <li class="chapter" data-level="6.2" data-path="ch-Tenure.html"><a href="ch-Tenure.html#sec:Tenure"><i class="fa fa-check"></i><b>6.2</b> Types of tenure</a></li>
 <li class="chapter" data-level="6.3" data-path="ch-Tenure.html"><a href="ch-Tenure.html#sec:ImportanceHOR"><i class="fa fa-check"></i><b>6.3</b> The importance of homeownership</a></li>
 <li class="chapter" data-level="6.4" data-path="ch-Tenure.html"><a href="ch-Tenure.html#sec:Choice"><i class="fa fa-check"></i><b>6.4</b> Tenure choice</a>
 <ul>
 <li class="chapter" data-level="6.4.1" data-path="ch-Tenure.html"><a href="ch-Tenure.html#user-cost"><i class="fa fa-check"></i><b>6.4.1</b> User cost</a></li>
+<li class="chapter" data-level="6.4.2" data-path="ch-Tenure.html"><a href="ch-Tenure.html#user-cost-of-owner-occupied-housing"><i class="fa fa-check"></i><b>6.4.2</b> User cost of owner-occupied housing</a></li>
+<li class="chapter" data-level="6.4.3" data-path="ch-Tenure.html"><a href="ch-Tenure.html#user-cost-of-tenant-occupied-housing"><i class="fa fa-check"></i><b>6.4.3</b> User cost of tenant-occupied housing</a></li>
+<li class="chapter" data-level="6.4.4" data-path="ch-Tenure.html"><a href="ch-Tenure.html#tenure-choice-in-the-simple-model"><i class="fa fa-check"></i><b>6.4.4</b> Tenure choice in the simple model</a></li>
 </ul></li>
+<li class="chapter" data-level="6.5" data-path="ch-Tenure.html"><a href="ch-Tenure.html#sec:Variation"><i class="fa fa-check"></i><b>6.5</b> Spatio-temporal variation of the homeownership rates</a></li>
+<li class="chapter" data-level="" data-path="ch-Tenure.html"><a href="ch-Tenure.html#sec:ExTenure"><i class="fa fa-check"></i>Exercises</a></li>
+<li class="chapter" data-level="" data-path="ch-Tenure.html"><a href="ch-Tenure.html#sec:KTTenure"><i class="fa fa-check"></i>Key terms</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="ch-Policy.html"><a href="ch-Policy.html"><i class="fa fa-check"></i><b>7</b> Housing policy</a>
 <ul>
@@ -200,9 +206,9 @@
             <section class="normal" id="section-">
 <div id="ch:Tenure" class="section level1" number="6">
 <h1><span class="header-section-number">Chapter 6</span> Housing tenure</h1>
-<div id="introduction" class="section level2" number="6.1">
+<div id="sec:IntroductionTenure" class="section level2" number="6.1">
 <h2><span class="header-section-number">6.1</span> Introduction</h2>
-<p>In this chapter, we will introduce the notion of housing tenure and will present several tenure types and forms. Then, in section <a href="ch-Tenure.html#sec:ImportanceHOR">6.3</a>, we will concentrate on the homeownership and discuss its importance, advantages and disadvantages. In section <a href="ch-Tenure.html#sec:Choice">6.4</a>, a formal model will be formulated, which tries to explain why and how many people choose to become homeowners and other — tenants. Finally, in section <a href="#sec:Variation"><strong>??</strong></a>, we will show the spatio-temporal variation of the homeownership rate across the world.</p>
+<p>In this chapter, we will introduce the notion of housing tenure and will present several tenure types and forms. Then, in section <a href="ch-Tenure.html#sec:ImportanceHOR">6.3</a>, we will concentrate on the homeownership and discuss its importance, advantages and disadvantages. In section <a href="ch-Tenure.html#sec:Choice">6.4</a>, a formal model will be formulated, which tries to explain why and how many people choose to become homeowners and other — tenants. Finally, in section <a href="ch-Tenure.html#sec:Variation">6.5</a>, we will show the spatio-temporal variation of the homeownership rate across the world.</p>
 </div>
 <div id="sec:Tenure" class="section level2" number="6.2">
 <h2><span class="header-section-number">6.2</span> Types of tenure</h2>
@@ -264,14 +270,431 @@ where <span class="math inline">\(q\)</span> is the amount of housing consumptio
 <span class="math display">\[\begin{equation}
 			(i+h+d-g)v
 \end{equation}\]</span></p>
-
+<p>In many countries, the tax treatment of housing depends on whether the owner himself occupies it or let its out as a landlord. Tables <a href="ch-Tenure.html#tab:TaxTreatmentOfHousingCosts">6.1</a> and <a href="ch-Tenure.html#tab:TaxTreatmentBenefits">6.2</a> present the tax treatment of housing-related costs and benefits, correspondingly.</p>
+<caption>
+<span id="tab:TaxTreatmentOfHousingCosts">Table 6.1: </span> Tax treatment of housing costs
+</caption>
+<table>
+<thead>
+<tr class="header">
+<th>Cost item</th>
+<th align="center">Deductible for owner-occupier?</th>
+<th align="left">Deductible for landlord?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mortgage interest</td>
+<td align="center">yes</td>
+<td align="left">yes</td>
+</tr>
+<tr class="even">
+<td>Property taxes</td>
+<td align="center">yes</td>
+<td align="left">yes</td>
+</tr>
+<tr class="odd">
+<td>Depreciation</td>
+<td align="center">no</td>
+<td align="left">yes</td>
+</tr>
+</tbody>
+</table>
+<p>The treatment is just a stylized example. It corresponds more to the case of the USA and can be different in other countries. In Germany, for example, the mortgage interest is not deductible for the owner-occupiers.</p>
+<caption>
+<span id="tab:TaxTreatmentBenefits">Table 6.2: </span> Tax treatment of housing benefits
+</caption>
+<table>
+<thead>
+<tr class="header">
+<th>Cost item</th>
+<th align="center">Deductible for owner-occupier?</th>
+<th align="left">Deductible for landlord?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rental income or imputed rent</td>
+<td align="center">no</td>
+<td align="left">yes</td>
+</tr>
+<tr class="even">
+<td>Capital gains</td>
+<td align="center">no</td>
+<td align="left">yes</td>
+</tr>
+</tbody>
+</table>
 </div>
+<div id="user-cost-of-owner-occupied-housing" class="section level3" number="6.4.2">
+<h3><span class="header-section-number">6.4.2</span> User cost of owner-occupied housing</h3>
+<p>The user cost of owner-occupied housing is different from that of the tenant. It can be expressed as follows:
+<span class="math display">\[\begin{equation}
+			\Big((1-\tau)(i+h)+d-g\Big)v
+\end{equation}\]</span>
+where <span class="math inline">\(\tau\)</span> is the owner-occupier’s income-tax rate.</p>
+<p>The inflation can substantially affect the user cost. In particular, it can reduce it. Assume that all nominal values increase to equal extent. This means that all prices, including those of the housing, and nominal interest rate grow at the same rate. Let the interest rate grow at <span class="math inline">\(\Delta i\)</span>, so that in the next period the interest rate will be <span class="math inline">\(i + \Delta i\)</span>. Similarly, the market value of dwelling grows at <span class="math inline">\(\Delta g\)</span>, increasing the capital gains up to <span class="math inline">\(g + \Delta g\)</span>. Assume that both the interest rate and the value of housing grow at the same rate of 1% per year: <span class="math inline">\(\Delta i = \Delta g = 0.01\)</span>. Then, as equation <a href="ch-Tenure.html#eq:UserCostInflation">(6.1)</a> shows, the user cost will decrease:</p>
+<p><span class="math display" id="eq:UserCostInflation">\[\begin{equation}
+			\Big((1-\tau)\Delta i-\Delta g\Big)v = \Big((1-\tau)0.01-0.01\Big)v= -0.01\tau v &lt;0
+			\tag{6.1}
+\end{equation}\]</span>
+Thus, inflation makes the owner-occupied housing more attractive. The effect is even stronger in case of a building-up speculative housing price bubble. In that case, the interest rate remains unchanged, <span class="math inline">\(\Delta i = 0\)</span>, while the market value of housing increases <span class="math inline">\(\Delta g&gt;0\)</span>. As a result, the user cost decreases by <span class="math inline">\(-0.01v\)</span>. Given that the tax rate <span class="math inline">\(\tau&lt;1\)</span>, the user cost reduction under speculative price bubble will be larger than in case of inflation. Thus, speculative price increases generate strong incentives to become homeowners.</p>
+</div>
+<div id="user-cost-of-tenant-occupied-housing" class="section level3" number="6.4.3">
+<h3><span class="header-section-number">6.4.3</span> User cost of tenant-occupied housing</h3>
+<p>In order to find the user cost of the rental housing we need to compute the landlord’s profit. The landlord’s after-tax cost of unit of housing is:
+<span class="math display">\[\begin{equation}
+			(1-\lambda)(i+h+d)v
+\end{equation}\]</span>
+where <span class="math inline">\(\lambda\)</span> is the landlord’s income-tax rate. We assume that all costs are tax deductible.
+Then, the landlord’s after-tax capital gain: <span class="math inline">\((1-\lambda)gv\)</span>.
+The landlord’s profit can be calculated as:
+<span class="math display">\[\begin{align}
+			(1-\lambda)p - \Big((1-\lambda)(i+h+d)v - (1-\lambda)gv\Big) \\
+			= (1-\lambda)\Big(p-(i+h+d-g)v \Big)
+\end{align}\]</span>
+where <span class="math inline">\(p\)</span> is the rental price.</p>
+<p>As a rule, despite its heterogeneity, the housing market is characterized by a very high degree of competition. This implies that the competition drives landlord’s (and developer’s) profit to 0:
+<span class="math display">\[\begin{align}
+			(1-\lambda)\Big(p-(i+h+d-g)v \Big)=0
+\end{align}\]</span>
+Of course, it does not mean that the landlord earns no profit at all. As usual in the microeconomic analysis, some <em>fair profit</em> is included in the cost. Therefore, the user cost of rental housing is:
+<span class="math display">\[\begin{equation}
+			p=(i+h+d-g)v
+\end{equation}\]</span>
+This represents the cost borne by the tenant. As can be seen, it does not contain income tax term. Indeed, the user cost of the housing for the tenant does not depend on his income. Here, we consider the housing provided at the market conditions. In chapter <a href="ch-Policy.html#ch:Policy">7</a>, we will briefly discuss the social housing provided to the poor households at special conditions.</p>
+</div>
+<div id="tenure-choice-in-the-simple-model" class="section level3" number="6.4.4">
+<h3><span class="header-section-number">6.4.4</span> Tenure choice in the simple model</h3>
+<p>In deciding whether to rent or to own, the household will choose the cheaper tenure mode. In the basic model,
+<span class="math display">\[\begin{equation}
+			\Big((1-\tau)(i+h)+d-g\Big)v &lt; (i+h+d-g)v
+\end{equation}\]</span>
+since
+<span class="math display">\[\begin{equation}
+			(1-\tau)(i+h) &lt; i+h
+\end{equation}\]</span>
+given that <span class="math inline">\(\tau\in[0,1)\)</span>.
+Hence, household will always choose to be owner-occupier. However, we know that, on average, worldwide 30–40% of households are renters. It means that the simple model that we consider here cannot adequately explain the real-life phenomena, since it misses some important points.</p>
+<p>One way to model the tenure choice in accordance with facts is to use a more realistic assumption on the depreciation deduction. Depreciation rate, <span class="math inline">\(d\)</span>, represents <strong>economic depreciation</strong>, that is, the actual wearing out of buildings. In many countries, however, tax codes allow landlords to deduct <strong>accelerated depreciation</strong>. In this case, the buildings are treated as wearing out faster than they really do. Such accelerated depreciation allowed for tax purposes can be expressed as <span class="math inline">\(d+e\)</span>, where <span class="math inline">\(e\)</span> is the rate of <strong>excess depreciation</strong> over the rate of economic depreciation. Under this assumption, the profit of landlord will look like:
+<span class="math display">\[\begin{align}
+			(1-\lambda)p - \Big((1-\lambda)(i+h+d)v - \lambda ev -(1-\lambda)gv\Big) \\
+			= (1-\lambda)\Big(p-(i+h+d-g)v \Big) +\lambda ev
+\end{align}\]</span></p>
+<p>Again, in a free competitive market, the landlord’s profit must equal 0. Hence, new renter’s user cost (rental price) is:
+<span class="math display">\[\begin{equation}
+			p=(i+h+d-g)v -\frac{\lambda ev}{1-\lambda}
+\end{equation}\]</span></p>
+<p>Thus, the new renter’s user cost is smaller than the previous one by <span class="math inline">\(\frac{\lambda ev}{1-\lambda}\)</span>. The presence of subtracted term reduces the renter’s user cost. It makes unclear which user-cost expression is smaller. Recall that owner-occupier’s user cost depends on income tax rate <span class="math inline">\(\tau\)</span>. This tax rate will differ across households, provided that the country uses a progressive income tax, when tax rate increases as a function of the income.<a href="#fn15" class="footnote-ref" id="fnref15"><sup>15</sup></a> Under progressive schedule, <span class="math inline">\(\tau\)</span> will be low (high) for low-income (high-income) households. Hence, user cost will be lower for higher-income households. By contrast, renter’s user cost does not depend on the household’s income-tax rate.</p>
+<p>Figure <a href="ch-Tenure.html#fig:HousingTenureChoice">6.3</a> displays predictions of the model. The horizontal thick line corresponds to the user cost of homeowner, while the thick line with negative slope reflects the user cost of tenant. They intersect at the tax rate <span class="math inline">\(\hat{\tau}\)</span>. The households with income tax rate lower than <span class="math inline">\(\hat{\tau}\)</span> will opt for being renters, whereas those with higher income will be homeowners. Thus, the society is divided into tenants and homeowners by the income criterion.</p>
+<div class="figure"><span id="fig:HousingTenureChoice"></span>
+<img src="06-Tenure_files/figure-html/HousingTenureChoice-1.png" alt="Housing tenure choice" width="672" />
+<p class="caption">
+Figure 6.3: Housing tenure choice
+</p>
+</div>
+<p>Not all countries have progressive income tax rate. Still, there exist renter households. How to explain their existence? There are several other factors that can create incentives for being tenants.</p>
+<p><em>The expected mobility</em> of homeowner is lower than that of the renters. The reason for this are the substantial transaction costs of buying/selling dwellings. Typically, these costs comprise various fees (for the services of notary, real estate agent, and registration) and taxes (e.g., stamp duty). Figure <a href="ch-Tenure.html#fig:TransactionCostsOECD">6.4</a> shows that transaction costs can account for more than 14% of the purchasing price of a dwelling. Assume that the dwelling is sold for 200,000 euros. In addition to that, the buyer must expend 28,000 euros as transaction costs, the value of a good car. Thus, each time you buy a new house, you give up buying a car. By contrast, the tenant must only pay the costs of moving to a new house plus guarantee, which will be returned to him, and sometimes the real estate agent fee for finding the new dwelling. However, these expenses are negligible in comparison to the transaction costs incurred by the homeowner.</p>
+<div class="figure"><span id="fig:TransactionCostsOECD"></span>
+<img src="Images/Fig_Transaction_costs_OECD.jpg" alt="Transaction costs on buyer in OECD countries, 2009"  />
+<p class="caption">
+Figure 6.4: Transaction costs on buyer in OECD countries, 2009
+</p>
+</div>
+<p>Source: <span class="citation">Sánchez and Andrews (<a href="#ref-sanchez2011residential" role="doc-biblioref">2011</a>)</span>, p. 192.</p>
+<p><em>The pride of ownership</em>. Consumers often take pride in being able to own rather than rent. In many countries, being a homeowner, especially when it is a single-family house, is a matter of prestige. In the USA, it is a part of the American Dream. In Russia, after generations of Soviet citizens had lived in the shared apartments (<em>kommunalki</em>) in the very squeezed conditions, many people strive of having their own dwelling, even if it is a tiny cell in a 30-storeys building, where a couple of thousand other people live.</p>
+<p><em>The risk</em>. Despite the common belief that the real estate is a very safe investment, the real life shows that is not the case. First, the value of the housing can decline as a result of some external event. For example, if a highway or starkly polluting factory is build next to the house. Second, the risk of investing in homeownership is magnified when consumer’s wage is positively correlated with housing prices in his city (e.g., monocity). Assume that you own a dwelling in a town like Pikalyovo, where the major and almost the only employer is a cement factory. Assume also that you work at this factory. What will happen, if the owner decides to shut it down? You will lose your job. But, more than that, your dwelling will become worthless. If you will decide to start a new life elsewhere, you will have to start from zero, since you lost your major asset.</p>
+<p><em>Dislike of home-maintenance tasks</em>. Living in your own house means that you have to do a lot of home maintenance: make little repairing, paint the walls, mow the lawn, if you have one, etc. Therefore, the people who dislike home-maintenance tasks will rather choose to rent.</p>
+<p><em>The down payment</em>. Typically, a home buyer is required to make a substantial down payment. This is the own capital invested by the home buyer. The banks often, although not always, are not eager to finance the full value of the dwelling, because they do not want to bear additional risks. If the home buyer cannot pay his mortgage loan and the value of the house goes down, the bank will be unable to recover its money lent to the home buyer. The household lacking the funds for down payment will not be able to become homeowner. In the previous simpler model, it was assumed that no down payment was needed. Now, we will modify the tenure choice model in the following way: the consumers with income-tax rates below <span class="math inline">\(\hat{\tau}\)</span> will still be renters, while the consumers with income-tax rates above <span class="math inline">\(\hat{\tau}\)</span> would like to be owners, but only patient ones will be able to accumulate the required down payment. Thus, down payment requirement reduces the number of homeowners.</p>
+<p>In order to illustrate the impact of the down payment on the tenure choice, we introduce the notion of the <strong>loan-to-value ratio</strong>, which is the ratio of mortgage loan to the value of the dwelling. Formally, the loan-to-value (LTV) ratio is:
+<span class="math display">\[\begin{equation}
+			LTV = \frac{M}{V} = \frac{1-D}{V}
+\end{equation}\]</span>
+where <span class="math inline">\(M\)</span> is the amount of mortgage loan; <span class="math inline">\(V\)</span> is the value of the dwelling; <span class="math inline">\(D\)</span> is the down payment, or home buyer’s own capital.</p>
+<p>Table <a href="ch-Tenure.html#tab:LTV">6.3</a> reports the LTVs and other housing finance features in some advanced economies.</p>
+<caption>
+<span id="tab:LTV">Table 6.3: </span> Housing finance features in advanced economies, 2008
+</caption>
+<table style="width:100%;">
+<colgroup>
+<col width="28%" />
+<col width="21%" />
+<col width="28%" />
+<col width="21%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Country</th>
+<th align="center">Predominant interest rate type</th>
+<th align="center">Maximum LTV on new loans (%)</th>
+<th align="left">Typical loan term (years)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Australia</td>
+<td align="center">variable</td>
+<td align="center">90–100</td>
+<td align="left">25</td>
+</tr>
+<tr class="even">
+<td>Austria</td>
+<td align="center">fixed</td>
+<td align="center">80</td>
+<td align="left">25–30</td>
+</tr>
+<tr class="odd">
+<td>Belgium | fixe</td>
+<td align="center">fixed</td>
+<td align="center">100</td>
+<td align="left">20</td>
+</tr>
+<tr class="even">
+<td>Canada | mixe</td>
+<td align="center">mixed</td>
+<td align="center">80 (95)</td>
+<td align="left">25–35</td>
+</tr>
+<tr class="odd">
+<td>Denmark | mixe</td>
+<td align="center">mixed</td>
+<td align="center">80</td>
+<td align="left">30</td>
+</tr>
+<tr class="even">
+<td>France | fixe</td>
+<td align="center">fixed</td>
+<td align="center">100</td>
+<td align="left">15–20</td>
+</tr>
+<tr class="odd">
+<td>Germany | fixe</td>
+<td align="center">fixed</td>
+<td align="center">80</td>
+<td align="left">20–30</td>
+</tr>
+<tr class="even">
+<td>Ireland | vari</td>
+<td align="center">variable</td>
+<td align="center">100+</td>
+<td align="left">21–35</td>
+</tr>
+<tr class="odd">
+<td>Italy | mixe</td>
+<td align="center">mixed</td>
+<td align="center">80</td>
+<td align="left">20</td>
+</tr>
+<tr class="even">
+<td>Japan | mixe</td>
+<td align="center">mixed</td>
+<td align="center">70–80</td>
+<td align="left">20–30</td>
+</tr>
+<tr class="odd">
+<td>Netherlands | fixe</td>
+<td align="center">fixed</td>
+<td align="center">125</td>
+<td align="left">30</td>
+</tr>
+<tr class="even">
+<td>Portugal | vari</td>
+<td align="center">variable</td>
+<td align="center">90</td>
+<td align="left">25–35</td>
+</tr>
+<tr class="odd">
+<td>Spain | vari</td>
+<td align="center">variable</td>
+<td align="center">100</td>
+<td align="left">30</td>
+</tr>
+<tr class="even">
+<td>Sweden | vari</td>
+<td align="center">variable</td>
+<td align="center">80–95</td>
+<td align="left">30–45</td>
+</tr>
+<tr class="odd">
+<td>USA | fixe</td>
+<td align="center">fixed</td>
+<td align="center">100+</td>
+<td align="left">30</td>
+</tr>
+</tbody>
+</table>
+<p>Source: <span class="citation">IMF (<a href="#ref-IMF_2011" role="doc-biblioref">2011</a>)</span>, p. 117.</p>
+<p>It shows that the LTV varies from 70 to 125%. This implies that in some countries (e.g., Japan), the home buyer must invest at least 30% of his own capital, in other countries (e.g., Ireland and The Netherlands), the home buyer does not need any own capital and even receives from the bank additional money in excess of the dwelling’s value. With this money the home buyer can make a world tour of buy furniture or even a car.</p>
+</div>
+</div>
+<div id="sec:Variation" class="section level2" number="6.5">
+<h2><span class="header-section-number">6.5</span> Spatio-temporal variation of the homeownership rates</h2>
+<p><strong>The homeownership rate</strong> characterizes how widespread is the homeownership. In the international statistical practice, there are three definitions of the homeownership rate. The homeownership rate is defined as the</p>
+<ol style="list-style-type: decimal">
+<li>share of dwellings occupied by their owners;</li>
+<li>share of households living in their own dwellings (e.g., Germany and USA);</li>
+<li>share of persons living in their own dwellings (e.g., Eurostat).</li>
+</ol>
+<p>In Russia, the official statistics does not provide a measure of the homeownership. It only reports the square meters of the housing, which are in the personal private property. Based on these figures, one can compute the share of housing surface in the personal property with respect to the total housing surface. This is not entirely compatible with the homeownership rates computed by other countries. First, the surface does not perfectly correlate with the number of dwellings or households. Larger dwellings are more likely to be owner occupied. Therefore, the surface-based measure tends to overestimate the homeownership. Second, the property status of a dwelling convey no information on its tenure: it can be own-occupied, rented out, or stay vacant. Hence, the surface-based measure tends to underestimate the homeownership rate. In part, these opposite effects cancel out. This is probably why the surface-based indicator produces the values similar to the homeownership rates computed using the international methodology and the survey data collected for Russia, for example, within the Life in Transition Survey (LITS) conducted by the European Bank for Reconstruction and Development and The Russia Longitudinal Monitoring Survey — Higher School of Economics (RLMS-HSE). Similar estimates are obtained also by other institutions: according to a survey conducted by a Russian analytical center NAFI, in 2017, only 9% of Russians rented their dwellings <span class="citation">(Аналитический центр НАФИ <a href="#ref-NAFI_2017" role="doc-biblioref">2017</a>)</span>.</p>
+<p>Figure <a href="ch-Tenure.html#fig:HORinternational2015">6.5</a> shows the homeownership rates in 18, mostly developed, countries in 2015. It varies from about 50% in Switzerland to approximately 90% in Singapore. The average homeownership rate for these countries is about 70%, which corresponds roughly to the world average value.</p>
+<div class="figure"><span id="fig:HORinternational2015"></span>
+<img src="06-Tenure_files/figure-html/HORinternational2015-1.png" alt="International homeownership rates, 2015" width="672" />
+<p class="caption">
+Figure 6.5: International homeownership rates, 2015
+</p>
+</div>
+<p>Source: <span class="citation">Goodman and Mayer (<a href="#ref-Goodman_Mayer_2018" role="doc-biblioref">2018</a>)</span>.</p>
+<p>Figure <a href="ch-Tenure.html#fig:HOREU2011">6.6</a> focuses on the homeownership rates in 33 European countries in 2011. The European average is much larger than that presented in Figure <a href="ch-Tenure.html#fig:HORinternational2015">6.5</a>.</p>
+<div class="figure"><span id="fig:HOREU2011"></span>
+<img src="06-Tenure_files/figure-html/HOREU2011-1.png" alt="Homeownership in the EU, 2011" width="672" />
+<p class="caption">
+Figure 6.6: Homeownership in the EU, 2011
+</p>
+</div>
+<p>The country with the lowest homeownership rate is again Switzerland, while that with the highest rate is Romania. Note that three German speaking countries have the lowest homeownership rates.</p>
+<p>Figure <a href="ch-Tenure.html#fig:HousingTenureDistribution2014">6.7</a> provides more insights into the housing tenure structure in the OECD countries in 2014. It does not simply divide the whole housing stock into owner- and tenant-occupied housing. Instead, it subdivides the owner-occupied tenure between the own outright and owner with mortgage (owners, who did not pay yet their mortgage debt) and distinguishes between the private and subsidized (social) rental housing.</p>
+<div class="figure"><span id="fig:HousingTenureDistribution2014"></span>
+<img src="Images/Fig_Housing_tenure_distribution_2014-OECD.jpg" alt="Housing tenure distribution, 2014"  />
+<p class="caption">
+Figure 6.7: Housing tenure distribution, 2014
+</p>
+</div>
+<p>Source: OECD Affordable Housing Database, <a href="http://www.oecd.org/social/affordable-housing-database.htm" class="uri">http://www.oecd.org/social/affordable-housing-database.htm</a>.</p>
+<p>In most countries, the share of the own outright occupancy is much higher than that with mortgage. The notable exceptions are the Scandinavian countries and in The Netherlands. For example, in Sweden many households take interest-only loans, where they do not repay the principal of the debt. Also in most cases, the proportion of the private rental housing stock is significantly larger than that of the subsidized rental. By contrast, in Malta the subsidized rental is several times larger than the private one. Large shares of subsidized rental housing are also in Finland, Ireland, France, and the UK. Surprisingly, according to the diagram, The Netherlands has no subsidized rental housing, which contradicts other evidence and, in particular, Figure <a href="#fig:MapSocialHousingStockEU"><strong>??</strong></a>.</p>
+<p>Figure <a href="ch-Tenure.html#fig:MapHOREUregions">6.8</a> shows the geographical distribution of the homeownership rates in the European Union at the NUTS2 regions level,<a href="#fn16" class="footnote-ref" id="fnref16"><sup>16</sup></a> which corresponds, for example to the <em>Regierungsbezirke</em> in Germany and <em>Comunidades aut'onomas</em> in Spain.</p>
+<div class="figure"><span id="fig:MapHOREUregions"></span>
+<img src="06-Tenure_files/figure-html/MapHOREUregions-1.png" alt="Homeownership rates in the EU NUTS2 regions, 2011" width="672" />
+<p class="caption">
+Figure 6.8: Homeownership rates in the EU NUTS2 regions, 2011
+</p>
+</div>
+<p>As seen in the map, the highest homeownership rates are observed in the periphery of the EU, while the lowest ones in its central regions.</p>
+However, the actual homeownership rates are just a snapshot, they have little to do with the rates observed several decades ago. The homeownership rates have changed dramatically. Figure <a href="#fig:HORGermanyEngland"><strong>??</strong></a> illustrates the evolution of homeownership rates in West Germany and England between 1950 and 2019.
+<p>In 1950, the homeownership rates in both countries were below 40%. Interestingly, in the UK, the HOR was substantially lower than in West Germany. Over the next 60 years, the homeownership rate in the UK more than doubled, whereas in West Germany it increased by slightly more than 10 percentage points. Thus, HORs in different countries have evolved differently: in some cases the changes were large, while in other countries only mild changes took place.</p>
+The differences are even more prominent when observed at the city level, as seen in Figure <a href="#fig:HORBerlinMadridZuerich"><strong>??</strong></a>, which shows the evolution of the HORs in Berlin, Madrid, and Zurich between 1900 and 2019.
+\begin{figure}[htbp]
+
+<p>
+\caption*{Sources: 1) Berlin: <span class="citation">Statistisches Amt der Stadt Berlin (<a href="#ref-SASB_1902" role="doc-biblioref">1902</a>)</span>; <span class="citation">Statistisches Amt der Stadt Berlin (<a href="#ref-SASB_1910" role="doc-biblioref">1910</a>)</span>; <span class="citation">Statistisches Amt der Stadt Berlin (<a href="#ref-SASB_1925" role="doc-biblioref">1925</a>)</span>; <span class="citation">Statistisches Bundesamt (<a href="#ref-SBA_2000" role="doc-biblioref">2000</a>)</span>; <span class="citation">Statistisches Bundesamt (<a href="#ref-SBA_2013" role="doc-biblioref">2013</a>)</span>; Destatis; <span class="citation">Blanco Artola (<a href="#ref-BlancoArtola_2012" role="doc-biblioref">2012</a>)</span>; 2) Madrid: Instituto Nacional de Estadistica de Espana; 3) Zurich: Statistik Stadt Zuerich, GWZ; 4) own representation.}
+\end{figure}
+In Berlin, since the beginning of the 20th century, the homeownership rate increased from about 5 to 17%. In Zurich, between 1950 and 1990, the HOR even increased. By contrast, in Madrid a huge surge in the HOR took place, which reversed the relationship between the tenant and homeowners: if in 1950 the vast majority of Madrid households were renting their dwellings, by 2000 almost 80% the dwellings were owner-occupied.</p>
+Historically, private tenancy has dominated large parts of the 20th century: homeownership rates crossed the 50% threshold as early as 1955 in Spain, in 1968 in Portugal, in 1970 in Great Britain, 1982 in France, and 1998 in the Netherlands. Even if the remainder is partially public or municipal housing, private tenancy is not negligible, as public housing has been declining in most countries since the 1970s <span class="citation">(Kohl <a href="#ref-Kohl_2017_Homeownership" role="doc-biblioref">2017</a>)</span>. In general, after World War II and until the Great Recession of 2008–2009, the homeownership rates had been increasing. In the 2010s, they stabilized and even appear to be declining; see Figure <a href="#fig:HORboxplot"><strong>??</strong></a>, which shows the distribution of the HORs worldwide by decades between 1900 and 2010.
+<p>The width of each boxplots represents the number of countries for which HORs in the corresponding decade are available: we have data on very few countries in the first half of the 20th century, and many more for the more recent decades. The thick horizontal line in each box corresponds to the median HOR, while between the lower and upper borders of each box, half of the observations (countries) are contained.</p>
+After we saw how the HORs evolved worldwide, it would be interesting to look at several country cases. Let us first examine the homeownership rates of German regions (<em>Kreise</em>, an analog of Russian municipal districts, <em>rayony</em>) between 1950 and 2011, see Figure <a href="#fig:HORDEKreise"><strong>??</strong></a>. This is a scatter diagram comparing the HORs in two nearest periods, the horizontal axis corresponding to the earliest period, while the vertical axis corresponding to the latest period. Each circle denotes a region: bigger circles are urban regions (<em>kreisfreie Staedte</em>), whereas smaller circles are rural regions (<em>Landkreise</em>).
+<p>For example, black circles depict the HORs in 1950 and 1961. The dotted line is drawn at 45<span class="math inline">\(^0\)</span>. If a point lies on this line, then the HOR did not change, say, between 1950 and 1961. If it lies below (above) this line, then the HOR decreased (increased) between 1950 and 1961. From this diagram several conclusions can be drawn. First, the HORs in the rural areas are substantially higher than HORs in the urban areas: the borderline is somewher at 40%. Second, the HORs decreased only during one period — between 1950 and 1961, which was related to a massive construction of the social rental housing. During all other periods, the HORs increased. A particularly strong increase took place between 1987 and 2011. Third, a tendency toward convergence of the HORs between urban and rural regions can be observed: while urban HORs increased, the rural ones declined.</p>
+<p>Now, let us look at the case of Russia. There is only little obstacle that complicates this task. As mentioned above, the Russian official statistics does not compute the homeownership rate. However, we have seen that the surface-based measure can be a satisfactory approximate for the HOR. Figure <a href="ch-Tenure.html#fig:HORRussia">6.9</a> shows the evolution of this measure in Russia between 1940 and 2017. It shows two HORs: in the urban areas and in the whole country.</p>
+<div class="figure"><span id="fig:HORRussia"></span>
+<img src="06-Tenure_files/figure-html/HORRussia-1.png" alt="HOR (share of personally owned space) in Russia, 1940--2018" width="672" />
+<p class="caption">
+Figure 6.9: HOR (share of personally owned space) in Russia, 1940–2018
+</p>
+</div>
+<p>Sources: CSU RSFSR and Rosstat.</p>
+<p>In 1940, the surface-based proxy for the homeownership rate was at around 30%, which is similar to the HOR in the United Kingdom at that time. During the following 50 years, with an exception of a short period in the late 1950s, the HOR in Russia declined. How can it be explained? First, the Soviet system was ideologically opposed to any form of the private property, in particular, for housing. For example, the Civil code of 1964 imposed various restrictions on the transfer of the privately owned housing. Typically, only small houses with total area not exceeding 60 m<span class="math inline">\(^2\)</span> could be privately owned. Secondly, since the end of the 1950s, a large-scale housing construction program had been implemented, when predominantly large apartment buildings were erected. Thirdly, as seen in Figure <a href="ch-Urban.html#fig:UrbanizationRussia">2.5</a>, in 1959 the parity between the urban and rural population was attained. After that, the majority of the Russian population started to be the urban dwellers. This contributed to the further decrease of the HOR, since homeownership in the cities tends to be smaller than in the country side. After the collapse of the Soviet Union, the opposite trend began. In the early 1990s, Russia, together with many other countries from Eastern and Central Europe, chose the "American way of development’’ and opted for expansion of its homeowner class. In the 1990s, this objective was attained mainly through a mass privatization of the existing housing stock. People were allowed to privatize for free the housing they occupied at the moment of the reform. Since many people were occupying rooms in the shared apartments, they privatized rooms, not entire dwellings. Thus, a unique roomwise homeownership institution emerged. In the 2000s, when the most part of the housing was already privatized, the further expansion of the homeownership started to be fed by the development of the mortgage financing. As a result, the vast majority of Russian population became homeowners. In 2017, the HOR is about 86% in the urban areas and 87% in the whole country. In the rural areas, where single-family houses dominate, the HOR is slightly higher than in the cities. However, between 1980 and 2017 this gap has almost disappeared: it decreased from approximately 14 to 1 percentage point.</p>
+<p>The interregional differences of the HOR in Russia are quite big, as Figure <a href="ch-Tenure.html#fig:MapHORRussia">6.10</a> shows. It displays the surface-based HOR proxy at the subject of federation (oblasts and autonomous republics) level.</p>
+<div class="figure"><span id="fig:MapHORRussia"></span>
+<img src="06-Tenure_files/figure-html/MapHORRussia-1.png" alt="HOR (share of personally owned space) in Russian regions, 2013" width="672" />
+<p class="caption">
+Figure 6.10: HOR (share of personally owned space) in Russian regions, 2013
+</p>
+</div>
+<p>In some regions (for example, in Vologodskaya and Kaliningradskaya oblasts), the HOR is below 50%, while in other regions, especially in the South and in Caucasus, it approaches 100%. The higher homeownership rates in the South can be explained by a larger proportion of the rural population there, becauses these regions are characterized by a larger role played by the agricultural production. And it is known that the rural areas have higher HORs than the urban ones.</p>
+</div>
+<div id="sec:ExTenure" class="section level2 unnumbered">
+<h2>Exercises</h2>
+<ol style="list-style-type: decimal">
+<li>What of the following does not belong to the transaction cost:
+<ol style="list-style-type: lower-alpha">
+<li>the notary fee;</li>
+<li>the income tax;</li>
+<li>the land stamp duty;</li>
+<li>the real estate agent commission;</li>
+<li>the land tax.</li>
+</ol></li>
+<li>The homeownership rate is one of the following:
+<ol style="list-style-type: lower-alpha">
+<li>The ratio of the housing surface in the private property to the surface of the rental housing;</li>
+<li>The ratio of the number of dwellings occupied by their owners to the total surface of all dwellings;</li>
+<li>The ratio of the number of households owning the housing to the total surface of all dwellings;</li>
+<li>The ratio of the number of households owning the housing to the number of dwellings they occupy;</li>
+</ol></li>
+</ol>
+<ol start="5" style="list-style-type: lower-alpha">
+<li>The ratio of the number of dwellings occupied by their owners to the total number of dwellings.</li>
+</ol>
+<ol start="3" style="list-style-type: decimal">
+<li>Assume that the down payment is 500,000 rubles and that the dwelling is worth 4 million ruble. What is the loan-to-value ratio in this case? How will the LTV change if
+<ol style="list-style-type: lower-alpha">
+<li>the interest rate will increase from 10 to 12%?</li>
+<li>the dwelling is sold at a discount of 10%?</li>
+<li>the income of the buyer decreases by 5%?</li>
+</ol></li>
+<li>What happens to the homeownership rate, according to the model of housing tenure choice, if
+<ol style="list-style-type: lower-alpha">
+<li>the homeowner’s income tax rate increases?</li>
+<li>the homeowner’s income tax rate decreases?</li>
+<li>the landlord’s income tax rate decreases?</li>
+<li>the landlord’s income tax rate increases?</li>
+</ol></li>
+<li>How is the homeownership affected by the change in the housing price?</li>
+</ol>
+</div>
+<div id="sec:KTTenure" class="section level2 unnumbered">
+<h2>Key terms</h2>
+<table>
+<tbody>
+<tr class="odd">
+<td align="left">housing tenure</td>
+<td align="left">collective owner occupation</td>
+<td align="left">capital gains</td>
+</tr>
+<tr class="even">
+<td align="left">possession</td>
+<td align="left">private renting</td>
+<td align="left">economic depreciation</td>
+</tr>
+<tr class="odd">
+<td align="left">ownership</td>
+<td align="left">public or social renting</td>
+<td align="left">accelerated depreciation</td>
+</tr>
+<tr class="even">
+<td align="left">homeownership</td>
+<td align="left">condominium property</td>
+<td align="left">transaction cost</td>
+</tr>
+<tr class="odd">
+<td align="left">owner occupied</td>
+<td align="left">user cost</td>
+<td align="left">tenant or renter</td>
+</tr>
+<tr class="even">
+<td align="left">tenant occupied</td>
+<td align="left">mortgage payment</td>
+<td align="left">landlord</td>
+</tr>
+<tr class="odd">
+<td align="left">individual owner occupation</td>
+<td align="left">property taxes</td>
+<td align="left">down payment</td>
+</tr>
+<tr class="even">
+<td align="left">shared-equity owner occupation</td>
+<td align="left">depreciation</td>
+<td align="left">loan-to-value ratio</td>
+</tr>
+</tbody>
+</table>
+
 </div>
 </div>
 <h3>References</h3>
 <div id="refs" class="references">
 <div id="ref-Blanchflower_Oswald_2013">
 <p>Blanchflower, David G, and Andrew J Oswald. 2013. “Does High Home-Ownership Impair the Labor Market?” National Bureau of Economic Research.</p>
+</div>
+<div id="ref-BlancoArtola_2012">
+<p>Blanco Artola, Miguel. 2012. “La Transformación Del Mercado de Alquiler de Fincas Urbanas En España (1920–1960).” <em>Revista Bibliográfica de Geografı́a Y Ciencias Sociales</em> 17 (988).</p>
 </div>
 <div id="ref-Bracke_et_al_2012">
 <p>Bracke, Philippe, Christian Hilber, and Olmo Silva. 2012. “Homeownerhip and Entrepreneurship.” Spatial Economics Research Centre (SERC), London School of Economics and Political Science.</p>
@@ -300,6 +723,9 @@ where <span class="math inline">\(q\)</span> is the amount of housing consumptio
 <div id="ref-Glaeser_Shapiro_2003">
 <p>Glaeser, Edward L, and Jesse M Shapiro. 2003. “The Benefits of the Home Mortgage Interest Deduction.” <em>Tax Policy and the Economy</em> 17: 37–82.</p>
 </div>
+<div id="ref-Goodman_Mayer_2018">
+<p>Goodman, Laurie S, and Christopher Mayer. 2018. “Homeownership and the American Dream.” <em>Journal of Economic Perspectives</em> 32 (1): 31–58.</p>
+</div>
 <div id="ref-Green_White_1997">
 <p>Green, Richard K, and Michelle J White. 1997. “Measuring the Benefits of Homeowning: Effects on Children.” <em>Journal of Urban Economics</em> 41 (3): 441–61.</p>
 </div>
@@ -309,8 +735,14 @@ where <span class="math inline">\(q\)</span> is the amount of housing consumptio
 <div id="ref-Huber_et_al_2017">
 <p>Huber, Peter, Josef Montag, Hana Marie Smrčková, and Petr Sunega. 2017. “Homeownership, Mobility, and Unemployment: Evidence from Privatization in Transition Countries.” mimeo.</p>
 </div>
+<div id="ref-IMF_2011">
+<p>IMF. 2011. “Global Financial Stability Report Durable Financial Stability Getting There from Here.” International Monetary Fund Washington DC.</p>
+</div>
 <div id="ref-Jorda_et_al_2016">
 <p>Jordà, Òscar, Moritz Schularick, and Alan M Taylor. 2016. “The Great Mortgaging: Housing Finance, Crises and Business Cycles.” <em>Economic Policy</em> 31 (85): 107–52.</p>
+</div>
+<div id="ref-Kohl_2017_Homeownership">
+<p>Kohl, Sebastian. 2017. <em>Homeownership, Renting and Society: Historical and Comparative Perspectives</em>. London: Routledge.</p>
 </div>
 <div id="ref-Kortelainen_Saarimaa_2015">
 <p>Kortelainen, Mika, and Tuukka Saarimaa. 2015. “Do Urban Neighborhoods Benefit from Homeowners? Evidence from Housing Prices.” <em>The Scandinavian Journal of Economics</em> 117 (1): 28–56.</p>
@@ -342,17 +774,40 @@ where <span class="math inline">\(q\)</span> is the amount of housing consumptio
 <div id="ref-Ruenstler_2016">
 <p>Rünstler, Gerhard. 2016. “How Distinct Are Financial Cycles from Business Cycles?” <em>Research Bulletin</em> 26: 1. <a href="https://EconPapers.repec.org/RePEc:ecb:ecbrbu:2016:00..">https://EconPapers.repec.org/RePEc:ecb:ecbrbu:2016:00..</a></p>
 </div>
+<div id="ref-sanchez2011residential">
+<p>Sánchez, Aida Caldera, and Dan Andrews. 2011. “Residential Mobility and Public Policy in OECD Countries.” <em>OECD Journal: Economic Studies</em> 2011 (1): 185–206.</p>
+</div>
 <div id="ref-Sisksio_1990">
 <p>Siskiö, O. 1990. “Learning from Tenure: An International Comparison of the Meaning of Tenure in Nine European Countries — East and West.” <em>Housing Evaluation.</em> Housing evaluation. Rotterdam: CIB Proceedings, publication 118.</p>
 </div>
+<div id="ref-SASB_1902">
+<p>Statistisches Amt der Stadt Berlin. 1902. <em>Die Grundstücks-Aufnahme Ende Oktober 1900 sowie die Wohnungs- und die Bevölkerungs-Aufnahme vom 1. Dezember 1900 in Berlin und dreiundzwanzig Nachbargemeinden</em>. Berlin: Puttkammer und Mühlbrecht.</p>
+</div>
+<div id="ref-SASB_1910">
+<p>Statistisches Amt der Stadt Berlin. 1910. <em>Die Grundstücks-Aufnahme vom Ende Oktober 1905 sowie die Wohnungs- und die Bevölkerungs-Aufnahme vom 1. Dezember 1905 in der Stadt Berlin und 29 benachbarten Gemeinden</em>. Berlin: Puttkammer und Mühlbrecht.</p>
+</div>
+<div id="ref-SASB_1925">
+<p>Statistisches Amt der Stadt Berlin. 1925. <em>Die Grundstücks- und Wohnungsaufnahme sowie die Volks-, Berufs- und Betriebszählung in Berlin im Jahre 1925, Heft 3, Nr. 5</em>. Berlin: Puttkammer und Mühlbrecht.</p>
+</div>
+<div id="ref-SBA_2000">
+<p>Statistisches Bundesamt. 2000. <em>50 Jahre Wohnen in Deutschland</em>. Metzler-Poeschel Stuttgart.</p>
+</div>
+<div id="ref-SBA_2013">
+<p>Statistisches Bundesamt. 2013. <em>Erste Ergebnisse des Zensus 2011 für Gebäude und Wohnungen. Ausgewählte Daten für Gemeinden</em>. Wiesbaden.</p>
+</div>
 <div id="ref-Stein_1995">
 <p>Stein, Jeremy C. 1995. “Prices and Trading Volume in the Housing Market: A Model with down-Payment Effects.” <em>The Quarterly Journal of Economics</em> 110 (2): 379–406.</p>
+</div>
+<div id="ref-NAFI_2017">
+<p>Аналитический центр НАФИ. 2017. “Спрос на съёмное жилье не растёт.”</p>
 </div>
 </div>
 <div class="footnotes">
 <hr />
 <ol start="14">
 <li id="fn14"><p>More on speculative asset price bubbles see in Chapter <a href="ch-Bubbles.html#ch:Bubbles">5</a>.<a href="ch-Tenure.html#fnref14" class="footnote-back">↩︎</a></p></li>
+<li id="fn15"><p>In Russia, the income tax has a constant rate. Is this probably a reason for a very high homeownership rate in Russia, see Figure <a href="ch-Tenure.html#fig:HORRussia">6.9</a>.<a href="ch-Tenure.html#fnref15" class="footnote-back">↩︎</a></p></li>
+<li id="fn16"><p>The abbreviation NUTS stands for the Nomenclature of Territorial Units for Statistics (from French: <em>Nomenclature des unites territoriales statistiques</em>) and is a geocode standard for referencing the subdivisions of the EU countries for statistical purposes.<a href="ch-Tenure.html#fnref16" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
             </section>

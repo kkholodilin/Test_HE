@@ -155,7 +155,7 @@ The parameter estimates for different logarithmic transformations have different
 For example, in case of the linear model, a change of the explanatory variable by one unit leads to the change of the dependent variable by $\beta$ units. If the dependent variable is the purchasing price per square meter in rubles and the explanatory variable in question is the number of rooms and $\beta=2000$, then the increase of this number by one will result in the increase of the square-meter price by 2000 rubles.
 
 ## Repeated-measures index {#sec:Repeated}
-The hedonic approach employs information on large number of heterogeneous dwellings and estimates the coefficients that measure the contribution of different characteristics of dwellings to their value. However, the accuracy of these coefficients is not perfect, given the uncertainties related to the statistical estimates. @Bailey_et_al_1963 suggested to take advantage of information on the same dwellings sold more than once. Therefore, their method is called the **repeated-measures index*, or **repeat-sales index**. A good housing price index must capture price increase unrelated to change in quality. This increase can be best isolated by comparing similar dwellings and nothing is more similar than the same dwellings.
+The hedonic approach employs information on large number of heterogeneous dwellings and estimates the coefficients that measure the contribution of different characteristics of dwellings to their value. However, the accuracy of these coefficients is not perfect, given the uncertainties related to the statistical estimates. @Bailey_et_al_1963 suggested to take advantage of information on the same dwellings sold more than once. Therefore, their method is called the **repeated-measures index**, or **repeat-sales index**. A good housing price index must capture price increase unrelated to change in quality. This increase can be best isolated by comparing similar dwellings and nothing is more similar than the same dwellings.
 
 The repeated-measures method has two main advantages. First, it more accurately accounts for characteristics of properties. Second, it does not require the measurement of quality. The method has the following two disadvantages. First, it implies a waste of data, since in most data sets only a small proportion of all housing transactions  reappear and are used in the repeated-measures method. Second, such observations are possibly not representative of general population.
 
@@ -183,17 +183,14 @@ D_{it}=\left\{ \begin{array}{c}
 {}-1\mbox{, if } t = t_0
 \end{array} \right.
 \]
-The OLS regression of the ratio of log prices on $D_{it}$ produces predicted values $\hat{\beta}_t$ for each year, which correspond to the growth rate of the index
-relative to the base year. Finally, the house price index is obtained as:
+The OLS regression of the ratio of log prices on $D_{it}$ produces predicted values $\hat{\beta}_t$ for each year, which correspond to the growth rate of the index relative to the base year. Finally, the house price index is obtained as:
 \begin{equation}
 	\hat{P}_t = 100 \times \exp(\hat{\beta}_t)
 \end{equation}
 
 As a further development of the repeated-measures index, @Case_Shiller_1987 suggested a **weighted repeat sales** index (WRS). Their index has the following motivation. The standard repeat sales index relies upon two assumptions: first, the noise term, $\varepsilon_{it}$, is uncorrelated across houses and through time; and, second, its variance, $\sigma^2_{\varepsilon}$, is constant. However, the variance of error term is not constant across houses. It is likely to be related to the interval of time between sales. Thus, homes sold after long time intervals have great influence on the index relative to homes sold over short time intervals. Therefore, such long time interval observations should be given less weight.
 
-The drift through time of individual house values occurs due to random differences in the amount of upkeep expended across houses or to random changes in neighborhood quality.
-
-Formally, the Case-Shiller WRS index can be expressed as:
+The drift through time of individual house values occurs due to random differences in the amount of upkeep expended across houses or to random changes in neighborhood quality. Formally, the Case-Shiller WRS index can be expressed as:
 		
 \begin{equation}
 		p_{it} = a_{it} + b_t + \varepsilon_{it}
@@ -229,7 +226,7 @@ The spatial dependence means that the closer the objects are to each other the s
 In mathematical terms:
 	
 \begin{eqnarray}
-		p_i = f(p_j) & i = 1,\ldots,N & j \neq i
+		p_i = f(p_j) & \mbox{ } i = 1,\ldots,N & j \neq i
 \end{eqnarray}
 Thus, the price of dwelling $i$ depends on the price of dwelling $j$. Moreover, this dependence gets stronger the closer dwelling $i$ to the dwelling $j$. The proximity between dwellings can be measured using different means. One example is the direct distance between them. The failure to account for the spatial dependence can lead to the inefficiency and/or biasedness and inconsistency of the parameter estimates.
 

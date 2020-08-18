@@ -169,13 +169,19 @@
 </ul></li>
 <li class="chapter" data-level="6" data-path="ch-Tenure.html"><a href="ch-Tenure.html"><i class="fa fa-check"></i><b>6</b> Housing tenure</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="introduction.html"><a href="introduction.html#introduction"><i class="fa fa-check"></i><b>6.1</b> Introduction</a></li>
+<li class="chapter" data-level="6.1" data-path="ch-Tenure.html"><a href="ch-Tenure.html#sec:IntroductionTenure"><i class="fa fa-check"></i><b>6.1</b> Introduction</a></li>
 <li class="chapter" data-level="6.2" data-path="ch-Tenure.html"><a href="ch-Tenure.html#sec:Tenure"><i class="fa fa-check"></i><b>6.2</b> Types of tenure</a></li>
 <li class="chapter" data-level="6.3" data-path="ch-Tenure.html"><a href="ch-Tenure.html#sec:ImportanceHOR"><i class="fa fa-check"></i><b>6.3</b> The importance of homeownership</a></li>
 <li class="chapter" data-level="6.4" data-path="ch-Tenure.html"><a href="ch-Tenure.html#sec:Choice"><i class="fa fa-check"></i><b>6.4</b> Tenure choice</a>
 <ul>
 <li class="chapter" data-level="6.4.1" data-path="ch-Tenure.html"><a href="ch-Tenure.html#user-cost"><i class="fa fa-check"></i><b>6.4.1</b> User cost</a></li>
+<li class="chapter" data-level="6.4.2" data-path="ch-Tenure.html"><a href="ch-Tenure.html#user-cost-of-owner-occupied-housing"><i class="fa fa-check"></i><b>6.4.2</b> User cost of owner-occupied housing</a></li>
+<li class="chapter" data-level="6.4.3" data-path="ch-Tenure.html"><a href="ch-Tenure.html#user-cost-of-tenant-occupied-housing"><i class="fa fa-check"></i><b>6.4.3</b> User cost of tenant-occupied housing</a></li>
+<li class="chapter" data-level="6.4.4" data-path="ch-Tenure.html"><a href="ch-Tenure.html#tenure-choice-in-the-simple-model"><i class="fa fa-check"></i><b>6.4.4</b> Tenure choice in the simple model</a></li>
 </ul></li>
+<li class="chapter" data-level="6.5" data-path="ch-Tenure.html"><a href="ch-Tenure.html#sec:Variation"><i class="fa fa-check"></i><b>6.5</b> Spatio-temporal variation of the homeownership rates</a></li>
+<li class="chapter" data-level="" data-path="ch-Tenure.html"><a href="ch-Tenure.html#sec:ExTenure"><i class="fa fa-check"></i>Exercises</a></li>
+<li class="chapter" data-level="" data-path="ch-Tenure.html"><a href="ch-Tenure.html#sec:KTTenure"><i class="fa fa-check"></i>Key terms</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="ch-Policy.html"><a href="ch-Policy.html"><i class="fa fa-check"></i><b>7</b> Housing policy</a>
 <ul>
@@ -346,7 +352,7 @@ where <span class="math inline">\(\lambda\)</span> is a non-linearity parameter.
 </div>
 <div id="sec:Repeated" class="section level2" number="4.5">
 <h2><span class="header-section-number">4.5</span> Repeated-measures index</h2>
-<p>The hedonic approach employs information on large number of heterogeneous dwellings and estimates the coefficients that measure the contribution of different characteristics of dwellings to their value. However, the accuracy of these coefficients is not perfect, given the uncertainties related to the statistical estimates. <span class="citation">Bailey, Muth, and Nourse (<a href="#ref-Bailey_et_al_1963" role="doc-biblioref">1963</a>)</span> suggested to take advantage of information on the same dwellings sold more than once. Therefore, their method is called the **repeated-measures index*, or <strong>repeat-sales index</strong>. A good housing price index must capture price increase unrelated to change in quality. This increase can be best isolated by comparing similar dwellings and nothing is more similar than the same dwellings.</p>
+<p>The hedonic approach employs information on large number of heterogeneous dwellings and estimates the coefficients that measure the contribution of different characteristics of dwellings to their value. However, the accuracy of these coefficients is not perfect, given the uncertainties related to the statistical estimates. <span class="citation">Bailey, Muth, and Nourse (<a href="#ref-Bailey_et_al_1963" role="doc-biblioref">1963</a>)</span> suggested to take advantage of information on the same dwellings sold more than once. Therefore, their method is called the <strong>repeated-measures index</strong>, or <strong>repeat-sales index</strong>. A good housing price index must capture price increase unrelated to change in quality. This increase can be best isolated by comparing similar dwellings and nothing is more similar than the same dwellings.</p>
 <p>The repeated-measures method has two main advantages. First, it more accurately accounts for characteristics of properties. Second, it does not require the measurement of quality. The method has the following two disadvantages. First, it implies a waste of data, since in most data sets only a small proportion of all housing transactions reappear and are used in the repeated-measures method. Second, such observations are possibly not representative of general population.</p>
 <p>According to the methodology of the repeated-measures index, the price of <span class="math inline">\(i\)</span>-th dwelling in period <span class="math inline">\(t\)</span> can be decomposed as:</p>
 <p><span class="math display">\[\begin{equation}
@@ -368,14 +374,12 @@ D_{it}=\left\{ \begin{array}{c}
 {}-1\mbox{, if } t = t_0
 \end{array} \right.
 \]</span>
-The OLS regression of the ratio of log prices on <span class="math inline">\(D_{it}\)</span> produces predicted values <span class="math inline">\(\hat{\beta}_t\)</span> for each year, which correspond to the growth rate of the index
-relative to the base year. Finally, the house price index is obtained as:
+The OLS regression of the ratio of log prices on <span class="math inline">\(D_{it}\)</span> produces predicted values <span class="math inline">\(\hat{\beta}_t\)</span> for each year, which correspond to the growth rate of the index relative to the base year. Finally, the house price index is obtained as:
 <span class="math display">\[\begin{equation}
 	\hat{P}_t = 100 \times \exp(\hat{\beta}_t)
 \end{equation}\]</span></p>
 <p>As a further development of the repeated-measures index, <span class="citation">Case and Shiller (<a href="#ref-Case_Shiller_1987" role="doc-biblioref">1987</a>)</span> suggested a <strong>weighted repeat sales</strong> index (WRS). Their index has the following motivation. The standard repeat sales index relies upon two assumptions: first, the noise term, <span class="math inline">\(\varepsilon_{it}\)</span>, is uncorrelated across houses and through time; and, second, its variance, <span class="math inline">\(\sigma^2_{\varepsilon}\)</span>, is constant. However, the variance of error term is not constant across houses. It is likely to be related to the interval of time between sales. Thus, homes sold after long time intervals have great influence on the index relative to homes sold over short time intervals. Therefore, such long time interval observations should be given less weight.</p>
-<p>The drift through time of individual house values occurs due to random differences in the amount of upkeep expended across houses or to random changes in neighborhood quality.</p>
-<p>Formally, the Case-Shiller WRS index can be expressed as:</p>
+<p>The drift through time of individual house values occurs due to random differences in the amount of upkeep expended across houses or to random changes in neighborhood quality. Formally, the Case-Shiller WRS index can be expressed as:</p>
 <p><span class="math display">\[\begin{equation}
 		p_{it} = a_{it} + b_t + \varepsilon_{it}
 \end{equation}\]</span>
@@ -404,7 +408,7 @@ where <span class="math inline">\(p_i\)</span> is the price for dwelling <span c
 <p>The spatial dependence means that the closer the objects are to each other the stronger they are correlated. Why this may be the case? The objects located next to each other tend to be subject to the same influences. For example, two dwellings situated in the same building depend on its state and, hence, are more closely related to each other than to the dwellings in a different building. Two dwellings located in the same neighborhood are subject to the impact of pretty the same socio-economic, demographic, climatic, ecological, and other characteristics of the neighborhood. The farther the two dwellings are from each other the less common impacts they share and, therefore, the less they are dependent on each other. For example, this dependence can be reflected in the values of dwellings.</p>
 <p>In mathematical terms:</p>
 <p><span class="math display">\[\begin{eqnarray}
-		p_i = f(p_j) &amp; i = 1,\ldots,N &amp; j \neq i
+		p_i = f(p_j) &amp; \mbox{ } i = 1,\ldots,N &amp; j \neq i
 \end{eqnarray}\]</span>
 Thus, the price of dwelling <span class="math inline">\(i\)</span> depends on the price of dwelling <span class="math inline">\(j\)</span>. Moreover, this dependence gets stronger the closer dwelling <span class="math inline">\(i\)</span> to the dwelling <span class="math inline">\(j\)</span>. The proximity between dwellings can be measured using different means. One example is the direct distance between them. The failure to account for the spatial dependence can lead to the inefficiency and/or biasedness and inconsistency of the parameter estimates.</p>
 <p>The general spatial model can be formulated as follows:</p>
