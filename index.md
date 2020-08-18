@@ -15,7 +15,7 @@ biblio-style: apalike
 
 # Preface {-}
 
-This is the very first part of the book.
+Dear future reader of this book, I am happy to welcome you here! I hope that the reading will be interesting and instructive.
 
 
 
