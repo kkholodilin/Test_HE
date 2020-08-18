@@ -151,7 +151,7 @@ The basic idea of the test is to analyze the roots of an autoregressive process.
 Figure \@ref(fig:RandomWalkExplosiveProcess) compares two artificially generated time series: a random walk and an explosive process.
 
 <div class="figure">
-<img src="Images/Fig_Random_walk_vs_Explosive_process.png" alt="Random walk vs. explosive process" width="354" />
+<img src="05-Bubbles_files/figure-html/RandomWalkExplosiveProcess-1.png" alt="Random walk vs. explosive process" width="672" />
 <p class="caption">(\#fig:RandomWalkExplosiveProcess)Random walk vs. explosive process</p>
 </div>
 
@@ -265,7 +265,7 @@ Regression coefficients of linear probability model can be estimated by OLS. The
 Figure \@ref(fig:LPMStylizedExample) shows an example of a LPM estimated for the artificially generated data.
 
 <div class="figure">
-<img src="Images/Fig_LPM_stylized_example.png" alt="Linear probability model" width="356" />
+<img src="05-Bubbles_files/figure-html/LPMStylizedExample-1.png" alt="Linear probability model" width="672" />
 <p class="caption">(\#fig:LPMStylizedExample)Linear probability model</p>
 </div>
 
