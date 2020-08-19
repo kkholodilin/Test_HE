@@ -188,7 +188,7 @@ Not all countries have progressive income tax rate. Still, there exist renter ho
 *The expected mobility* of homeowner is lower than that of the renters. The reason for this are the substantial transaction costs of buying/selling dwellings. Typically, these costs comprise various fees (for the services of notary, real estate agent, and registration) and taxes (e.g., stamp duty). Figure \@ref(fig:TransactionCostsOECD) shows that transaction costs can account for more than 14\% of the purchasing price of a dwelling. Assume that the dwelling is sold for 200,000 euros. In addition to that, the buyer must expend 28,000 euros as transaction costs, the value of a good car. Thus, each time you buy a new house, you give up buying a car. By contrast, the tenant must only pay the costs of moving to a new house plus guarantee, which will be returned to him, and sometimes the real estate agent fee for finding the new dwelling. However, these expenses are negligible in comparison to the transaction costs incurred by the homeowner.
 
 <div class="figure">
-<img src="Images/Fig_Transaction_costs_OECD.jpg" alt="Transaction costs on buyer in OECD countries, 2009"  />
+<img src="Images/Fig_Transaction_costs_OECD_compact.png" alt="Transaction costs on buyer in OECD countries, 2009" width="390" />
 <p class="caption">(\#fig:TransactionCostsOECD)Transaction costs on buyer in OECD countries, 2009</p>
 </div>
 Source: @sanchez2011residential, p. 192.
@@ -210,26 +210,11 @@ where $M$ is the amount of mortgage loan; $V$ is the value of the dwelling; $D$ 
 
 Table \@ref(tab:LTV) reports the LTVs and other housing finance features in some advanced economies.
 
-<caption> (\#tab:LTV) Housing finance features in advanced economies, 2008 </caption>
-
-| Country | Predominant interest rate type | Maximum LTV on new loans (\%) | Typical loan term (years) |
-|-------------|:--------:|:-----------:|:---------|
-| Australia   | variable | 90--100 | 25 |
-| Austria     | fixed    | 80 | 25--30 |
-|	Belgium     | fixed    | 100 | 20 |
-|	Canada      | mixed    | 80 (95) | 25--35 |
-|	Denmark     | mixed    | 80 | 30 |
-|	France      | fixed    | 100 | 15--20 |
-|	Germany     | fixed    | 80 | 20--30 |
-|	Ireland     | variable | 100+ | 21--35 |
-|	Italy       | mixed    | 80 | 20 |
-|	Japan       | mixed    | 70--80 | 20--30 |
-|	Netherlands | fixed    | 125 | 30 |
-|	Portugal    | variable | 90 | 25--35 |
-|	Spain       | variable | 100 | 30 |
-|	Sweden      | variable | 80--95 | 30--45 |
-|	USA         | fixed    | 100+ | 30 |
-
+<table>
+<caption>(#tab:LTV)Housing finance features in advanced economies, 2008</caption>
+</table>
+<!--html_preserve--><div id="htmlwidget-d4be0b625860b01ec6b9" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-d4be0b625860b01ec6b9">{"x":{"filter":"none","data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15"],["Australia","Austria","Belgium","Canada","Denmark","France","Germany","Ireland","Italy","Japan","Netherlands","Portugal","Spain","Sweden","USA"],["variable","fixed","fixed","mixed","mixed","fixed","fixed","variable","mixed","mixed","fixed","variable","variable","variable","fixed"],["90-100","80","100","80 (95)","80","100","80","100+","80","70-80","125","90","100","80-95","100+"],["25","25-30","20","25-35","30","15-20","20-30","21-35","20","20-30","30","25-35","30","30-45","30"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Country<\/th>\n      <th>Predominant interest rate type<\/th>\n      <th>Maximum LTV on new loans percent<\/th>\n      <th>Typical loan term years<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"order":[],"autoWidth":false,"orderClasses":false,"columnDefs":[{"orderable":false,"targets":0}]}},"evals":[],"jsHooks":[]}</script><!--/html_preserve-->
 Source: @IMF_2011, p. 117.
 
 It shows that the LTV varies from 70 to 125\%. This implies that in some countries (e.g., Japan), the home buyer must invest at least 30\% of his own capital, in other countries (e.g., Ireland and The Netherlands), the home buyer does not need any own capital and even receives from the bank additional money in excess of the dwelling's value. With this money the home buyer can make a world tour of buy furniture or even a car.
@@ -252,16 +237,7 @@ Figure \@ref(fig:HORinternational2015) shows the homeownership rates in 18, most
 </div>
 Source: @Goodman_Mayer_2018.
 
-Figure \@ref(fig:HOREU2011) focuses on the homeownership rates in 33 European countries in 2011. The European average is much larger than that presented in Figure \@ref(fig:HORinternational2015).
-
-<div class="figure">
-<img src="06-Tenure_files/figure-html/HOREU2011-1.png" alt="Homeownership in the EU, 2011" width="672" />
-<p class="caption">(\#fig:HOREU2011)Homeownership in the EU, 2011</p>
-</div>
-
-The country with the lowest homeownership rate is again Switzerland, while that with the highest rate is Romania. Note that three German speaking countries have the lowest homeownership rates.
-
-Figure \@ref(fig:HousingTenureDistribution2014) provides more insights into the housing tenure structure in the OECD countries in 2014. It does not simply divide the whole housing stock into owner- and tenant-occupied housing. Instead, it subdivides the owner-occupied tenure between the own outright and owner with mortgage (owners, who did not pay yet their mortgage debt) and distinguishes between the private and subsidized (social) rental housing.
+Figure \@ref(fig:HousingTenureDistribution2014) provides more insights into the housing tenure structure in 37 OECD member states in 2014. It does not simply divide the whole housing stock into owner- and tenant-occupied housing. Instead, it subdivides the owner-occupied tenure between the own outright and owner with mortgage (owners, who did not pay yet their mortgage debt) and distinguishes between the private and subsidized (social) rental housing.
 
 <div class="figure">
 <img src="Images/Fig_Housing_tenure_distribution_2014-OECD.jpg" alt="Housing tenure distribution, 2014"  />
@@ -269,7 +245,7 @@ Figure \@ref(fig:HousingTenureDistribution2014) provides more insights into the 
 </div>
 Source: OECD Affordable Housing Database, http://www.oecd.org/social/affordable-housing-database.htm.
 
-In most countries, the share of the own outright occupancy is much higher than that with mortgage. The notable exceptions are the Scandinavian countries and in The Netherlands. For example, in Sweden many households take interest-only loans, where they do not repay the principal of the debt. Also in most cases, the proportion of the private rental housing stock is significantly larger than that of the subsidized rental. By contrast, in Malta the subsidized rental is several times larger than the private one. Large shares of subsidized rental housing are also in Finland, Ireland, France, and the UK. Surprisingly, according to the diagram, The Netherlands has no subsidized rental housing, which contradicts other evidence and, in particular, Figure \@ref(fig:MapSocialHousingStockEU).
+The country with the lowest homeownership rate is again Switzerland, while that with the highest rate is Romania. Note that three German speaking countries have the lowest homeownership rates. In most countries, the share of the own outright occupancy is much higher than that with mortgage. The notable exceptions are the Scandinavian countries and in The Netherlands. For example, in Sweden many households take interest-only loans, where they do not repay the principal of the debt. Also in most cases, the proportion of the private rental housing stock is significantly larger than that of the subsidized rental. By contrast, in Malta the subsidized rental is several times larger than the private one. Large shares of subsidized rental housing are also in Finland, Ireland, France, and the UK. Surprisingly, according to the diagram, The Netherlands has no subsidized rental housing, which contradicts other evidence and, in particular, Figure \@ref(fig:MapSocialHousingStockEU).
 
 Figure \@ref(fig:MapHOREUregions) shows the geographical distribution of the homeownership rates in the European Union at the NUTS2 regions level,^[The abbreviation NUTS stands for the Nomenclature of Territorial Units for Statistics (from French: *Nomenclature des unites territoriales statistiques*) and is a geocode standard for referencing the subdivisions of the EU countries for statistical purposes.] which corresponds, for example to the *Regierungsbezirke* in Germany and *Comunidades aut\'onomas* in Spain.
 
@@ -281,40 +257,45 @@ Figure \@ref(fig:MapHOREUregions) shows the geographical distribution of the hom
 As seen in the map, the highest homeownership rates are observed in the periphery of the EU, while the lowest ones in its central regions.
 
 However, the actual homeownership rates are just a snapshot, they have little to do with the rates observed several decades ago. The homeownership rates have changed dramatically. Figure \@ref(fig:HORGermanyEngland) illustrates the evolution of homeownership rates in West Germany and England between 1950 and 2019.
-\begin{figure}[htbp]
-\captionsetup{font=large}
-\caption{Homeownership rates in West Germany vs. England, 1950--2019\label{fig:HOR_Germany_vs_England}}
-\centering{}\includegraphics[scale=0.7]{D:/KKholodilin/VShE/Draft/Housecon/Fig_HOR_Germany_vs_England_1950-2019.pdf}
-\caption*{Sources: Gov.uk, Destatis, and own representation.}
-\end{figure}
+
+<div class="figure">
+<img src="06-Tenure_files/figure-html/HORGermanyEngland-1.png" alt="Homeownership rates in West Germany vs. England, 1950--2019" width="672" />
+<p class="caption">(\#fig:HORGermanyEngland)Homeownership rates in West Germany vs. England, 1950--2019</p>
+</div>
+Sources: Gov.uk, Destatis, and own representation.
+
 In 1950, the homeownership rates in both countries were below 40\%. Interestingly, in the UK, the HOR was substantially lower than in West Germany. Over the next 60 years, the homeownership rate in the UK more than doubled, whereas in West Germany it increased by slightly more than 10 percentage points. Thus, HORs in different countries have evolved differently: in some cases the changes were large, while in other countries only mild changes took place.
 
 The differences are even more prominent when observed at the city level, as seen in Figure \@ref(fig:HORBerlinMadridZuerich), which shows the evolution of the HORs in Berlin, Madrid, and Zurich between 1900 and 2019.
-\begin{figure}[htbp]
-\captionsetup{font=large}
-\caption{Homeownership rate in Berlin, Madrid and Z\"urich, 1900--2019\label{fig:HOR_Berlin-Madrid-Zuerich}}
-\centering{}\includegraphics[scale=0.7]{D:/KKholodilin/VShE/Draft/Housecon/Fig_HOR_Berlin-Madrid-Zuerich.pdf}
-\caption*{Sources: 1) Berlin: @SASB_1902; @SASB_1910; @SASB_1925; @SBA_2000; @SBA_2013; Destatis; @BlancoArtola_2012; 2) Madrid: Instituto Nacional de Estadistica de Espana; 3) Zurich: Statistik Stadt Zuerich, GWZ; 4) own representation.}
-\end{figure}
-In Berlin, since the beginning of the 20th century, the homeownership rate increased from about 5 to 17\%. In Zurich, between 1950 and 1990, the HOR even increased. By contrast, in Madrid a huge surge in the HOR took place, which reversed the relationship between the tenant and homeowners: if in 1950 the vast majority of Madrid households were renting their dwellings, by 2000 almost 80\% the dwellings were owner-occupied.
 
-Historically, private tenancy has dominated large parts of the 20th century: homeownership rates crossed the 50\% threshold as early as 1955 in Spain, in 1968 in Portugal, in 1970 in Great Britain, 1982 in France, and 1998 in the Netherlands. Even if the remainder is partially public or municipal housing, private tenancy is not negligible, as public housing has been declining in most countries since the 1970s [@Kohl_2017_Homeownership]. In general, after World War II and until the Great Recession of 2008--2009, the homeownership rates had been increasing. In the 2010s, they stabilized and even appear to be declining; see Figure \@ref(fig:HORboxplot), which shows the distribution of the HORs worldwide by decades between 1900 and 2010. 
-\begin{figure}[htbp]
-\captionsetup{font=large}
-\caption{Evolution of homeownership rate in the world, 1940--2010s\label{fig:HOR_boxplot}}
-\centering{}\includegraphics[scale=0.7]{D:/KKholodilin/MyCodes/Regulation/Draft/Fig_HOR_evolution_world_1940-2010.pdf}
-\end{figure}
+<div class="figure">
+<img src="06-Tenure_files/figure-html/HORBerlinMadridZuerich-1.png" alt="Homeownership rate in Berlin, Madrid and Zurich, 1900--2019" width="672" />
+<p class="caption">(\#fig:HORBerlinMadridZuerich)Homeownership rate in Berlin, Madrid and Zurich, 1900--2019</p>
+</div>
+Sources: 1) Berlin: @SASB_1902; @SASB_1910; @SASB_1925; @SBA_2000; @SBA_2013; Destatis; @BlancoArtola_2012; 2) Madrid: Instituto Nacional de Estadistica de Espana; 3) Zurich: Statistik Stadt Zuerich, GWZ; 4) own representation.
+
+In Berlin, since the beginning of the 20th century, the homeownership rate increased from about 5 to 17\%. In Zurich, the HOR has been the smallest and only slowly increasing. By contrast, in Madrid a huge surge in the HOR took place, which reversed the relationship between the tenant and homeowners: if in 1950 the vast majority of Madrid households were renting their dwellings, by 2000 almost 80\% the dwellings were owner-occupied.
+
+Historically, private tenancy has dominated large parts of the 20th century: homeownership rates crossed the 50\% threshold as early as 1955 in Spain, 1968 in Portugal, 1970 in Great Britain, 1982 in France, and 1998 in the Netherlands. Even if the remainder is partially public or municipal housing, private tenancy is not negligible, as public housing has been declining in most countries since the 1970s [@Kohl_2017_Homeownership]. In general, after World War II and until the Great Recession of 2008--2009, the homeownership rates had been increasing. In the 2010s, they stabilized and even appear to be declining; see Figure \@ref(fig:HORboxplot), which shows the distribution of the HORs worldwide by decades between 1900 and 2010. 
+
+<div class="figure">
+<img src="06-Tenure_files/figure-html/HORboxplot-1.png" alt="Evolution of homeownership rate in the world, 1940--2010s" width="672" />
+<p class="caption">(\#fig:HORboxplot)Evolution of homeownership rate in the world, 1940--2010s</p>
+</div>
+
 The width of each boxplots represents the number of countries for which HORs in the corresponding decade are available: we have data on very few countries in the first half of the 20th century, and many more for the more recent decades. The thick horizontal line in each box corresponds to the median HOR, while between the lower and upper borders of each box, half of the observations (countries) are contained.
 
 After we saw how the HORs evolved worldwide, it would be interesting to look at several country cases. Let us first examine the homeownership rates of German regions (*Kreise*, an analog of Russian municipal districts, *rayony*) between 1950 and 2011, see Figure \@ref(fig:HORDEKreise). This is a scatter diagram comparing the HORs in two nearest periods, the horizontal axis corresponding to the earliest period, while the vertical axis corresponding to the latest period. Each circle denotes a region: bigger circles are urban regions (*kreisfreie Staedte*), whereas smaller circles are rural regions (*Landkreise*).
-\begin{figure}[htbp]
-\captionsetup{font=large}
-\caption{Evolution of HOR in German Kreise, 1950--2011\label{fig:HOR_DE_Kreise}}
-\centering{}\includegraphics[scale=0.7]{D:/KKholodilin/MyCodes/Regulation/Draft/Fig_HOR_Kreise_DE_1950-2011.pdf}
-\end{figure}
+
+<div class="figure">
+<img src="06-Tenure_files/figure-html/HORDEKreise-1.png" alt="Evolution of HOR in German Kreise, 1950--2011" width="672" />
+<p class="caption">(\#fig:HORDEKreise)Evolution of HOR in German Kreise, 1950--2011</p>
+</div>
+Source: Destatis and own representation.
+
 For example, black circles depict the HORs in 1950 and 1961. The dotted line is drawn at 45$^0$. If a point lies on this line, then the HOR did not change, say, between 1950 and 1961. If it lies below (above) this line, then the HOR decreased (increased) between 1950 and 1961. From this diagram several conclusions can be drawn. First, the HORs in the rural areas are substantially higher than HORs in the urban areas: the borderline is somewher at 40\%. Second, the HORs decreased only during one period --- between 1950 and 1961, which was related to a massive construction of the social rental housing. During all other periods, the HORs increased. A particularly strong increase took place between 1987 and 2011. Third, a tendency toward convergence of the HORs between urban and rural regions can be observed: while urban HORs increased, the rural ones declined.
 
-Now, let us look at the case of Russia. There is only little obstacle that complicates this task. As mentioned above, the Russian official statistics does not compute the homeownership rate. However, we have seen that the surface-based measure can be a satisfactory approximate for the HOR. Figure \@ref(fig:HORRussia) shows the evolution of this measure in Russia between 1940 and 2017. It shows two HORs: in the urban areas and in the whole country.
+Now, let us look at the case of Russia. There is only little obstacle that complicates this task. As mentioned above, the Russian official statistics does not compute the homeownership rate. However, we have seen that the surface-based measure can be a satisfactory approximate for the HOR. Figure \@ref(fig:HORRussia) shows the evolution of this measure in Russia between 1940 and 2018. It shows two HORs: in the urban areas and in the whole country.
 
 <div class="figure">
 <img src="06-Tenure_files/figure-html/HORRussia-1.png" alt="HOR (share of personally owned space) in Russia, 1940--2018" width="672" />
@@ -322,7 +303,7 @@ Now, let us look at the case of Russia. There is only little obstacle that compl
 </div>
 Sources: CSU RSFSR and Rosstat.
 
-In 1940, the surface-based proxy for the homeownership rate was at around 30\%, which is similar to the HOR in the United Kingdom at that time. During the following 50 years, with an exception of a short period in the late 1950s, the HOR in Russia declined. How can it be explained? First, the Soviet system was ideologically opposed to any form of the private property, in particular, for housing. For example, the Civil code of 1964 imposed various restrictions on the transfer of the privately owned housing. Typically, only small houses with total area not exceeding 60 m$^2$ could be privately owned. Secondly, since the end of the 1950s, a large-scale housing construction program had been implemented, when predominantly large apartment buildings were erected. Thirdly, as seen in Figure \@ref(fig:UrbanizationRussia), in 1959 the parity between the urban and rural population was attained. After that, the majority of the Russian population started to be the urban dwellers. This contributed to the further decrease of the HOR, since homeownership in the cities tends to be smaller than in the country side. After the collapse of the Soviet Union, the opposite trend began. In the early 1990s, Russia, together with many other countries from Eastern and Central Europe, chose the "American way of development'' and opted for expansion of its homeowner class. In the 1990s, this objective was attained mainly through a mass privatization of the existing housing stock. People were allowed to privatize for free the housing they occupied at the moment of the reform. Since many people were occupying rooms in the shared apartments, they privatized rooms, not entire dwellings. Thus, a unique roomwise homeownership institution emerged. In the 2000s, when the most part of the housing was already privatized, the further expansion of the homeownership started to be fed by the development of the mortgage financing. As a result, the vast majority of Russian population became homeowners. In 2017, the HOR  is about 86\% in the urban areas and 87\% in the whole country. In the rural areas, where single-family houses dominate, the HOR is slightly higher than in the cities. However, between 1980 and 2017 this gap has almost disappeared: it decreased from approximately 14 to 1 percentage point.
+In 1940, the surface-based proxy for the homeownership rate was at around 30\%, which is similar to the HOR in the United Kingdom at that time. During the following 50 years, with an exception of a short period in the late 1950s, the HOR in Russia declined. How can it be explained? First, the Soviet system was ideologically opposed to any form of the private property, in particular, for housing. For example, the Civil code of 1964 imposed various restrictions on the transfer of the privately owned housing. Typically, only small houses with total area not exceeding 60 m$^2$ could be privately owned. Secondly, since the end of the 1950s, a large-scale housing construction program had been implemented, when predominantly large apartment buildings were erected. Thirdly, as seen in Figure \@ref(fig:UrbanizationRussia), in 1959 the parity between the urban and rural population was attained. After that, the majority of the Russian population started to be the urban dwellers. This contributed to the further decrease of the HOR, since homeownership in the cities tends to be smaller than in the country side. After the collapse of the Soviet Union, the opposite trend began. In the early 1990s, Russia, together with many other countries from Eastern and Central Europe, chose the "American way of development'' and opted for expansion of its homeowner class. In the 1990s, this objective was attained mainly through a mass privatization of the existing housing stock. People were allowed to privatize for free the housing they occupied at the moment of the reform. Since many people were occupying rooms in the shared apartments, they privatized rooms, not entire dwellings. Thus, a unique roomwise homeownership institution emerged. In the 2000s, when the most part of the housing was already privatized, the further expansion of the homeownership started to be fed by the development of the mortgage financing. As a result, the vast majority of Russian population became homeowners. In 2018, the HOR  was about 88\% in the urban areas and 89\% in the whole country. In the rural areas, where single-family houses dominate, the HOR is slightly higher than in the cities. However, between 1980 and 2018 this gap has almost disappeared: it decreased from approximately 14 to 1 percentage point.
 
 The interregional differences of the HOR in Russia are quite big, as Figure \@ref(fig:MapHORRussia) shows. It displays the surface-based HOR proxy at the subject of federation (oblasts and autonomous republics) level.
 
@@ -331,12 +312,6 @@ The interregional differences of the HOR in Russia are quite big, as Figure \@re
 <p class="caption">(\#fig:MapHORRussia)HOR (share of personally owned space) in Russian regions, 2013</p>
 </div>
 
-
-\begin{figure}[htbp]
-\captionsetup{font=large}
-\caption{\label{fig:Map_HOR_Russia}}
-\centering{}\includegraphics[scale=0.7]{D:/KKholodilin/VShE/Draft/Housecon/Map_HOR_Russian_regions.pdf}
-\end{figure}
 In some regions (for example, in Vologodskaya and Kaliningradskaya oblasts), the HOR is below 50\%, while in other regions, especially in the South and in Caucasus, it approaches 100\%. The higher homeownership rates in the South can be explained by a larger proportion of the rural population there, becauses these regions are characterized by a larger role played by the agricultural production. And it is known that the rural areas have higher HORs than the urban ones.
 
 
@@ -353,7 +328,7 @@ In some regions (for example, in Vologodskaya and Kaliningradskaya oblasts), the
 	b. The ratio of the number of dwellings occupied by their owners to the total surface of all dwellings;
 	c. The ratio of the number of households owning the housing to the total surface of all dwellings;
 	d. The ratio of the number of households owning the housing to the number of dwellings they occupy;
-  e. The ratio of the number of dwellings occupied by their owners to the total number of dwellings.
+	e. The ratio of the number of dwellings occupied by their owners to the total number of dwellings.
 3. Assume that the down payment is 500,000 rubles and that the dwelling is worth 4 million ruble. What is the loan-to-value ratio in this case? How will the LTV change if
 	a. the interest rate will increase from 10 to 12\%?
 	b. the dwelling is sold at a discount of 10\%?
