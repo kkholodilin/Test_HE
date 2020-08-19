@@ -52,7 +52,7 @@ Figure \@ref(fig:MapSocialHousingStockEU) depicts the share of the social rental
 <img src="07-Policy_files/figure-html/MapSocialHousingStockEU-1.png" alt="Social rental housing as percentage of total housing stock in the EU, 2017" width="672" />
 <p class="caption">(\#fig:MapSocialHousingStockEU)Social rental housing as percentage of total housing stock in the EU, 2017</p>
 </div>
-Source: Housing Europe. State of Housing in the EU 2017.
+Source: @Housing_Europe_2017.
 
 As seen, the highest proportions of social housing are observed in The Netherlands (30\% of the total housing stock) and Austria (24\%), while the lowest are in Cyprus and Greece (0\%). Germany, for example, is in the lower tail of the distribution with its 4.8\%.
 
