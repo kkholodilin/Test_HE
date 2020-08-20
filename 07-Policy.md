@@ -48,15 +48,6 @@ The reasons for such inefficiencies is that both verifying the income levels of 
 
 Figure \@ref(fig:MapSocialHousingStockEU) depicts the share of the social rental housing in the member states of the European Union. 
 
-
-```
-## [1] 111
-```
-
-```
-## [1] 111
-```
-
 <div class="figure">
 <img src="07-Policy_files/figure-html/MapSocialHousingStockEU-1.png" alt="Social rental housing as percentage of total housing stock in the EU, 2017" width="672" />
 <p class="caption">(\#fig:MapSocialHousingStockEU)Social rental housing as percentage of total housing stock in the EU, 2017</p>
