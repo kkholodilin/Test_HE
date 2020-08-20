@@ -62,6 +62,7 @@ Figure \@ref(fig:SocialHousingConstruction) displays the scale of total and soci
 <img src="07-Policy_files/figure-html/SocialHousingConstruction-1.png" alt="Overall vs. social housing construction in Germany and Spain, 1940--2020" width="672" />
 <p class="caption">(\#fig:SocialHousingConstruction)Overall vs. social housing construction in Germany and Spain, 1940--2020</p>
 </div>
+Sources: 1) Germany: Destatis and Fachkommission Wohnungsbaufoerderung; 2) Spain: Ministerio de Fomento and @Belsky_Retsinas_2004_history, p. 18; and own representation.
 
 During certain periods, for instance, in the late 1920s and early 1950s, the social housing construction made up more than a half of total residential building. These were the times of the intensive restrictive regulations that often hindered the private initiative. Therefore, the state had to intervene in order to guarantee the necessary level of housing construction.
 
