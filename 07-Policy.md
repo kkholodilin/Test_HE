@@ -56,14 +56,13 @@ Source: @Housing_Europe_2017.
 
 As seen, the highest proportions of social housing are observed in The Netherlands (30\% of the total housing stock) and Austria (24\%), while the lowest are in Cyprus and Greece (0\%). Germany, for example, is in the lower tail of the distribution with its 4.8\%.
 
-Figure \@ref(fig:SocialHousingConstructionDE) displays the scale of total and social housing construction in thousands of completed or approved dwellings in Germany between 1919 and 2015.
+Figure \@ref(fig:SocialHousingConstruction) displays the scale of total and social housing construction in Germany and Spain between 1940 and 2020. The total residential construction is measured as completed dwellings, while for social housing construction the number of approved dwellings is used.
 
+<div class="figure">
+<img src="07-Policy_files/figure-html/SocialHousingConstruction-1.png" alt="Overall vs. social housing construction in Germany and Spain, 1940--2020" width="672" />
+<p class="caption">(\#fig:SocialHousingConstruction)Overall vs. social housing construction in Germany and Spain, 1940--2020</p>
+</div>
 
-\begin{figure}[htbp]
-	\captionsetup{font=large}
-	\caption{Overall vs. social housing construction in Germany, 1919--2015\label{fig:Social_housing_construction_DE}}
-	\centering{}\includegraphics[scale=0.7]{D:/KKholodilin/VShE/Draft/Housecon/Fig_Social_housing_construction_1913-2015_DE.pdf}
-\end{figure}
 During certain periods, for instance, in the late 1920s and early 1950s, the social housing construction made up more than a half of total residential building. These were the times of the intensive restrictive regulations that often hindered the private initiative. Therefore, the state had to intervene in order to guarantee the necessary level of housing construction.
 
 ### Housing allowances

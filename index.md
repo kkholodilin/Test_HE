@@ -1,7 +1,7 @@
 --- 
 title: 'Lectures on housing economics: A European text'
 author: "Konstantin A. Kholodilin"
-date: "2020-08-19"
+date: "2020-08-20"
 output:
   word_document: default
   pdf_document: default
@@ -21,5 +21,5 @@ Dear future reader of this book, I am happy to welcome you here! I hope that the
 
 <script type="text/javascript">
 title=document.getElementById('header');
-title.innerHTML = '<img src="Images/Fig_Domik.png" alt="Test Image">' + title.innerHTML
+title.innerHTML = '<img src="Images/Fig_Domik_v_cvete.jpg" alt="Test Image">' + title.innerHTML
 </script>

@@ -37,7 +37,7 @@ According to the sales comparison method, the price of a property can be decompo
 \begin{equation}
 	p_i^{SCM} = \sum_{j=1}^J \alpha_j x_{ij}
 \end{equation}
-where $p_i^{SCM}$ is the assessed price of a dwelling; $x_{ij}$ is the value of characteristic $j$ of dwelling $i$; and $\alpha_j$ is the ``shadow price'', or value contribution of characteristic $j$.
+where $p_i^{SCM}$ is the assessed price of a dwelling; $x_{ij}$ is the value of characteristic $j$ of dwelling $i$; and $\alpha_j$ is the "shadow price'', or value contribution of characteristic $j$.
 
 There are some issues related to the sales comparison method. The sales comparison requires sufficiently competitive markets to work well. This implies that the following conditions must be met. First, there must be many buyers and sellers in active competition. Second, no individual should be able to influence prices, i.e., all market agents are price takers. Third, the product traded at the market (e.g., dwelling) should be fairly homogeneous. Fourth, the prices represent equilibrium between supply and demand.
 
