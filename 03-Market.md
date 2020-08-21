@@ -282,7 +282,7 @@ The rent adjustment:
 \end{equation}
 where $r$ is rate of change of nominal rent; $e$ is rate of change of operating expenses; and $v^*$ is natural vacancy rate.
 
-The natural vacancy rate varies strongly from country to country, as seen in Table \@ref(tab:NatVacancyRate); see, for example, @Rink_Wolff_2015_wohnungsleerstand for Germany and @Wilhelmsson_et_al_2011_rent_control for Sweden. This must be taken into account, when forecasting rent.
+The natural vacancy rate varies strongly from country to country, as seen in Table \@ref(tab:NatVacancyRate); see, for example, @Rink_Wolff_2015_wohnungsleerstand for Germany and @Wilhelmsson_et_al_2011_rent_control for Sweden. In the USA, for example, according to the NYS Emergency Tenant Protection Act (1974), a housing emergency can be declared in a municipality, if the vacancy rate there surpasses the 5\% threshold. These country-specific differences must be taken into account, when forecasting rent.
 
 
 Table: (\#tab:NatVacancyRate)Natural vacancy rate in selected countries
