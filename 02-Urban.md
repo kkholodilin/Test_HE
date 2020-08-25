@@ -366,7 +366,7 @@ In urban economics, as distance from city center increases, the land prices decr
 </div>
 Source: @Mayor_London_2015, p. 13.
 
-As seen, the highest proportions (above 40\%) are attained in the central wards, while toward the periphery of the city the share of tenants declines. An inverse picture is obtained, when the proportion of homeowners is depicted.
+As seen, the highest proportions (above 40\%) are attained in the central wards, while toward the periphery of the city the share of tenants declines. An inverse picture is obtained, when the proportion of homeowners is depicted. A similar spatial pattern can be observed also for Rome [@Immobili_Italia_2019, p. 28].
 
 
 ## Density gradient {#sec:Gradient}
