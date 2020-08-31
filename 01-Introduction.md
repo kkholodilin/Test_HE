@@ -1,8 +1,13 @@
 # Introduction
 
 <div class="figure">
-<iframe src="https://www.youtube.com/embed/qhQGzQPhYp8" width="99%" height="400px" style="border: none;"></iframe>
-<p class="caption">(\#fig:embed2)Salutation of readers</p>
+<iframe src="https://www.youtube.com/watch?v=rSUF5i9MI1M" width="99%" height="400px" style="border: none;"></iframe>
+<p class="caption">(\#fig:welcomeEn)Welcome of readers (English)</p>
+</div>
+
+<div class="figure">
+<iframe src="https://www.youtube.com/watch?v=2fj3u87GRbQ" width="99%" height="400px" style="border: none;"></iframe>
+<p class="caption">(\#fig:welcomeRu)Welcome of readers (Russian)</p>
 </div>
 
 This textbook is intended to serve as an introduction into the housing economics for the higher school students and all other persons interested in this topic. It  covers six major topics, which are briefly described below.
