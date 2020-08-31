@@ -1,12 +1,12 @@
 # Introduction
 
 <div class="figure">
-<iframe src="https://www.youtube.com/watch?v=rSUF5i9MI1M" width="99%" height="400px" style="border: none;"></iframe>
+<iframe src="https://www.youtube.com/embed?v=rSUF5i9MI1M" width="99%" height="400px" style="border: none;"></iframe>
 <p class="caption">(\#fig:welcomeEn)Welcome of readers (English)</p>
 </div>
 
 <div class="figure">
-<iframe src="https://www.youtube.com/watch?v=2fj3u87GRbQ" width="99%" height="400px" style="border: none;"></iframe>
+<iframe src="https://www.youtube.com/embed?v=2fj3u87GRbQ" width="99%" height="400px" style="border: none;"></iframe>
 <p class="caption">(\#fig:welcomeRu)Welcome of readers (Russian)</p>
 </div>
 
