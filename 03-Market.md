@@ -200,10 +200,10 @@ Russia differs a lot from other countries. While in Russia, most dwellings has 2
 Figure \@ref(fig:SizeFlatsLargeEuropeanCities) depicts the dwelling sizes in 49 large European cities or capitals. Since no statistical data on the city level could be found, we use the data taken from the Internet advertisements of dwellings for sale. Surely, the structure of the advertized housing must not necessarily be identical to that of the existing total housing stock. Still, it can provide some useful insights in cross-city and cross-country differences.
 
 <div class="figure">
-<img src="Images/Fig_Size_Flats_Large_European_Cities_2012_01-2012_05.png" alt="Size of dwellings in European cities, 2012" width="429" />
+<img src="03-Market_files/figure-html/SizeFlatsLargeEuropeanCities-1.png" alt="Size of dwellings in European cities, 2012" width="672" />
 <p class="caption">(\#fig:SizeFlatsLargeEuropeanCities)Size of dwellings in European cities, 2012</p>
 </div>
-Sources: Internet advertisement on housing sales in various countries.
+Sources: Internet advertisements on sales of dwellings in various countries.
 
 As seen, the quality of advertised flats can vary substantially both across cities and time. Usually, it is correlated with the welfare level, culture, and availability of the free space in each city. For example, flats in Central and Eastern Europe (CEE) are typically smaller (50-60 m$^2$ and 2 rooms), whereas in Western Europe they are much larger (70-90 m$^2$ and 3 rooms), see Figure \@ref(fig:SizeFlatsLargeEuropeanCities), where the CEE cities are denoted by red color. One notable exception is Paris, where a typical flat is about 60 m$^2$ large and has 2 rooms. One can even find the ads of flats as small as 9 m$^2$, which are offered for exorbitant prices in Paris. It is difficult to imagine something like this in Berlin. The flats in cities of non-continental and Nordic countries are also relatively small. The largest flats (about 110 m$^2$ and more than 3 rooms) can be found in Lisbon and Istanbul.
 
@@ -251,13 +251,15 @@ It shows that between 1991 and 2017 the average surface per capita of the existi
 
 
 ## Housing vacancy {#sec:Vacancy}
-Normally, the housing stock is not fully used. There are almost always dwellings that stay vacant. This is similar to the labor market, where some people are unemployed, or to the capital stock, where the production capacities are not fully utilized. Similarly to the labor market, the residential vacancy can be decomposed in two parts: *frictional*, *structural*, and *voluntary* vacancy. 
+Normally, the housing stock is not fully used. There are almost always dwellings that stay vacant. This is similar to the labor market, where some people are unemployed, or to the capital stock, where the production capacities are not fully utilized. Similarly to the labor market, the residential vacancy can be decomposed in two parts: *frictional*, *structural*, *voluntary*, and *cyclical* vacancy. 
 
 The frictional residential vacancy exists because it takes time to find a new tenant for a dwelling, which became empty after a previous tenant left it, or to find a new buyer for an owner-occupied dwelling. This is related to the liquidity and transparency of the market as well as to the transaction costs. For example, the internet portals with advertisements of dwellings for rent must have greatly increased the transparency and probably also reduced the *time on the market*, that is, the period during which the search for a new occupant takes place and, thus, the dwelling is available for potential users. But even so, the internet ads can stay online for several months implying that during this period the dwelling can be vacant. We can only guess how much time did it take to find a new occupant in the pre-internet era, when advertisements where placed on the windows of the property or on the lightposts.
 
 The structural vacancy occurs due to differences in the composition of demand and supply. For instance, there can be many single-person households and very few small dwellings. Thus, there is no enough demand for large dwellings leading to their vacancy. Dwellings can be also structurally vacant because they do not meet the contemporary standards of comfort (e.g., have no central heating in countries, where central heating is a standard, or possess no toilet), are dilapidated, or are located in a very unpopular place (e.g., in a depressive region), so that nobody wants to live there.
 
 The voluntary vacancy is observed, when personal circumstances of the owners prevent them from renting or selling their dwellings. For example, the owner inherited the dwelling and did not yet decide what to do with it. The owner is ill and cannot take care of the dwelling by putting it on the market. The owner does not have any interest in undertaking efforts to place the dwelling on the market. Or he wants to speculate and, therefore, lets the dwelling empty awaiting for prices to increase. The dwelling can be also vacant because it is being renovated. In some cases, the owner can be dead or far away, so that no one knows how to contact him about the dwelling.  
+
+Finally, the cyclical vacancy is related to the economic cycle at the housing market, which can, in turn, be affected or affect the overall business cycle. The improvement of economic conditions leads to an increased demand for housing, which leads to falling vacancies. By contrast, the worsening economic conditions force people to reduce their demand for housing: for example, several households (e.g., adult children with spouses and their parents) moving together in the same dwelling. As a result, the vacancy rates increase.
 
 **The housing vacancy** is the part of housing stock, which is unused:
 
