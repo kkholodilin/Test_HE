@@ -444,7 +444,28 @@ During the late Soviet period, most Russian citizens lived in the cities in the 
 
 Using the so-called Schwabe's law (*Schwabesches Gesetz*) the economists describe a negative relation between the income and the rent burden often observed in the empirical studies: the poorer the person (household) the larger the share of housing expenditure in his total expenditure. This empirical regularity was observed by a German statistician Hermann Schwabe (1830--1874); see @Schwabe_1868.
 
-This is similar to the so-called Engel law, according to which the share of food expenditure diminishes as the income increases. Figure \@ref(fig:EngelCurve) depicts an Engel curve for housing.
+Despite being discovered in the late 19th century, the Schwabe's law appears to be still valid in the 2010s, as Table \@ref(tab:RentalBurdenQuintiles) shows.
+
+
+Table: (\#tab:RentalBurdenQuintiles)Rental burden in selected countries by per-capita total current income quintiles, %
+
+Country                    Q1     Q2     Q3     Q4     Q5
+----------------------  -----  -----  -----  -----  -----
+Australia, 2014          26.7   28.4   27.4   25.0   18.7
+Belgium, 2016            30.3   27.9   26.7   24.6   20.0
+Germany, 2016            30.5   27.9   26.5   24.3   19.9
+Ireland, 2016            21.9   21.3   20.3   17.8   17.8
+Italy, 2016              23.9   22.3   21.8   21.1   19.5
+The Netherlands, 2013    27.5   25.7   24.6   25.6   24.7
+Spain, 2016              36.4   32.2   30.2   27.5   23.7
+Switzerland, 2016        19.3   17.4   16.8   15.6   12.0
+United Kingdom, 2016     19.3   19.6   17.9   17.8   18.6
+
+Source: Luxembourg Income Study and own calculations.
+
+In most countries, the households in the first quintile of income distribution, that is, 20\% of households with the lowest incomes spend on average relatively more on rent than their counterparts in the higher quintiles. For instance, in Germany, the average rental burden of the households with the lowest incomes is more than 30\%, whereas the households in the top quintile spend on rent just about 20\% of their total current income.
+
+This stylized fact similar to the so-called Engel law, according to which the share of food expenditure diminishes as the income increases. Figure \@ref(fig:EngelCurve) depicts an Engel curve for housing.
 
 <div class="figure">
 <img src="03-Market_files/figure-html/EngelCurve-1.png" alt="Engel curve for housing" width="672" />
