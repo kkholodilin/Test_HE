@@ -183,6 +183,104 @@ What kind of shocks can force the housing market out of its equilibrium? For exa
 What happens if the housing price changes? Suppose that the price increases. This increases the attractiveness of supplying more housing and can lead to the new construction; a slowdown of wearing through current repairs; and housing modernization implying a change of layout and a quality improvement of the existing housing. If the price decreases, then there is less or no new construction; the (rental) dwellings are converted to other (non-residential) uses; and more buildings are demolished.  
 
 
+## Housing market cycle {#sec:PorkCycle}
+
+As most other markets, the housing market follows a cyclical pattern: After an expansion, comes a decline, which eventually ends with an advent of a new upswing. Typically, during expansions, the housing prices and supply increase, while during downswings, the prices decline and supply stagnates or even goes down; see Figure \@ref(fig:PorkCycle). This development is often described as a *pork cycle* --- the concept borrowed from the agrarian economics and observed by the German researcher Arthur Hanau, who investigated pig markets [@Hanau_1928_prognose].
+
+<div class="figure">
+<img src="03-Market_files/figure-html/PorkCycle-1.png" alt="The pork cycle" width="672" />
+<p class="caption">(\#fig:PorkCycle)The pork cycle</p>
+</div>
+
+
+\begin{figure}[htbp]
+	\captionsetup{font=large}
+	\caption{The pork cycle\label{fig:Pork_cycle}}
+	\centering{}\includegraphics[scale=0.7]{D:/KKholodilin/VShE/Draft/Housecon/Fig_Pork_cycle.pdf}
+\end{figure}
+
+The cyclicity is a result of a long production process in the housing sector. It takes sometimes several years before a new house can be built or an existing house reconstructed. Usually, a plot of land must be found and bought or leased, a building permit must be obtained, a project of the house must be drafted, and construction must be carried out. 
+
+The upper panel of Figure \@ref(fig:PorkCycle) shows the interplay of the housing supply (green line) and demand (black line) over time, while the lower panel shows the price dynamics. Assume that initially the housing market is in equilibrium denoted by the point $A$. Then, a positive demand shock occurs. For example, the demand for housing starts growing due to the immigration. More people arrive, who need places to live. Since it takes several years for the supply to react, the housing shortage emerges. In a free market, a growing gap between demand and supply triggers a price increase. This, in turn, sends a signal to the investors that more housing is needed. After several years, the residential construction and, hence, the housing supply increase. The housing shortage decreases and finally disappears in point $B$. However, the construction does not stop there, because the decisions of building new dwellings were made years before, as the gap was still there. Therefore, the supply overshoots and keeps growing, even if demand remains constant or declines. Instead of housing shortage, an excess of housing appears. This makes the price of housing fall. Eventually, housing supply stops growing. After a while, the equilibrium is restored in point $C$.
+
+The price increases make the housing less affordable; see section \@ref(sec:Affordability). Given that the housing expenditure makes up a large portion of the household expenses, it can provoke protests, especially of the tenants. The housing price and rent increases that can last for years make the general public and some politicians require the governmental intervention in order to solve the "market failure"; see chapter \@ref(ch:Policy). Price increases related to the housing shortage can also serve as a starting point for a build-up of a speculative price bubble; see chapter \@ref(ch:Bubbles).
+
+
+## Housing vacancy {#sec:Vacancy}
+Normally, the housing stock is not fully used. There are almost always dwellings that stay vacant. This is similar to the labor market, where some people are unemployed, or to the capital stock, where the production capacities are not fully utilized. Similarly to the labor market, the residential vacancy can be decomposed in two parts: *frictional*, *structural*, *voluntary*, and *cyclical* vacancy. 
+
+The frictional residential vacancy exists because it takes time to find a new tenant for a dwelling, which became empty after a previous tenant left it, or to find a new buyer for an owner-occupied dwelling. This is related to the liquidity and transparency of the market as well as to the transaction costs. For example, the internet portals with advertisements of dwellings for rent must have greatly increased the transparency and probably also reduced the *time on the market*, that is, the period during which the search for a new occupant takes place and, thus, the dwelling is available for potential users. But even so, the internet ads can stay online for several months implying that during this period the dwelling can be vacant. We can only guess how much time did it take to find a new occupant in the pre-internet era, when advertisements where placed on the windows of the property or on the lightposts.
+
+The structural vacancy occurs due to differences in the composition of demand and supply. For instance, there can be many single-person households and very few small dwellings. Thus, there is no enough demand for large dwellings leading to their vacancy. Dwellings can be also structurally vacant because they do not meet the contemporary standards of comfort (e.g., have no central heating in countries, where central heating is a standard, or possess no toilet), are dilapidated, or are located in a very unpopular place (e.g., in a depressive region), so that nobody wants to live there.
+
+The voluntary vacancy is observed, when personal circumstances of the owners prevent them from renting or selling their dwellings. For example, the owner inherited the dwelling and did not yet decide what to do with it. The owner is ill and cannot take care of the dwelling by putting it on the market. The owner does not have any interest in undertaking efforts to place the dwelling on the market. Or he wants to speculate and, therefore, lets the dwelling empty awaiting for prices to increase. The dwelling can be also vacant because it is being renovated. In some cases, the owner can be dead or far away, so that no one knows how to contact him about the dwelling.  
+
+Finally, the cyclical vacancy is related to the economic cycle at the housing market (discussed in section \@ref(sec:PorkCycle)), which can, in turn, be affected or affect the overall business cycle. The improvement of economic conditions leads to an increased demand for housing, which leads to falling vacancies. By contrast, the worsening economic conditions force people to reduce their demand for housing: for example, several households (e.g., adult children with spouses and their parents) moving together in the same dwelling. As a result, the vacancy rates increase.
+
+**The housing vacancy** is the part of housing stock, which is unused:
+
+\begin{equation}
+	V = S - D
+\end{equation}
+where $V$ is number of vacant dwellings; $S$ is the effective housing supply; and $D$ is the housing demand.
+
+The vacancy rate is defined as:
+ \begin{equation}
+	v = \frac{V}{S}
+\end{equation}
+
+Typically, it is expressed in percent. Often it is computed not only for the whole market, but also for its segments, such as rental housing.
+
+According to the *natural vacancy rate hypothesis*, the housing rents are driven by deviations of the vacancy rate from its equilibrium ("natural'') levels [@Rosen_Smith_1983]. The estimates of natural vacancy rate provide useful information for investors, lenders, etc. The comparison of natural rate, $v^*$, to the actual vacancy rate, $v$, provides indication of future rent movements. The natural vacancy rate affects the return on the property investment. In the long-run equilibrium, a falling natural vacancy rate leads to an increase of the amount of rent generated by a rental property and, thus, of the return on rental property investment.
+
+The demand for housing can be defined as:
+\begin{equation}
+	D^H = d(R, U, Y, P, Z)
+\end{equation}
+where $R$ is nominal rent; $U$ is user cost of homeownership; $Y$ is the real income; $P$ is the housing price; and $Z$ is a vector of demographic variables (e.g., the number and size of households, the age composition of population).
+
+The equation for the vacancy rate can be expressed as:
+\begin{equation}
+	v = \frac{V}{S} = 1 - \frac{1}{S}d(R, U, Y, P, Z)
+\end{equation}
+The rent adjustment:
+
+\begin{equation}
+	r = f(e, v-v^*)
+\end{equation}
+where $r$ is rate of change of nominal rent; $e$ is rate of change of operating expenses; and $v^*$ is natural vacancy rate.
+
+The natural vacancy rate varies strongly from country to country, as seen in Table \@ref(tab:NatVacancyRate); see, for example, @Rink_Wolff_2015_wohnungsleerstand for Germany and @Wilhelmsson_et_al_2011_rent_control for Sweden. In the USA, for example, according to the NYS Emergency Tenant Protection Act (1974), a housing emergency can be declared in a municipality, if the vacancy rate there surpasses the 5\% threshold. These country-specific differences must be taken into account, when forecasting rent.
+
+
+Table: (\#tab:NatVacancyRate)Natural vacancy rate in selected countries
+
+Country        Natural vacancy rate percent
+------------  -----------------------------
+Germany                                   3
+Sweden                                    1
+Switzerland                               1
+USA                                       5
+
+In Germany, a vacancy rate exceeding 3\% is regarded as a sign of a "relaxed'' housing market, where every person looking for a dwelling can without problem find it. In the USA, such a vacancy rate would point to a stressed housing market, characterized by an excessive housing demand. By the German and US standards, Switzerland appears to function at the almost full "employment'' of housing for the last 80 years, as seen in Figure \@ref(fig:VacancyRateSwitzerland).
+
+<div class="figure">
+<img src="03-Market_files/figure-html/VacancyRateSwitzerland-1.png" alt="Vacancy rates in Switzerland, 1937--2019" width="672" />
+<p class="caption">(\#fig:VacancyRateSwitzerland)Vacancy rates in Switzerland, 1937--2019</p>
+</div>
+
+Due to changes in the statistical definitions, several measures of vacancy rate are used. As the period between 1950 and 1990 shows, the biggest cities have the largest housing shortage.
+
+For the USA, two vacancy rates are available: for rental and for owner-occupied dwellings; see Figure \@ref(fig:VacancyRateUSA), which shows quarterly data covering the period 1956--2017.
+
+<div class="figure">
+<img src="03-Market_files/figure-html/VacancyRateUSA-1.png" alt="Vacancy rates in the USA, 1956--2020" width="672" />
+<p class="caption">(\#fig:VacancyRateUSA)Vacancy rates in the USA, 1956--2020</p>
+</div>
+
+The vacancy rate for the rental dwellings substantially (by almost six percentage points) exceeds that for the owner-occupied dwellings. This can reflect the higher mobility of the tenants. Both vacancy rates have a slight upward trend and display cyclical fluctuations, which coincide with those of the real housing prices. For example, the Great Recession 2008--2009 resulted in large jump of the vacancy rate for owner-occupied dwellings. Many home buyers faced the impossibility of paying their mortgage loans and left their houses to the banks. Large-scale defaults inundated the housing market, so that many dwellings stayed empty, for the banks could not find persons willing to buy these properties. Surprisingly, in 2020, the COVID-19 crisis led to a dramatic decline in vacancy rates.
+
+
 ## Housing availability {#sec:Availability}
 
 An important indicator of the housing market development is the availability of housing. It shows how much living space is available per person or household.
@@ -248,81 +346,6 @@ Figure \@ref(fig:NewExistingHousingSizeRussia) displays the average surface per 
 </div>
 
 It shows that between 1991 and 2017 the average surface per capita of the existing housing stock increased from about 50 to 56 m$^2$. This is a result of the growing sizes of new dwellings. Moreover, the difference between the surface of the newly built and existing housing widened from about 10 to about 13 m$^2$.
-
-
-## Housing vacancy {#sec:Vacancy}
-Normally, the housing stock is not fully used. There are almost always dwellings that stay vacant. This is similar to the labor market, where some people are unemployed, or to the capital stock, where the production capacities are not fully utilized. Similarly to the labor market, the residential vacancy can be decomposed in two parts: *frictional*, *structural*, *voluntary*, and *cyclical* vacancy. 
-
-The frictional residential vacancy exists because it takes time to find a new tenant for a dwelling, which became empty after a previous tenant left it, or to find a new buyer for an owner-occupied dwelling. This is related to the liquidity and transparency of the market as well as to the transaction costs. For example, the internet portals with advertisements of dwellings for rent must have greatly increased the transparency and probably also reduced the *time on the market*, that is, the period during which the search for a new occupant takes place and, thus, the dwelling is available for potential users. But even so, the internet ads can stay online for several months implying that during this period the dwelling can be vacant. We can only guess how much time did it take to find a new occupant in the pre-internet era, when advertisements where placed on the windows of the property or on the lightposts.
-
-The structural vacancy occurs due to differences in the composition of demand and supply. For instance, there can be many single-person households and very few small dwellings. Thus, there is no enough demand for large dwellings leading to their vacancy. Dwellings can be also structurally vacant because they do not meet the contemporary standards of comfort (e.g., have no central heating in countries, where central heating is a standard, or possess no toilet), are dilapidated, or are located in a very unpopular place (e.g., in a depressive region), so that nobody wants to live there.
-
-The voluntary vacancy is observed, when personal circumstances of the owners prevent them from renting or selling their dwellings. For example, the owner inherited the dwelling and did not yet decide what to do with it. The owner is ill and cannot take care of the dwelling by putting it on the market. The owner does not have any interest in undertaking efforts to place the dwelling on the market. Or he wants to speculate and, therefore, lets the dwelling empty awaiting for prices to increase. The dwelling can be also vacant because it is being renovated. In some cases, the owner can be dead or far away, so that no one knows how to contact him about the dwelling.  
-
-Finally, the cyclical vacancy is related to the economic cycle at the housing market, which can, in turn, be affected or affect the overall business cycle. The improvement of economic conditions leads to an increased demand for housing, which leads to falling vacancies. By contrast, the worsening economic conditions force people to reduce their demand for housing: for example, several households (e.g., adult children with spouses and their parents) moving together in the same dwelling. As a result, the vacancy rates increase.
-
-**The housing vacancy** is the part of housing stock, which is unused:
-
-\begin{equation}
-	V = S - D
-\end{equation}
-where $V$ is number of vacant dwellings; $S$ is the effective housing supply; and $D$ is the housing demand.
-
-The vacancy rate is defined as:
- \begin{equation}
-	v = \frac{V}{S}
-\end{equation}
-
-Typically, it is expressed in percent. Often it is computed not only for the whole market, but also for its segments, such as rental housing.
-
-According to the *natural vacancy rate hypothesis*, the housing rents are driven by deviations of the vacancy rate from its equilibrium ("natural'') levels [@Rosen_Smith_1983]. The estimates of natural vacancy rate provide useful information for investors, lenders, etc. The comparison of natural rate, $v^*$, to the actual vacancy rate, $v$, provides indication of future rent movements. The natural vacancy rate affects the return on the property investment. In the long-run equilibrium, a falling natural vacancy rate leads to an increase of the amount of rent generated by a rental property and, thus, of the return on rental property investment.
-
-The demand for housing can be defined as:
-\begin{equation}
-	D^H = d(R, U, Y, P, Z)
-\end{equation}
-where $R$ is nominal rent; $U$ is user cost of homeownership; $Y$ is the real income; $P$ is the housing price; and $Z$ is a vector of demographic variables (e.g., the number and size of households, the age composition of population).
-
-The equation for the vacancy rate can be expressed as:
-\begin{equation}
-	v = \frac{V}{S} = 1 - \frac{1}{S}d(R, U, Y, P, Z)
-\end{equation}
-The rent adjustment:
-
-\begin{equation}
-	r = f(e, v-v^*)
-\end{equation}
-where $r$ is rate of change of nominal rent; $e$ is rate of change of operating expenses; and $v^*$ is natural vacancy rate.
-
-The natural vacancy rate varies strongly from country to country, as seen in Table \@ref(tab:NatVacancyRate); see, for example, @Rink_Wolff_2015_wohnungsleerstand for Germany and @Wilhelmsson_et_al_2011_rent_control for Sweden. In the USA, for example, according to the NYS Emergency Tenant Protection Act (1974), a housing emergency can be declared in a municipality, if the vacancy rate there surpasses the 5\% threshold. These country-specific differences must be taken into account, when forecasting rent.
-
-
-Table: (\#tab:NatVacancyRate)Natural vacancy rate in selected countries
-
-Country        Natural vacancy rate percent
-------------  -----------------------------
-Germany                                   3
-Sweden                                    1
-Switzerland                               1
-USA                                       5
-
-In Germany, a vacancy rate exceeding 3\% is regarded as a sign of a "relaxed'' housing market, where every person looking for a dwelling can without problem find it. In the USA, such a vacancy rate would point to a stressed housing market, characterized by an excessive housing demand. By the German and US standards, Switzerland appears to function at the almost full "employment'' of housing for the last 80 years, as seen in Figure \@ref(fig:VacancyRateSwitzerland).
-
-<div class="figure">
-<img src="03-Market_files/figure-html/VacancyRateSwitzerland-1.png" alt="Vacancy rates in Switzerland, 1937--2019" width="672" />
-<p class="caption">(\#fig:VacancyRateSwitzerland)Vacancy rates in Switzerland, 1937--2019</p>
-</div>
-
-Due to changes in the statistical definitions, several measures of vacancy rate are used. As the period between 1950 and 1990 shows, the biggest cities have the largest housing shortage.
-
-For the USA, two vacancy rates are available: for rental and for owner-occupied dwellings; see Figure \@ref(fig:VacancyRateUSA), which shows quarterly data covering the period 1956--2017.
-
-<div class="figure">
-<img src="03-Market_files/figure-html/VacancyRateUSA-1.png" alt="Vacancy rates in the USA, 1956--2020" width="672" />
-<p class="caption">(\#fig:VacancyRateUSA)Vacancy rates in the USA, 1956--2020</p>
-</div>
-
-The vacancy rate for the rental dwellings substantially (by almost six percentage points) exceeds that for the owner-occupied dwellings. This can reflect the higher mobility of the tenants. Both vacancy rates have a slight upward trend and display cyclical fluctuations, which coincide with those of the real housing prices. For example, the Great Recession 2008--2009 resulted in large jump of the vacancy rate for owner-occupied dwellings. Many home buyers faced the impossibility of paying their mortgage loans and left their houses to the banks. Large-scale defaults inundated the housing market, so that many dwellings stayed empty, for the banks could not find persons willing to buy these properties. Surprisingly, in 2020, the COVID-19 crisis led to a dramatic decline in vacancy rates.
 
 
 ## Housing affordability {#sec:Affordability}
