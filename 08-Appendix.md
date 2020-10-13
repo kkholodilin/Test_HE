@@ -17,13 +17,13 @@ The coefficients for each industry are provided in Table \@ref(tab:CityGame).
 
 Table: (\#tab:CityGame)Production parameters
 
-Sector           Unit price, P(i)   Output cost, Q(i)   Transportation cost, t(i)
---------------  -----------------  ------------------  --------------------------
-Offices                        50                  10                           5
-Restaurants                    40                  10                           3
-Manufacturing                  30                  10                           2
-Housing                        20                  10                           1
-Agriculture                    10                  10                           0
+Sector           Unit price, P(i)   Output, Q(i)   Transportation cost, t(i)
+--------------  -----------------  -------------  --------------------------
+Offices                        50             10                           5
+Restaurants                    40             10                           3
+Manufacturing                  30             10                           2
+Housing                        20             10                           1
+Agriculture                    10             10                           0
 
 
 <!--Four variables are used: commodity price ($P$), quantity of the commodity ($Q$), unit production cost ($C$), cost of transporting one unit of the commodity for 1 km ($t$), distance from the city center in km ($d$).!--> 
@@ -64,6 +64,6 @@ Several scenarios can be considered:
 
 After each change in conditions, a new round of game is carried out. Its results are put on the whiteboard and discussed with the game participants.
 
-### Government policy
+### Governmental policy
 
 When conditions become unbearable for the tenants, the game participants are reminded that they are a society and can adopt various social policies based on a majority vote. The alternative bills are discussed and voted. The corresponding policy is applied and its impact on rents, rental burden, and income distribution are analyzed.
