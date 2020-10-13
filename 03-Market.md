@@ -442,14 +442,15 @@ Why should the rent burden decline with the increasing income? One explanation i
 
 Table: (\#tab:HAI)Assumptions to compute housing affordability index
 
-Assumptions                              Variant 1   Variant 2   Variant 3
---------------------------------------  ----------  ----------  ----------
-Housing price, ruble per square meter        60000      100000       60000
-Surface, square meter                           50          50         100
-Share of down payment, %                        20          20          20
-Maturity period, years                          15          15          30
-Qualifying ratio, %                             25          25          25
-Household monthly income, rubles             60000       60000       60000
+Assumptions                              Variant 1   Variant 2   Variant 3   Variant 4
+--------------------------------------  ----------  ----------  ----------  ----------
+Housing price, ruble per square meter        60000      100000       60000       60000
+Surface, square meter                           50          50         100         100
+Share of down payment, %                        20          20          20          20
+Monthly interest rate, %                        10          10          10           5
+Maturity period, years                          15          15          30          30
+Qualifying ratio, %                             25          25          25          25
+Household monthly income, rubles             60000       60000       60000       60000
 
 5. Collect data on rent burden in several countries. Compare and interpret the indicators.
 
