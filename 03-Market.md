@@ -442,24 +442,24 @@ Figure \@ref(fig:HousingRentalShareRussia) displays the evolution of the share o
 
 During the late Soviet period, most Russian citizens lived in the cities in the rental dwellings. At that time, the main landlord was the state and the rents were controlled at an artificially low levels. This explains a very low and stagnating rent burden between 1970 and 1990. In the early 1990s, most part of the housing stock was in the municipal ownership and the rents for the municipal dwellings were fixed in order to prevent the social turmoil. By contrast, other consumer prices were liberalized and rose enormously during the hyperinflation period. This explains the plummeting rent burden in the first half of the 1990s. Since then, the rental share significantly increases, although it still does not attain the levels observed in the Western countries.
 
-Using the so-called Schwabe's law (*Schwabesches Gesetz*) the economists describe a negative relation between the income and the rent burden often observed in the empirical studies: the poorer the person (household) the larger the share of housing expenditure in his total expenditure. This empirical regularity was observed by a German statistician Hermann Schwabe (1830--1874); see @Schwabe_1868.
+Using the so-called Schwabe's law (*Schwabesches Gesetz*) the economists describe a negative relation between the income and the rent burden often observed in the empirical studies: the poorer the person (household) the larger the share of housing expenditure in his total expenditure. This empirical regularity was observed by the German statistician Hermann Schwabe (1830--1874); see @Schwabe_1868.
 
 Despite being discovered in the late 19th century, the Schwabe's law appears to be still valid in the 2010s, as Table \@ref(tab:RentalBurdenQuintiles) shows.
 
 
 Table: (\#tab:RentalBurdenQuintiles)Rental burden in selected countries by per-capita total current income quintiles, %
 
-Country                    Q1     Q2     Q3     Q4     Q5
-----------------------  -----  -----  -----  -----  -----
-Australia, 2014          26.7   28.4   27.4   25.0   18.7
-Belgium, 2016            30.3   27.9   26.7   24.6   20.0
-Germany, 2016            30.5   27.9   26.5   24.3   19.9
-Ireland, 2016            21.9   21.3   20.3   17.8   17.8
-Italy, 2016              23.9   22.3   21.8   21.1   19.5
-The Netherlands, 2013    27.5   25.7   24.6   25.6   24.7
-Spain, 2016              36.4   32.2   30.2   27.5   23.7
-Switzerland, 2016        19.3   17.4   16.8   15.6   12.0
-United Kingdom, 2016     19.3   19.6   17.9   17.8   18.6
+Country            Year     Q1     Q2     Q3     Q4     Q5
+----------------  -----  -----  -----  -----  -----  -----
+Australia          2014   26.7   28.4   27.4   25.0   18.7
+Belgium            2016   30.3   27.9   26.7   24.6   20.0
+Germany            2016   30.5   27.9   26.5   24.3   19.9
+Ireland            2016   21.9   21.3   20.3   17.8   17.8
+Italy              2016   23.9   22.3   21.8   21.1   19.5
+The Netherlands    2013   27.5   25.7   24.6   25.6   24.7
+Spain              2016   36.4   32.2   30.2   27.5   23.7
+Switzerland        2016   19.3   17.4   16.8   15.6   12.0
+United Kingdom     2016   19.3   19.6   17.9   17.8   18.6
 
 Source: Luxembourg Income Study and own calculations.
 
