@@ -73,6 +73,12 @@ For instance, in Germany in 1965, the social housing made up 18\% of total housi
 
 
 ## Restrictive tools of housing policy {#sec:Restriction}
+
+<div class="figure">
+<iframe src="https://www.youtube.com/embed/S-_KSr2oQsg" width="99%" height="400px" style="border: none;"></iframe>
+<p class="caption">(\#fig:RestrictivePolicyRU)Lecture on restrictive housing policies in Leontieff Centre on April 26, 2018 (Russian)</p>
+</div>
+
 ### Protection of tenants from eviction 
 The purpose of the protection of tenants from eviction policy is to reduce eviction risks for the tenants. Prior to World War I, in most countries the corresponding legislation was very liberal. The relations between landlord and tenants were regulated mainly by their rental contract. The contracts could have a definite or indefinite duration. If the contract duration was definite, then after it was over, the landlord could evict the tenant without any formalities. During the contract term, the eviction could normally happen only if the tenant violated certain conditions indicated in the contract or in the civil code. One such eviction reason could be a delayed payment of rent.
 
