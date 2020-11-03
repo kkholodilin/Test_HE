@@ -20,7 +20,7 @@ By the late 2010s, such regulations were abandoned by most countries \@ref(fig:M
 However, a renaissance of rent control is now observable in many countries. For example, limitations on rent setting were imposed in Paris and Lyon (France) in July 2019 and March 2020, respectively; state-wide rent growth restrictions were introduced in California in January 2020 and are to remain in force until January 2031; and in Berlin (Germany) rents were frozen for 5 years starting in February 2020, to name just a few examples. The outbreak of the COVID-19 pandemic has increased the importance of such measures. After the majority of countries imposed sanitary restrictions, such as lockdowns, in March 2020, the resulting loss of income led to a worldwide wave of eviction bans and rent freezes [@Kholodilin_2020_Covid]. Thus, not only historically housing market regulations played an important role, they are far from being dead nowadays.
 
 <div class="figure">
-<iframe src="https://www.youtube.com/embed/nswKMd74sqs" width="99%" height="400px" style="border: none;"></iframe>
+<iframe src="https://www.youtube.com/embed/hYM8ZzTsSoQ" width="99%" height="400px" style="border: none;"></iframe>
 <p class="caption">(\#fig:COVID19PolicyRU)Lecture on housing policies during COVID-19 crisis in Leontieff Centre on October 21, 2020 (Russian)</p>
 </div>
 
