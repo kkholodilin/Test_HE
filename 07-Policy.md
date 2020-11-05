@@ -144,7 +144,7 @@ It should be noted that legal acts often do not work, remaining a dead letter. F
 
 ## Evolution of restrictive housing policies worldwide
 
-In this section, we discuss the worldwide evolution of restrictive housing market regulations between 1910 and 2018. These are measured using indices developed and thoroughly described in @Kholodilin_2020_database and @Kholodilin_Weber_2018.
+In this section, we discuss the worldwide evolution of restrictive housing market regulations between 1910 and 2020. These are measured using indices developed and thoroughly described in @Kholodilin_2020_database and @Kholodilin_Weber_2018. Detailed documentation and data can be found here: https://rpubs.com/Konstantin_Xo/RHMR.
 
 Regulation intensity measures are based on the textual summaries of legal acts, which are then mapped into numeric values. Using a set of questions concerning the restrictions imposed on the rental housing, binary variables are constructed that equal one, if regulation is more stringent, and zero, otherwise: 
 \[
