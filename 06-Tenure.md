@@ -315,9 +315,8 @@ The interregional differences of the HOR in Russia are quite big, as Figure \@re
 In some regions (for example, in Vologodskaya and Kaliningradskaya oblasts), the HOR is below 50\%, while in other regions, especially in the South and in Caucasus, it approaches 100\%. The higher homeownership rates in the South can be explained by a larger proportion of the rural population there, becauses these regions are characterized by a larger role played by the agricultural production. And it is known that the rural areas have higher HORs than the urban ones.
 
 
-## Box: Historical aside {.unnumbered #sec:BoxxTenure}
+## Box: Historical aside {.unnumbered #sec:BoxTenure}
 > **_Historically, urban areas had a very unequal distribution of housing ownership. Since only entire houses could be owned, very few persons could afford being homeowners. Thus, the vast majority of the city dwellers were occupying rental premises. For example, in early 14th-century Norwich --- at that time the second largest city of England --- at most 25\% of households were homeowners [@Baer_2011_landlords, p. 253]. Between 1633 and 1800, in large Italian cities the homeownership varied between 2 and 7\% [@Lyon_Caen_2015_immobilier, p. 58]. In St. Petersburg in 1900, the HOR fluctuated around 3.6\% [@Kholodilin_et_al_2019_housing]._**
-
 
 
 ## Exercises {.unnumbered #sec:ExTenure}
