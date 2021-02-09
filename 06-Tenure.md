@@ -316,7 +316,7 @@ In some regions (for example, in Vologodskaya and Kaliningradskaya oblasts), the
 
 
 ## Box: Historical aside {.unnumbered #sec:BoxTenure}
-> **_Historically, urban areas had a very unequal distribution of housing ownership. Since only entire houses could be owned, very few persons could afford being homeowners. Thus, the vast majority of the city dwellers were occupying rental premises. For example, in early 14th-century Norwich --- at that time the second largest city of England --- at most 25\% of households were homeowners [@Baer_2011_landlords, p. 253]. Between 1633 and 1800, in large Italian cities the homeownership varied between 2 and 7\% [@Lyon_Caen_2015_immobilier, p. 58]. In St. Petersburg in 1900, the HOR fluctuated around 3.6\% [@Kholodilin_et_al_2019_housing]._**
+> **_Historically, urban areas had a very unequal distribution of housing ownership. Since only entire houses could be owned, very few persons could afford being homeowners. Thus, the vast majority of the city dwellers were occupying rental premises. For example, in early 14th-century Norwich --- at that time the second largest city of England --- at most 25\% of households were homeowners [@Baer_2011_landlords, p. 253]. Between 1633 and 1800, in large Italian cities the homeownership varied between 2 and 7\% [@Lyon_Caen_2015_immobilier, p. 58]. In 1870, in New York city less than 10\% of households owned housing [@Gray_2020_inequality]. In St. Petersburg around 1900, the HOR fluctuated about 3.6\% [@Kholodilin_et_al_2019_housing]._**
 
 
 ## Exercises {.unnumbered #sec:ExTenure}
