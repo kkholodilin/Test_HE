@@ -1,7 +1,7 @@
 --- 
 title: 'Lectures on housing economics: A European text'
 author: "Konstantin A. Kholodilin"
-date: "2021-11-04"
+date: "2022-01-04"
 output:
   word_document: default
   pdf_document: default
